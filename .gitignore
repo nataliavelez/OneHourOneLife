@@ -1,5 +1,7 @@
 .DS_Store
 data/
+maplogs/
 .ipynb_checkpoints
 *checkpoint.ipynb
 *.img
+*.mpeg
