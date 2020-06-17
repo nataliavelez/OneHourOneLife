@@ -1,8 +1,12 @@
-#!/usr/bin/env python
-# coding: utf-8
+"""Read object files
 
-# In[8]:
+The object.read_obj function takes in an object ID, searches for the
+corresponding object file in the OneLifeData7 repository, and returns 
+the object data as a dictionary.
 
+  Example:
+  stone_dict = object.read_obj(33)
+"""
 
 import os, sys, re
 
