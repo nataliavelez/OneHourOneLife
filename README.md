@@ -9,7 +9,6 @@ In this directory:
 * `2_demographics`: Tracing basic demographic information in the life logs (e.g., ages and causes of death).
 * `3_mapchange`: Tracing changes to the map and object interactions over time. 
 * `4_techtree`: Reconstructing the Tech tree from object transitions.
-* `sandbox`: Odds and ends
 
 Note: The techtree scripts assume that you have the [OneLifeData7](https://github.com/jasonrohrer/OneLifeData7) repository cloned to the same parent directory as this repository. That is:
 
