@@ -29,6 +29,7 @@ def clean_obj_data(raw_data):
 
     # Clean up comments in name field, if any
     data[1] = re.sub(r'#(?=.+$)', ' -', data[1])
+    data[1] = re.sub(r',', ' &', data[1])
 
     # Split timestretch into a new field
     data_str = '\n'.join(data)
@@ -84,3 +85,14 @@ def read_obj(obj_id):
     
     return data_dict
 
+# Specifically returns name
+def obj_name(obj_id):
+    if obj_id < 0:
+        name = 'Empty'
+    elif obj_id == 0:
+        name = 'Player'
+    else:
+        obj_dict = read_obj(obj_id)
+        name = obj_dict['name']
+        
+    return name
