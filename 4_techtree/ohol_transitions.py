@@ -11,6 +11,26 @@ reads it, and returns the transition data as a dictionary.
 import os, sys, re
 import ohol_object as obj
 
+# Parse decay time
+def decay_time(t0):
+    if t0 < 0:
+        t = -t0 * 60 * 60 # hours are in the negative
+    else:
+        t = t0 # everything else is positive 
+    
+    return t
+
+# Check if is tool
+def is_tool(tdata):
+    
+    tool_kw = re.search('broken|just murdered|empty|needle|bottle|bowl', tdata['newActorName'], re.IGNORECASE)
+    matches_tool = tool_kw is not None
+   
+    is_obj = tdata['origActor'] > 0
+    is_persistent = matches_tool | (tdata['origActor'] == tdata['newActor'])
+    
+    return is_obj & is_persistent
+
 def read_transition(tpath):
     
     tkeys = [
@@ -61,6 +81,11 @@ def read_transition(tpath):
     tdata['origTargetName'] = obj.obj_name(tdata['origTarget'])
     tdata['newActorName'] = obj.obj_name(tdata['newActor'])
     tdata['newTargetName']  = obj.obj_name(tdata['newTarget'])
+    
+    # Extra properties (from OneTech repo)
+    tool_bool = is_tool(tdata)
+    tdata['autoDecaySeconds'] = decay_time(tdata['autoDecaySeconds'])
+    tdata['isTool'] = tool_bool
     
     return tdata
 
