@@ -31,6 +31,7 @@ def is_tool(tdata):
     
     return is_obj & is_persistent
 
+# MAIN FUNCTION: Returns dict of transition data
 def read_transition(tpath):
     
     tkeys = [
@@ -89,3 +90,10 @@ def read_transition(tpath):
     
     return tdata
 
+# Parse read_transition, returning only objects
+def read_objs(tpath):
+    
+    tdata = read_transition(tpath)
+    objs = [(tdata['origActor'], tdata['origTarget']), (tdata['newActor'],  tdata['newTarget'])]
+    
+    return objs

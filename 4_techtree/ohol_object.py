@@ -87,10 +87,8 @@ def read_obj(obj_id):
 
 # Specifically returns name
 def obj_name(obj_id):
-    if obj_id < 0:
+    if obj_id < 1:
         name = 'Empty'
-    elif obj_id == 0:
-        name = 'Player'
     else:
         obj_dict = read_obj(obj_id)
         name = obj_dict['name']
