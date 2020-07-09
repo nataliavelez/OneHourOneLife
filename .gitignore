@@ -9,3 +9,4 @@ scratch/
 *checkpoint.ipynb
 *.img
 *.mpeg
+*.py~
