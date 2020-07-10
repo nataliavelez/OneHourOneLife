@@ -4,9 +4,10 @@ data/
 maplogs/
 plots/
 outputs/
-scratch/
 .ipynb_checkpoints
 *checkpoint.ipynb
 *.img
 *.mpeg
 *.py~
+*.pyc
+sandbox/
