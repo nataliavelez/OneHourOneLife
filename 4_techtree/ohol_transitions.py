@@ -9,7 +9,7 @@ reads it, and returns the transition data as a dictionary.
 """
 
 import os, sys, re
-import ohol_object as obj
+import ohol_objects as obj
 
 # Parse decay time
 def decay_time(t0):
