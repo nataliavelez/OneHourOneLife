@@ -1,0 +1,20 @@
+---
+title: "Expertise plot"
+author: "Natalia Vélez, Grace Deng"
+date: "7/13/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(ggthemes)
+```
+
+Load data:
+```{r}
+expert_df = read.csv('outputs/player_expertise.tsv', sep='\t')
+head(expert_df)
+```
+```{r}
+head(expert_df)
+```
