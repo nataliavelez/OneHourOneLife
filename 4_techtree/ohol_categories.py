@@ -29,6 +29,6 @@ def cat_children(category):
     obj_start = obj_start[0]
 
     child = cat_data[obj_start+1:]
-    child = [int(c.split()[0]) for c in child] #edge case: [1908 0.001; 1907 0.002]
+    child = [int(c.split()[0]) for c in child] #edge case: [1958 0.167000]
 
     return child
