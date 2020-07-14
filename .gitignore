@@ -10,4 +10,5 @@ outputs/
 *.mpeg
 *.py~
 *.pyc
+*.dot
 sandbox/
