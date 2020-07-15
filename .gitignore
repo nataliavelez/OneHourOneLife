@@ -11,4 +11,5 @@ outputs/
 *.py~
 *.pyc
 *.dot
+*.zip
 sandbox/
