@@ -1,7 +1,7 @@
 #!/bin/bash
 # ACTIVITY_MATRIX
 # Logs number of times players interacted with each item
-#Usage: sbatch 3_3_activity_matrix.sbatch [idx]
+#Usage: sbatch 3_5_activity_matrix.sbatch [idx]
 
 #################
 #set a job name  
@@ -15,7 +15,7 @@
 #################
 #time you think you need; default is 2 hours
 #format could be dd-hh:mm:ss, hh:mm:ss, mm:ss, or mm
-#SBATCH --time=03:00:00
+#SBATCH --time=02:00:00
 #################
 # Quality of Service (QOS); think of it as sending your job into a special queue; --qos=long for with a max job length of 7 days.
 #SBATCH -p hns
@@ -43,4 +43,4 @@ SINGULARITY=$PI_HOME/singularity/sll_fmri_20190411.img
 IDX=$1
 
 # Call modeling script
-singularity run -B $HOME,$SCRATCH $SINGULARITY python 3_3_activity_matrix.py $IDX
+singularity run -B $HOME,$SCRATCH $SINGULARITY python 3_5_activity_matrix.py $IDX

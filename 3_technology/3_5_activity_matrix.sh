@@ -1,3 +1,3 @@
-for i in {3..13}; do
-	sbatch 3_3_activity_matrix.sbatch $i
+for i in {0..13}; do
+	sbatch 3_5_activity_matrix.sbatch $i
 done
