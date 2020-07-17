@@ -4,6 +4,7 @@ data/
 maplogs/
 plots/
 outputs/
+reports/
 .ipynb_checkpoints
 *checkpoint.ipynb
 *.img
