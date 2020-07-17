@@ -1,0 +1,49 @@
+---
+title: "Activity matrices"
+author: "Natalia Vélez"
+date: "7/16/2020"
+output: html_document
+---
+
+Libraries:
+```{r}
+library(tidyverse)
+```
+
+Find data:
+```{r}
+feature_f = 'outputs/activity_features.txt'
+features = scan(feature_f)
+    
+sprintf('Found %i unique items', length(features))
+print(features[1:20])
+```
+
+Find map change files:
+```{r}
+map_files = Sys.glob('outputs/maplog/*.tsv')
+map_files = sort(map_files)
+
+sprintf('Found %i map files', length(map_files))
+```
+
+Cross-tab function:
+```{r}
+f_in = map_files[1]
+log = read.csv(f_in, sep='\t') %>%
+  mutate(object_id = as.character(object_id),
+         object_id = str_replace(object_id, '^(f)|([u-v][0-9]+$)', ''),
+         object_id = as.numeric(object_id),
+         object_id = ifelse(object_id > 5000, 9999, object_id)) %>%
+  filter(player_id > 0) %>%
+  filter(object_id > 0) %>%
+  mutate(player_id = as.factor(player_id),
+         object_id = factor(object_id, levels=features)) %>%
+  select(c(object_id, player_id)) %>%
+  group_by(player_id, object_id) %>%
+  summarise(n = n()) %>%
+  ungroup() %>%
+  complete(player_id, object_id, fill=0)
+
+f_out = str_replace(f_in, 'maplog', 'jobmatrix')
+```
