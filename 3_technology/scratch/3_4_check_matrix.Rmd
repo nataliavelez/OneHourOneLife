@@ -1,0 +1,24 @@
+---
+title: "Check output"
+author: "Natalia Vélez"
+date: "6/23/2020"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+library(janitor)
+```
+
+Correct way to load a dataframe:
+```{r}
+df = read.table('outputs/jobmatrix/jobmatrix_release-300_start-1578345719.tsv', sep='\t', header=TRUE) %>%
+  rename_at(vars(starts_with('X')), function(s) str_replace(s, 'X', ''))
+```
+
+Check output:
+```{r}
+df[1:10, 1:10]
+```
+
+
