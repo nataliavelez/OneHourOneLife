@@ -67,7 +67,7 @@ print('Loading matrix files...')
 for f in tqdm(mtx_files):
     all_mtx.append(np.loadtxt(f))
 print('Concatenating matrices...')
-all_mtx = np.concatenate(all_mtx, axis=0).astype(int)
+all_mtx = np.concatenate(all_mtx, axis=0)
 print(all_mtx.shape)
 
 
@@ -83,27 +83,46 @@ for group in tqdm(unique_labels):
 unique_mtx = np.array(unique_mtx)
 print('Reducing repeated labels:')
 print(unique_mtx.shape)
+del all_mtx
 
+# Normalization: TF-IDF
+def tf(row): return row/np.sum(row)
+
+def idf(col):
+    N = len(col)
+    df = np.sum(col > 0)+1
+    idf_val = np.log(N/df)+1
+
+    return np.ones(col.shape)*idf_val
+
+def tf_idf(m):
+    m_tf = np.apply_along_axis(tf, 1, m)
+    m_idf = np.apply_along_axis(idf, 0, m)
+    m_norm = np.multiply(m_tf, m_idf)
+    
+    return m_norm
+
+norm_mtx = tf_idf(unique_mtx)
+print('Applying TF-IDF weighting:')
+print(norm_mtx.shape)
+del unique_mtx
 
 # The main event: SVD!
 
 # In[8]:
 
-
-U,s,Vh = svd(unique_mtx, full_matrices=False)
-
+U,s,Vh = svd(norm_mtx, full_matrices=False)
 
 # Check output (debug)
-# print('Check: Can we reconstruct the original values from the SVD?')
-# reconstruction = U.dot(np.diag(s)).dot(Vh)
-# print(np.all(np.isclose(unique_mtx, reconstruction)))
-
+print('Check: Can we reconstruct the original values from the SVD?')
+reconstruction = U.dot(np.diag(s)).dot(Vh)
+print(np.all(np.isclose(norm_mtx, reconstruction)))
 
 # Save outputs to file:
 
 np.savetxt('outputs/svd/U.txt', U)
 np.savetxt('outputs/svd/s.txt', s)
 np.savetxt('outputs/svd/Vh.txt', Vh)
-np.savetxt('outputs/svd/input_mtx.txt',unique_mtx)
+np.savetxt('outputs/svd/input_mtx.txt',norm_mtx)
 np.savetxt('outputs/svd/input_playerIDs.txt', unique_labels)
 
