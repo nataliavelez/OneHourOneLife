@@ -40,4 +40,4 @@
 SINGULARITY=$PI_HOME/singularity/sll_fmri_20190411.img
 
 # Call modeling script
-singularity run -B $HOME,$SCRATCH $SINGULARITY python 3_8_truncate.py
+singularity run --bind $HOME,$SCRATCH $SINGULARITY python 3_8_truncate.py
