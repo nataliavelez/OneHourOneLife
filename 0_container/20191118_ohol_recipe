@@ -1,5 +1,0 @@
-Bootstrap: docker
-From: jupyter/datascience-notebook:latest
-
-% post
-conda install networkx
