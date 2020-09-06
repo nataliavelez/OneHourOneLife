@@ -88,7 +88,7 @@ def date_extract(s):
 
 # List all files:
 
-data_dir = '../data'
+data_dir = '../../data'
 all_files = gsearch(data_dir, 'publicLifeLogData', 'lifeLog_bigserver2*', '2*y.txt')
 all_files.sort()
 print('Lifelog files:')
@@ -143,12 +143,12 @@ print(birth_raw.head())
 
 shared_header = ['server', 'release', 'era',
                  'event', 'timestamp', 'avatar',
-                 'hash', 'age', 'sex', 'location', 'parent',
+                 'player', 'age', 'sex', 'location', 'parent',
                  'cause_of_death', 'pop', 'chain', 'killer']
 
 trim_header = ['server', 'release', 'era',
                'event', 'timestamp', 'avatar',
-               'hash', 'age', 'sex', 'location', 'parent',
+               'player', 'age', 'sex', 'location', 'parent',
                'cause_of_death', 'killer']
 
 # #### Deaths
@@ -213,7 +213,7 @@ print(birth_data[birth_data['avatar'] == missing_id])
 
 # Clean up factor structure:
 print('Trimmed birth data:')
-birth_data = birth_data[trim_header] 
+birth_data = birth_data[trim_header]
 print(birth_data.head())
 
 
@@ -225,10 +225,9 @@ birth_data['location'] = np.where(birth_data['location'].str.strip().str[-1] == 
 
 # Then proceed
 birth_data['location'] = birth_data['location'].apply(make_tuple)
-birth_data['parent'] = np.where(birth_data['parent'] == 'noParent', 
-                                -1,
-                                birth_data['parent'].str.extract(r'(?<=parent=)([0-9]+)'))
-birth_data['parent'] = birth_data['parent'].int
+birth_data['parent'] = birth_data['parent'].replace('noParent', -1)
+birth_data['parent'] = birth_data['parent'].str.replace(r'parent=', '')
+#birth_data['parent'] = birth_data['parent'].astype(np.int)
 
 print('Cleaned-up birth data:')
 print(birth_data.head())
