@@ -176,8 +176,7 @@ death_data = death_data[trim_header]
 print(death_data.head())
 
 # Clean up IDs,  locations, causes of death
-
-# Locations
+death_data['age'] = death_data['age'].str.replace(r'age=', '')
 death_data['location'] = death_data['location'].apply(make_tuple)
 
 # Check for murdered players
@@ -225,8 +224,8 @@ birth_data['location'] = np.where(birth_data['location'].str.strip().str[-1] == 
 
 # Then proceed
 birth_data['location'] = birth_data['location'].apply(make_tuple)
-birth_data['parent'] = birth_data['parent'].replace('noParent', -1)
 birth_data['parent'] = birth_data['parent'].str.replace(r'parent=', '')
+#birth_data['parent'] = birth_data['parent'].replace('noParent', -1)
 #birth_data['parent'] = birth_data['parent'].astype(np.int)
 
 print('Cleaned-up birth data:')
@@ -234,7 +233,6 @@ print(birth_data.head())
 
 print('DEBUG: Missing player in birth data after clean-up?')
 print(birth_data[birth_data['avatar'] == missing_id])
-
 
 
 # #### Save outputs
