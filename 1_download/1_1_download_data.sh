@@ -2,7 +2,7 @@
 #
 #SBATCH -p ncf
 #SBATCH --mem 16000
-#SBATCH -t 5
+#SBATCH -t 03:00:00
 #SBATCH -o reports/download_%j.out
 #SBATCH -e reports/download_%j.err
 #SBATCH --mail-type=END,FAIL
