@@ -132,5 +132,6 @@ data_iter = data_download.iterrows()
 n_iter = data_download.shape[0]
 
 for idx, row in tqdm.tqdm(data_iter, total=n_iter):
+    print('Writing to: %s' % row['out'])
     urllib.request.urlretrieve(row['in'], row['out'])
 
