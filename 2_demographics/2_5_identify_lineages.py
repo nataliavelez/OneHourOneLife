@@ -48,7 +48,7 @@ for _, family in tqdm.tqdm(eves.iterrows(), total=n_eves):
 
     all_members = fam_nodes + [eve]
 
-    if not len(fam_name):
+    if isinstance(fam_name, float):
         fam_name = 'nameless'
 
     fam_id = 'time-%i_eve-%i_name-%s' % (fam_start, eve, fam_name)

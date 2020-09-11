@@ -1,0 +1,25 @@
+(py3) [nvelezalicea@holygpu7c1731 graphviz-2.22.2]$ pip install pygraphviz --global-option build_ext --global-option="-I/n/sw/graphviz-2.22.2/include/graphviz" --global-option="-L/n/sw/graphviz-2.22.2/lib"
+/users/nvelezalicea/.conda/envs/py3/lib/python3.6/site-packages/pip/_internal/commands/install.py:236: UserWarning: Disabling all use of wheels due to the use of --build-option / --global-option / --install-option.
+  cmdoptions.check_install_build_global(options)
+Collecting pygraphviz
+  Using cached pygraphviz-1.6.zip (117 kB)
+Skipping wheel build for pygraphviz, due to binaries being disabled for it.
+Installing collected packages: pygraphviz
+    Running setup.py install for pygraphviz ... error
+    ERROR: Command errored out with exit status 1:
+     command: /users/nvelezalicea/.conda/envs/py3/bin/python -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-u83b2qwy/pygraphviz/setup.py'"'"'; __file__='"'"'/tmp/pip-install-u83b2qwy/pygraphviz/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' build_ext -I/n/sw/graphviz-2.22.2/include/graphviz -L/n/sw/graphviz-2.22.2/lib install --record /tmp/pip-record-avm_3uia/install-record.txt --single-version-externally-managed --compile --install-headers /users/nvelezalicea/.conda/envs/py3/include/python3.6m/pygraphviz
+         cwd: /tmp/pip-install-u83b2qwy/pygraphviz/
+    Complete output (11 lines):
+    running build_ext
+    building 'pygraphviz._graphviz' extension
+    creating build
+    creating build/temp.linux-x86_64-3.6
+    creating build/temp.linux-x86_64-3.6/pygraphviz
+    gcc -pthread -B /users/nvelezalicea/.conda/envs/py3/compiler_compat -Wl,--sysroot=/ -Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/n/sw/graphviz-2.22.2/include/graphviz -I/users/nvelezalicea/.conda/envs/py3/include/python3.6m -c pygraphviz/graphviz_wrap.c -o build/temp.linux-x86_64-3.6/pygraphviz/graphviz_wrap.o
+    pygraphviz/graphviz_wrap.c:2676:29: fatal error: graphviz/cgraph.h: No such file or directory
+     #include "graphviz/cgraph.h"
+                                 ^
+    compilation terminated.
+    error: command 'gcc' failed with exit status 1
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: /users/nvelezalicea/.conda/envs/py3/bin/python -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'/tmp/pip-install-u83b2qwy/pygraphviz/setup.py'"'"'; __file__='"'"'/tmp/pip-install-u83b2qwy/pygraphviz/setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' build_ext -I/n/sw/graphviz-2.22.2/include/graphviz -L/n/sw/graphviz-2.22.2/lib install --record /tmp/pip-record-avm_3uia/install-record.txt --single-version-externally-managed --compile --install-headers /users/nvelezalicea/.conda/envs/py3/include/python3.6m/pygraphviz Check the logs for full command output.

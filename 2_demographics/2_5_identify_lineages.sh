@@ -3,8 +3,8 @@
 #SBATCH -p ncf
 #SBATCH --mem 16000
 #SBATCH -t 04:00:00
-#SBATCH -o reports/wrangling_%j.out
-#SBATCH -e reports/wrangling_%j.err
+#SBATCH -o reports/lineages_%j.out
+#SBATCH -e reports/lineages_%j.err
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=nvelez@fas.harvard.edu
 

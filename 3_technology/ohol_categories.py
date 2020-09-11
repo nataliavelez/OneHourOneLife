@@ -22,7 +22,7 @@ def read_cat_file(cat_id):
     return raw_data
 
 
-def is_cat(category):
+def get_children(category):
     cat_data = read_cat_file(category)
 
     obj_start = [i for i,c in enumerate(cat_data) if 'numObjects' in c]
