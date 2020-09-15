@@ -38,8 +38,10 @@ def file_tstamp(f):
 
 # In[5]:
 
-
 map_dir = '../../data/publicMapChangeData/bigserver2.onehouronelife.com'
+#scratch_dir = os.environ['SCRATCH']
+#out_dir = opj(scratch_dir, 'OneHourOneLife', 'maplog')
+out_dir = opj('outputs', 'maplog')
 
 
 # ### Old-style map change files
@@ -171,12 +173,13 @@ def make_map_df(f):
     log_release = find_version(start_t)
     
     # Out file
-    out_file = 'outputs/maplog/maplog_release-%i_start-%i.tsv' % (log_release, start_t)
+    out_file = 'maplog_release-%i_start-%i.tsv' % (log_release, start_t)
+    out_path = opj(out_dir, out_file)
 
     # Convert to dataframe
-    log_df = pd.read_table(f, sep=' ', skiprows=1, header=None, names=['t_elapsed', 'x', 'y', 'object_id', 'player_id'])
+    log_df = pd.read_table(f, sep=' ', skiprows=1, header=None, names=['t_elapsed', 'x', 'y', 'object_id', 'avatar'])
     log_df = log_df.dropna()
-    return log_df, out_file
+    return log_df, out_path
 
 
 # Helper function: Find all unique items (used to define features in SVD)
@@ -188,7 +191,7 @@ def find_unique(raw_map):
 
     # Trim invalid objects
     map_df = raw_map.copy()
-    map_df = map_df[map_df.player_id > 0] # No player attached to event
+    map_df = map_df[map_df.avatar > 0] # No player attached to event
     map_df = map_df[map_df.object_id != '0'] # Interact w/ empty square 
     
     # Clean up modifiers

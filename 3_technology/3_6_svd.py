@@ -11,9 +11,14 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from scipy.linalg import svd
+from os.path import join as opj
+
+# Make output directory
+out_dir = opj(os.environ['SCRATCH'], '
+print('Creating output directory: 
+os.makedirs(out_dir, exist_ok = True)
 
 # Find matrix files:
-
 # In[12]:
 
 

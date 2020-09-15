@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #SBATCH -p ncf
-#SBATCH --mem 8000
+#SBATCH --mem 32000
 #SBATCH -t 02:00:00
 #SBATCH -o reports/mtx.%j.out
 #SBATCH -e reports/mtx.%j.err

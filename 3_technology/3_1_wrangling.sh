@@ -2,7 +2,7 @@
 #
 #SBATCH -p ncf
 #SBATCH --mem 16000
-#SBATCH -t 3:00:00
+#SBATCH -t 45
 #SBATCH -o reports/wrangling_%j.out
 #SBATCH -e reports/wrangling_%j.err
 #SBATCH --mail-type=END,FAIL
