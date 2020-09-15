@@ -2,7 +2,7 @@
 #
 #SBATCH -p ncf
 #SBATCH --mem 32000
-#SBATCH -t 01:30:00
+#SBATCH -t 04:00:00
 #SBATCH -o reports/discoveries_%j.out
 #SBATCH -e reports/discoveries_%j.err
 #SBATCH --mail-type=END,FAIL
