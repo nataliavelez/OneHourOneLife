@@ -16,3 +16,4 @@ reports/
 sandbox/
 packrat/lib*/
 .Rprofile
+*.key
