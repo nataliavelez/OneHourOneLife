@@ -14,8 +14,9 @@ from scipy.linalg import svd
 from os.path import join as opj
 
 # Make output directory
-out_dir = opj(os.environ['SCRATCH'], '
-print('Creating output directory: 
+#out_dir = opj(os.environ['SCRATCH'], '
+out_dir = opj('outputs/svd')
+print('Creating output directory: %s' % out_dir)
 os.makedirs(out_dir, exist_ok = True)
 
 # Find matrix files:
@@ -107,16 +108,16 @@ def tf_idf(m):
     
     return m_norm
 
-norm_mtx = tf_idf(unique_mtx)
-print('Applying TF-IDF weighting:')
-print(norm_mtx.shape)
-del unique_mtx
+#norm_mtx = tf_idf(unique_mtx)
+#print('Applying TF-IDF weighting:')
+#print(norm_mtx.shape)
+#del unique_mtx
 
 # The main event: SVD!
 
 # In[8]:
 
-U,s,Vh = svd(norm_mtx, full_matrices=False)
+U,s,Vh = svd(unique_mtx, full_matrices=False)
 
 # Check output (debug)
 print('Check: Can we reconstruct the original values from the SVD?')
