@@ -1,10 +1,10 @@
 #!/bin/bash
 #
 #SBATCH -p ncf_bigmem
-#SBATCH --mem 64000
+#SBATCH --mem 128000
 #SBATCH -t 5:00:00
-#SBATCH -o reports/svd_%j.out
-#SBATCH -e reports/svd_%j.err
+#SBATCH -o reports/svd.%j.out
+#SBATCH -e reports/svd.%j.err
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=nvelez@fas.harvard.edu
 
