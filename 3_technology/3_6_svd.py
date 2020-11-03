@@ -81,8 +81,7 @@ print('Reducing repeated labels:')
 print(unique_mtx.shape)
 del all_mtx
 
-## Normalization: TF-IDF
-## (NV: Skipping!)
+# # Normalization: TF-IDF
 # def tf(row): return row/np.sum(row)
 
 # def idf(col):
@@ -99,10 +98,10 @@ del all_mtx
     
 #     return m_norm
 
-#norm_mtx = tf_idf(unique_mtx)
-#print('Applying TF-IDF weighting:')
-#print(norm_mtx.shape)
-#del unique_mtx
+# norm_mtx = tf_idf(unique_mtx)
+# print('Applying TF-IDF weighting:')
+# print(norm_mtx.shape)
+# del unique_mtx
 
 # The main event: SVD!
 U,s,Vh = svd(unique_mtx, full_matrices=False)
@@ -145,16 +144,17 @@ print(U_hat.shape)
 np.savetxt('outputs/svd/U_hat.txt', U_hat)
 del U
 
-print('Truncating s')
-print(s.shape)
-s_hat = s[:r]
-print(s_hat.shape)
-np.savetxt('outputs/svd/s_hat.txt', s_hat)
-del s
-
 print('Truncating Vh')
 print(Vh.shape)
 Vh_hat = Vh[:r,:]
 print(Vh_hat.shape)
 np.savetxt('outputs/svd/Vh_hat.txt', Vh_hat)
 del Vh
+
+print('Truncating s')
+print(s.shape)
+s_hat = s[:r]
+print(s_hat.shape)
+np.savetxt('outputs/svd/s_hat.txt', s_hat)
+np.savetxt('outputs/svd/s.txt', s)
+del s
