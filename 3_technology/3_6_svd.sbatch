@@ -2,7 +2,7 @@
 #
 #SBATCH -p ncf_bigmem
 #SBATCH --mem 128000
-#SBATCH -t 5:00:00
+#SBATCH -t 03:00:00
 #SBATCH -o reports/svd.%j.out
 #SBATCH -e reports/svd.%j.err
 #SBATCH --mail-type=END,FAIL

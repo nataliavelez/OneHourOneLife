@@ -203,7 +203,7 @@ def discoveries_dynamic(discoveries):
     disc_count = disc_count.sort_values(['family', 't_epoch'])
     disc_count['is_obj'] = (disc_count['object_id'] > 0)*1
     disc_count['count'] = disc_count.groupby('family')['is_obj'].cumsum()
-    disc_count = disc_count[['seed', 'family', 'object_id', 't_epoch', 'count']]
+    disc_count = disc_count[['seed', 'family', 'avatar', 'object_id', 't_epoch', 'count']]
     disc_count = disc_count.reset_index(drop=True)
     return disc_count
 
