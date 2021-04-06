@@ -5,7 +5,7 @@
 
 
 ## Identify lineages
-# Natalia Velez, September 2015
+# Natalia Velez, September 2020
 # This script identifies family lineages and saves each family to a graph
 
 import pandas as pd

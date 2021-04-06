@@ -24,10 +24,6 @@ from ast import literal_eval as make_tuple
 gsearch = lambda *args: glob.glob(opj(*args))
 str_extract = lambda pattern, s: re.search(pattern, s).group(0)
 
-# DEBUG: Player missing from lifelogs
-missing_id = 2279990
-print('[DEBUG] Searching for: %i' % missing_id)
-
 # ## Parse version history
 # In future analyses, we'll want to split data by release; different releases of the game
 #  will have different items, mechanics, etc. To do that, we'll parse the version history 
@@ -166,9 +162,6 @@ death_data = death_data.dropna(subset=['location'])
 print('Raw death data:')
 print(death_data.head())
 
-print('DEBUG: Missing player in raw death data?')
-print(death_data[death_data['avatar'] == missing_id])
-
 # Clean up factor structure:
 
 print('Trimmed death data:')
@@ -190,9 +183,6 @@ print(death_data['killer'].unique()[:10])
 print('Cleaned-up death data:')
 print(death_data.head())
 
-print('DEBUG: Missing player in death data after clean-up?')
-print(death_data[death_data['avatar'] == missing_id])
-
 print('=== CLEANING UP BIRTHS ===')
 birth_data = birth_raw.copy()
 
@@ -206,9 +196,6 @@ birth_data = birth_data.dropna(subset=['location'])
 
 print('Raw birth data:')
 birth_data.head()
-
-print('DEBUG: Missing player in raw birth data?')
-print(birth_data[birth_data['avatar'] == missing_id])
 
 # Clean up factor structure:
 print('Trimmed birth data:')
@@ -231,20 +218,15 @@ birth_data['parent'] = birth_data['parent'].str.replace(r'parent=', '')
 print('Cleaned-up birth data:')
 print(birth_data.head())
 
-print('DEBUG: Missing player in birth data after clean-up?')
-print(birth_data[birth_data['avatar'] == missing_id])
-
 
 # #### Save outputs
 lifelog_data = pd.concat([death_data, birth_data])
-lifelog_data = lifelog_data.sort_values(by=['server', 'timestamp'])
+lifelog_data = lifelog_data.sort_values(by=['timestamp'])
+lifelog_data = lifelog_data[lifelog_data.server == 'bigserver2']
 lifelog_data = lifelog_data.reset_index(drop=True)
 
 print('Lifelog data:')
 print(lifelog_data.head())
-
-print('DEBUG: Missing player in lifelog data before split?')
-print(lifelog_data[lifelog_data['avatar'] == missing_id])
 
 # Split by eras and save:
 
