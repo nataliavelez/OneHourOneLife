@@ -1,4 +1,5 @@
 # One Hour One Life
+Natalia Velez, Charley Wu, Grace Deng, Sam Gershman, Eric Schulz
 
 This repository contains analyses of public data from the indie game [One Hour One Life](http://onehouronelife.com/).
 
