@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH -p ncf
+#SBATCH -p shared
 #SBATCH --mem 16000
 #SBATCH -t 45
 #SBATCH -o reports/wrangling_%j.out
@@ -10,4 +10,4 @@
 
 module load Anaconda3/5.0.1-fasrc01
 source activate py3
-python 3_1_wrangling.py
+python 3_0_wrangling.py

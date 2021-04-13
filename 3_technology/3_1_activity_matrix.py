@@ -77,7 +77,7 @@ def map_crosstab(f):
     map_df = pd.read_csv(f, sep='\t')
 
     # Trim invalid objects
-    map_df = map_df[map_df.player_id > 0] # No player attached to event
+    map_df = map_df[map_df.avatar > 0] # No player attached to event
     map_df = map_df[map_df.object_id != '0'] # Interact w/ empty square 
 
     # Clean up modifiers
@@ -90,14 +90,14 @@ def map_crosstab(f):
 
     # Make objectID and playerID into categorical variables
     map_df['object_id'] = pd.Categorical(map_df['object_id'], categories=features)
-    map_df['player_id'] = map_df['player_id'].astype(np.int64)
-    map_df['player_id'] = pd.Categorical(map_df['player_id'])
+    map_df['avatar'] = map_df['avatar'].astype(np.int64)
+    map_df['avatar'] = pd.Categorical(map_df['avatar'])
 
     # Co-occurrence matrix
     map_df = map_df.reset_index(drop=True)
-    map_df = map_df[['object_id', 'player_id']]
+    map_df = map_df[['object_id', 'avatar']]
 
-    map_occ = pd.crosstab(map_df.player_id, map_df.object_id, dropna=False)
+    map_occ = pd.crosstab(map_df.avatar, map_df.object_id, dropna=False)
     mtx_map = map_occ.values
     mtx_labels = list(map_occ.index)
 
@@ -114,9 +114,10 @@ def write_array(arr, f):
         filehandle.writelines("%s\n" % e for e in arr)
 
 
-# In[7]:
+# Make output directory
+os.makedirs('outputs/jobmatrix', exist_ok = True)
 
-
+# Save to file
 for f in tqdm(map_files):
     out_file = f.replace('maplog', 'jobmatrix').replace('.tsv','.txt')
     label_file = out_file.replace('.txt', '_labels.txt')

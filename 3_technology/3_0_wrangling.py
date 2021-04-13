@@ -42,7 +42,7 @@ map_dir = '../../data/publicMapChangeData/bigserver2.onehouronelife.com'
 #scratch_dir = os.environ['SCRATCH']
 #out_dir = opj(scratch_dir, 'OneHourOneLife', 'maplog')
 out_dir = opj('outputs', 'maplog')
-
+os.makedirs(out_dir, exist_ok=True)
 
 # ### Old-style map change files
 # Older map change data do not include player IDs---that is, we can know which items were interacted with, but not who interacted with what.

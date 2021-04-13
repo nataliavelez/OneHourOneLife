@@ -1,5 +1,5 @@
 # Helper functions used throughout the analysis scripts
-# Natalia Vélez, April 2021
+# Natalia Velez, April 2021
 import datetime, glob, re
 from os.path import join as opj
 

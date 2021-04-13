@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# coding: utf-8
+
 """Read object files
 
 The object.read_obj function takes in an object ID, searches for the
@@ -9,6 +12,11 @@ the object data as a dictionary.
 """
 
 import os, sys, re
+from os.path import join as opj
+from pathlib import Path
+
+data_dir = (Path(__file__).parent / "../OneLifeData7").resolve()
+obj_dir = opj(data_dir, 'objects')
 
 # Helper: Read object files
 def read_obj_file(obj_id):
@@ -16,7 +24,7 @@ def read_obj_file(obj_id):
     obj_str = str(obj_id)
 
     ## Read object file
-    obj_file = '../../OneLifeData7/objects/%s.txt' % obj_str
+    obj_file = opj(obj_dir, '%s.txt') % obj_str
     with open(obj_file, 'r') as file:
         raw_data = file.read().splitlines()
         

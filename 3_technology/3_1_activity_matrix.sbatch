@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#SBATCH -p ncf
+#SBATCH -p shared
 #SBATCH --mem 32000
 #SBATCH -t 02:00:00
 #SBATCH -o reports/mtx.%j.out
@@ -14,4 +14,4 @@ IDX=$1
 # Call modeling script
 module load Anaconda3
 source activate py3
-python 3_5_activity_matrix.py $IDX
+python 3_1_activity_matrix.py $IDX
