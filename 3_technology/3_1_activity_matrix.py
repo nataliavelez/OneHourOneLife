@@ -115,11 +115,11 @@ def write_array(arr, f):
 
 
 # Make output directory
-os.makedirs('outputs/jobmatrix', exist_ok = True)
+os.makedirs('outputs/activity_in', exist_ok = True)
 
 # Save to file
 for f in tqdm(map_files):
-    out_file = f.replace('maplog', 'jobmatrix').replace('.tsv','.txt')
+    out_file = f.replace('maplog', 'activity_in').replace('.tsv','.txt')
     label_file = out_file.replace('.txt', '_labels.txt')
     
     if os.path.exists(out_file):
