@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #SBATCH -p shared
-#SBATCH --mem 16000
+#SBATCH --mem 64000
 #SBATCH -t 01:00:00
 #SBATCH -o reports/agg.%j.out
 #SBATCH -e reports/agg.%j.err

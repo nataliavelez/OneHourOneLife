@@ -20,7 +20,6 @@ os.makedirs(out_dir, exist_ok = True)
 # Find matrix files:
 mtx_files = glob.glob('outputs/activity_in/*[0-9].txt')
 mtx_files.sort()
-#mtx_files = mtx_files[:3] # Debug only!
 print('Matrix files:')
 print(*mtx_files[:10], sep='\n')
 print('...\n')
