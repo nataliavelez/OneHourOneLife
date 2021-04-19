@@ -1,8 +1,8 @@
 #!/bin/bash
 #
 #SBATCH -p shared
-#SBATCH --mem 16000
-#SBATCH -t 01:00:00
+#SBATCH --mem 32000
+#SBATCH -t 03:00:00
 #SBATCH -o reports/upload.%j.out
 #SBATCH -e reports/upload.%j.err
 #SBATCH --mail-type=END,FAIL
