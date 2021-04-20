@@ -38,19 +38,24 @@ print(db.list_collection_names())
 
 
 # Upload labels:
+print('Uploading avatar and item labels')
+print(db.activity_labels.drop()) # Drop old collection
 labels = {'avatars': avatar_labels, 'items': item_labels}
 labels_collection = db.activity_labels
 labels_collection.insert(labels)
 
+# Upload whole matrix through GridFS:
+# print('Uploading whole activity matrix')
+# print(db.activity_matrix.files.drop()) # Drop old collection
+# print(db.activity_matrix.chunks.drop())
+# fs = gridfs.GridFS(db, collection='activity_matrix')
+# mtx_bin = bson.binary.Binary(pickle.dumps(activity_matrix, protocol=2), subtype=128)
+# mtx_fs = fs.put(mtx_bin, filename='activity_matrix')
+# del mtx_bin # free up space
 
 # Upload each row separately:
+print('Uploading activity vectors piecemeal')
+print(db.activity_vectors.drop()) # Drop old collection
 vectors_collection = db.activity_vectors
 for avatar,vec in notebook.tqdm(zip(avatar_labels, activity_matrix), total=len(avatar_labels)):
-    vectors_collection.insert_one({'avatar': avatar, 'activity': vec.tolist()})
-
-
-# Upload whole matrix through GridFS:
-fs = gridfs.GridFS(db, collection='activity_matrix')
-mtx_bin = bson.binary.Binary(pickle.dumps(activity_matrix, protocol=2), subtype=128)
-mtx_fs = fs.put(mtx_bin, filename='activity_matrix')
-
+	vectors_collection.insert_one({'avatar': avatar, 'activity': vec.tolist()})
