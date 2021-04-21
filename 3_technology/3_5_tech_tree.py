@@ -5,8 +5,6 @@
 # Grace Deng, August 2020 <br />
 # Updated by Natalia Velez, April 2021
 
-# In[ ]:
-
 
 # %matplotlib inline
 
@@ -36,9 +34,6 @@ def embed(s): return display(HTML(s))
 
 # Connect:
 
-# In[ ]:
-
-
 keyfile = '../6_database/credentials.key'
 
 #Connection string
@@ -52,9 +47,6 @@ print(ohol)
 
 # Objects:
 
-# In[ ]:
-
-
 objects = list(ohol.objects.find())
 objects = pd.DataFrame(objects)
 
@@ -67,9 +59,6 @@ objects.head()
 
 # Transitions:
 
-# In[ ]:
-
-
 transitions = list(ohol.expanded_transitions.find())
 transitions = pd.DataFrame(transitions)
 
@@ -78,9 +67,6 @@ transitions.head()
 
 
 # Helper functions: Querying object, transition data
-
-# In[ ]:
-
 
 ### Read from object data
 def obj_name(i):
@@ -146,9 +132,6 @@ def display_transition(row):
 
 # Helper functions in action:
 
-# In[ ]:
-
-
 print(obj_name(72))
 
 print('=== USES ===')
@@ -164,16 +147,11 @@ for _, row in transitions[paths_to(72)].iterrows():
 
 # Initialize Tech tree dictionary:
 
-# In[ ]:
-
 
 tech_dict = {o:None for o in objects.id.values}
 
 
 # Start with natural objects:
-
-# In[ ]:
-
 
 nat_objs = objects[objects.mapChance > 0].id.values.tolist()
 #nat_objs = [32, 33, 63, 153, 50] # DEBUG: Constrained set of natural objects
@@ -182,11 +160,6 @@ print(*['%s (%i)' %(obj_name(o), o) for o in nat_objs], sep='\n')
 
 
 # Search iteratively through Tech tree
-# 
-# (Note: This is pretty inefficient, as we repeatedly test the same combinations - fix before scaling up?)
-
-# In[ ]:
-
 
 # Initialize values
 known_objs = [-2, -1, 0] + nat_objs
@@ -249,10 +222,6 @@ while n_new > 0:
 
 
 # Debug: Plot the time it takes to do each iteration through the Tech tree
-
-# In[ ]:
-
-
 # plt.plot(iter_timer)
 # plt.xlabel('Iteration #')
 # plt.ylabel('Time per iteration (secs)')
@@ -261,20 +230,11 @@ while n_new > 0:
 # ## Save to database
 
 # Finally, we're going to format the Tech tree to upload it to the database!
-
-# In[ ]:
-
-
+# Assemble dataframe
 tech_df = pd.DataFrame.from_dict(tech_tree, orient='index')
 tech_df = tech_df.rename_axis('id').reset_index()
 
-tech_df.tail()
-
-
 # Debug: Are any craftable items missing from the tech tree? 
-
-# In[ ]:
-
 
 all_objects = objects[~objects.name.str.contains('@')].id.values
 found_objects = tech_df.id.values
@@ -283,15 +243,12 @@ missing_objects = np.setdiff1d(all_objects, found_objects)
 
 print('%i objects not in Tech tree' % len(missing_objects))
 print(*[(o, obj_name(o)) for o in missing_objects], sep='\n')
-#print('...')
-
 
 # Upload to database:
-
-# In[ ]:
-
 
 tech_list = tech_df.to_dict('records')
 print('%i items in tech tree' % len(tech_list))
 print(*tech_list[-10:], sep='\n')
-
+print('...')
+tech_col = ohol.tech_tree
+tech_col.insert_many(tech_list)

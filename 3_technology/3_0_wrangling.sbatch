@@ -2,7 +2,7 @@
 #
 #SBATCH -p shared
 #SBATCH --mem 16000
-#SBATCH -t 45
+#SBATCH -t 6:00:00
 #SBATCH -o reports/wrangling_%j.out
 #SBATCH -e reports/wrangling_%j.err
 #SBATCH --mail-type=END,FAIL
