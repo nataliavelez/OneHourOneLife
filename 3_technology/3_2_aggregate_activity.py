@@ -11,6 +11,7 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from os.path import join as opj
+from scipy import sparse
 
 # Make output directory
 out_dir = opj('outputs/activity_agg')
@@ -69,5 +70,8 @@ print('Reducing repeated labels:')
 print(unique_mtx.shape)
 del all_mtx
 
-# Save aggregated matrix
-np.savetxt(opj(out_dir, 'activity_matrix.txt'), unique_mtx, fmt='%i')
+# Save as sparse matrix
+sparse_activity = sparse.csr_matrix(unique_mtx)
+sparse.save_npz(opj(out_dir, 'activity_matrix.npz'), sparse_activity)
+
+# np.savetxt(opj(out_dir, 'activity_matrix.txt'), unique_mtx, fmt='%i') # Save dense matrix

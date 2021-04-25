@@ -258,9 +258,11 @@ life_df = pd.merge(life_df, name_df, on='avatar')
 
 
 print('Saving merged lifelogs...')
-life_df.to_csv('outputs/all_lifelogs_compact.tsv', sep='\t')
+life_df.to_csv('outputs/all_lifelogs_compact.tsv', sep='\t', index=False)
 
 print('Uploading lifelogs to database...')
+life_list = life_df.copy()
+life_list = life_list.drop(columns=['birth','death'])
 life_list = life_df.to_dict('records')
 life_col.insert_many(life_list)
 
