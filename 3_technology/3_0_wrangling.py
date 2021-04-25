@@ -7,7 +7,7 @@
 # In[3]:
 
 
-import os, re, glob, datetime, tqdm
+import os, re, glob, datetime, tqdm, pymongo
 from os.path import join as opj
 import pandas as pd
 import numpy as np
@@ -17,13 +17,18 @@ import numpy as np
 
 
 # Helper functions:
+import sys
+sys.path.append('..')
+from utils import gsearch, str_extract, int_extract
 
-# In[4]:
-
-
-gsearch = lambda *args: glob.glob(opj(*args)) # Search for files
-str_extract = lambda pattern, s: re.search(pattern, s).group(0) # Find first match of regex
-int_extract = lambda pattern, s: int(str_extract(pattern, s)) # As above, but convert to int
+# Connect to database
+keyfile = '../6_database/credentials.key'
+creds = open(keyfile, "r").read().splitlines()
+myclient = pymongo.MongoClient('134.76.24.75', username=creds[0], password=creds[1], authSource='ohol') 
+print(myclient)
+ohol = myclient.ohol
+map_col = ohol.maplogs
+print(ohol.list_collection_names)
 
 # Get timestamp from filename
 def file_tstamp(f):
@@ -219,24 +224,18 @@ for f in tqdm.tqdm(new_map_files):
     
     # Save to file
     tmp_df.to_csv(out_f, sep='\t', index=False)
-
+    
+    # Save to database
+    tmp_list = tmp_df.to_dict('records')
+    map_col.insert_many(tmp_list)
 
 # ## Detect map seed changes
-
 # Find seed files:
-
-# In[17]:
-
-
 seed_files = gsearch(map_dir, '*mapSeed.txt')
 seed_files.sort()
 print(*seed_files, sep='\n')
 
-
 # Read seed files:
-
-# In[29]:
-
 
 seed_list = []
 seed_file = 'outputs/seed_changes.txt'

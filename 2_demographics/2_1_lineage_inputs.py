@@ -11,7 +11,7 @@
 
 # %matplotlib inline
 
-import os, re, glob, json, tqdm
+import os, re, glob, json, tqdm, pymongo
 import pandas as pd
 import numpy as np
 
@@ -26,6 +26,15 @@ from ast import literal_eval as make_tuple
 
 # sns.set_context('talk')
 # sns.set_style('white')
+
+# Connect to database
+keyfile = '../6_database/credentials.key'
+creds = open(keyfile, "r").read().splitlines()
+myclient = pymongo.MongoClient('134.76.24.75', username=creds[0], password=creds[1], authSource='ohol') 
+print(myclient)
+ohol = myclient.ohol
+life_col = ohol.lifelogs
+print(ohol.list_collection_names)
 
 # Helper function
 def gsearch(*args): return glob.glob(opj(*args)) # Search for fukes
@@ -249,8 +258,13 @@ life_df = pd.merge(life_df, name_df, on='avatar')
 
 
 print('Saving merged lifelogs...')
-life_df.to_csv('outputs/all_lifelogs_compact.tsv', sep='\t')
+life_df.to_csv('outputs/all_lifelogs_compact.tsv', sep='\t', index=False)
 
+print('Uploading lifelogs to database...')
+life_list = life_df.copy()
+life_list = life_list.drop(columns=['birth','death'])
+life_list = life_df.to_dict('records')
+life_col.insert_many(life_list)
 
 # ## Sanity check: How many lineages can we expect?
 
