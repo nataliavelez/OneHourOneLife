@@ -74,3 +74,36 @@ def transition(query, direction='downstream', fields = []):
 			else:
 				output.append([q[f] for f in fields])
 	return(output)
+
+
+def itemVec(query):
+	"""Look up item embeddings for a specific item id or list of items ids
+	"""
+	output = []
+	if isinstance(query, list):
+		#If id is a list
+		query = db.item_embeddings.find({'item':{"$in":query}})
+		for q in query:
+				output.append(q['vec']) 
+	else:
+		#Single id case
+		query = db.item_embeddings.find({'item':query})
+		for q in query:
+			output.append(q['vec']) 
+	return(output)
+
+def avatarVec(query):
+	"""Look up avatar embeddings for a specific avatar id or list of avatar ids
+	"""
+	output = []
+	if isinstance(query, list):
+		#If id is a list
+		query = db.avatar_embeddings.find({'avatar':{"$in":query}})
+		for q in query:
+				output.append(q['vec']) 
+	else:
+		#Single id case
+		query = db.avatar_embeddings.find({'avatar':query})
+		for q in query:
+			output.append(q['vec']) 
+	return(output)

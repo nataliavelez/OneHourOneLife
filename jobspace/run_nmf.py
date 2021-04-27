@@ -56,9 +56,10 @@ H = model.components_
 
 
 
-def tf(M):
-	maxValues =  M.max(axis=1).values
-	M = (0.5*M)/maxValues
+
+
+#TODO: iterate over different component numbers and see which is the best model 
+#https://stackoverflow.com/questions/48148689/how-to-compare-predictive-power-of-pca-and-nmf
 	
 
 
