@@ -182,10 +182,11 @@ def make_map_df(f):
     out_path = opj(out_dir, out_file)
 
     # Convert to dataframe
-    log_df = pd.read_table(f, sep=' ', skiprows=1, header=None, names=['t_elapsed', 'x', 'y', 'object_id', 'avatar'])
+    log_df = pd.read_table(f, sep=' ', skiprows=1, header=None, names=['t', 'x', 'y', 'object_id', 'avatar'])
     log_df = log_df.dropna()
+    log_df['t'] = log_df['t'].astype(np.float)
+    log_df['t'] = log_df['t'] + start_t
     return log_df, out_path
-
 
 # Helper function: Find all unique items (used to define features in SVD)
 
