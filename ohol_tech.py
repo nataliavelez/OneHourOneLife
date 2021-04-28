@@ -35,9 +35,9 @@ from utils import opj
 ## Connect to database
 def connect():
      #Connection string
-#     key_dir = (Path(__file__).parent / "6_database/").resolve()
-#     keyfile = opj(key_dir, 'credentials.key')
-    keyfile = '6_database/credentials.key'
+    key_dir = (Path(__file__).parent / "6_database/").resolve()
+    keyfile = opj(key_dir, 'credentials.key')
+#     keyfile = '6_database/credentials.key'
     creds = open(keyfile, "r").read().splitlines()
     myclient = pymongo.MongoClient('134.76.24.75', username=creds[0], password=creds[1], authSource='ohol') 
     ohol = myclient.ohol
