@@ -11,14 +11,12 @@ myclient = pymongo.MongoClient('134.76.24.75', username=creds[0], password=creds
 db = myclient.ohol
 
 #TODO:
-#List of queries is still not working
-#avatar
 #player
 #community
 
 def item(query, target='id', fields=['name']):
 	"""Look up what an item id (or item name, etc...) refers to or a list of ids
-		target specifies the field you want to query, and query is the target
+		target specifies the field you want to query, and query is the search term
 	 You can specify a list of field names to return
 	 The default to return just the 'name' field
 	 Or an empty list returns all fields
@@ -41,6 +39,33 @@ def item(query, target='id', fields=['name']):
 			else:
 				output.append([q[f] for f in fields])
 	return(output)
+
+def avatar(query, target='avatar', fields=[]):
+	"""Look up what an avatar id or a list of ids
+	 target specifies the field you want to query, and query is the search term
+	 You can specify a list of field names to return
+	 The default to return just the 'name' field
+	 Or an empty list returns all fields
+	"""
+	output = []
+	if isinstance(query, list):
+		#If id is a list
+		query = db.lifelogs.find({target:{"$in":query}})
+		for q in query:
+			if len(fields)==0:
+				output.append(q) #Return everything if fields is empty
+			else:
+				output.append([q[f] for f in fields])
+	else:
+		#Single id case
+		query = db.lifelogs.find({target:query})
+		for q in query:
+			if len(fields)==0:
+				output.append(q) #Return everything if fields is empty
+			else:
+				output.append([q[f] for f in fields])
+	return(output)
+
 
 
 def transition(query, direction='downstream', fields = []):
@@ -73,4 +98,37 @@ def transition(query, direction='downstream', fields = []):
 				output.append(q) #Return everything if fields is empty
 			else:
 				output.append([q[f] for f in fields])
+	return(output)
+
+
+def itemVec(query):
+	"""Look up item embeddings for a specific item id or list of items ids
+	"""
+	output = []
+	if isinstance(query, list):
+		#If id is a list
+		query = db.item_embeddings.find({'item':{"$in":query}})
+		for q in query:
+				output.append(q['vec']) 
+	else:
+		#Single id case
+		query = db.item_embeddings.find({'item':query})
+		for q in query:
+			output.append(q['vec']) 
+	return(output)
+
+def avatarVec(query):
+	"""Look up avatar embeddings for a specific avatar id or list of avatar ids
+	"""
+	output = []
+	if isinstance(query, list):
+		#If id is a list
+		query = db.avatar_embeddings.find({'avatar':{"$in":query}})
+		for q in query:
+				output.append(q['vec']) 
+	else:
+		#Single id case
+		query = db.avatar_embeddings.find({'avatar':query})
+		for q in query:
+			output.append(q['vec']) 
 	return(output)
