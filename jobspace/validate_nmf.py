@@ -64,7 +64,7 @@ elif jobMatrix == 'tfidf':
 
 
 #Fit model
-dat = dat[1:10000,:] #debug for testing on smaller data set=
+#dat = dat[1:10000,:] #debug for testing on smaller data set=
 model = NMF(n_components=dims, init='random', random_state=0).fit(dat)
 VarExplained = metrics.explained_variance_score(dat.toarray(), model.inverse_transform(model.transform(dat))) #variance explained
 W = model.transform(dat) #Avatar embeddings
