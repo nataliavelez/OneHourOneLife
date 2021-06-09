@@ -78,7 +78,7 @@ db.nmf_validation.insert(output)
 
 
 #Which items most strongly defined each component?
-filepath = 'outputs/%s/%i.txt' %  (jobMatrix,dims)
+filepath = 'jobspace/outputs/%s/%i.txt' %  (jobMatrix,dims)
 with open(filepath, 'w') as outfile:
     for C in range(H.shape[0]):
         comp = H[C,] #component
