@@ -24,7 +24,7 @@ db = dbfind.db
 #Arg parser 
 parser = argparse.ArgumentParser(description='Validation of Non-negative matrix factorization')
 parser.add_argument('-d','--dims', type=int, help='Number of latent dimensions', default=5)
-parser.add_argument('-m', '--matrix', help='version of activity matrix, either [cleaned] or [tfidf]', type=int, required=True)
+parser.add_argument('-m', '--matrix', help='version of activity matrix, either [cleaned] or [tfidf]', type=str, required=True)
 
 args = parser.parse_args()
 argsdict = vars(args)
