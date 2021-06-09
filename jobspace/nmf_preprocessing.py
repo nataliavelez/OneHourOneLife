@@ -9,7 +9,6 @@ import pickle
 import gridfs
 import sys
 from collections import Counter
-import seaborn as sns
 from sklearn.preprocessing import normalize
 from random import sample
 import matplotlib.pyplot as plt
@@ -19,7 +18,6 @@ import scipy.stats as stats
 from scipy.sparse import csr_matrix
 from bson.binary import Binary
 from os.path import join as opj
-from tqdm import notebook
 from sklearn.decomposition import NMF
 from sklearn.decomposition import PCA
 from sklearn import metrics
