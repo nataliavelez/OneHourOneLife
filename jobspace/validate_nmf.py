@@ -68,7 +68,9 @@ VarExplained = metrics.explained_variance_score(dat.toarray(), model.inverse_tra
 W = model.transform(dat) #Avatar embeddings
 H = model.components_ #item embeddings
 
-output = {'W': pickle.dumps(W, protocol=2), 'H':pickle.dumps(H, protocol=2), 'varExplained':VarExplained, 'n_components':dims, 'jobMatrix': jobMatrix}
+#Save to database: Too large to save the full matrices, so I will only export the var explained for now
+#output = {'W': pickle.dumps(csr_matrix(W), protocol=2), 'H':pickle.dumps(csr_matrix(H), protocol=2), 'varExplained':VarExplained, 'n_components':dims, 'jobMatrix': jobMatrix}
+output = {'varExplained':VarExplained, 'n_components':dims, 'jobMatrix': jobMatrix}
 
 #SAVE to DATABASE
 #db.nmf_validation.drop() #DELETES ALL DATA
@@ -76,7 +78,7 @@ db.nmf_validation.insert(output)
 
 
 #Which items most strongly defined each component?
-filepath = 'jobspace/outputs/%s/%i.txt' %  (jobMatrix,dims)
+filepath = 'outputs/%s/%i.txt' %  (jobMatrix,dims)
 with open(filepath, 'w') as outfile:
     for C in range(H.shape[0]):
         comp = H[C,] #component
