@@ -9,7 +9,7 @@ for inputMatrix in cleaned tfidf ; do
 	    echo "#SBATCH --cpus-per-task 1"              >> job.slurm
 	    echo "#SBATCH --workdir ."              >> job.slurm
 	    echo "#SBATCH -o /home/mpib/cwu/OneHourOneLife/logs/nmf_$inputMatrix_$numDims.out"              >> job.slurm
-	    echo "source /etc/bash_completion.d/virtualenvwrapper"              >> job.slurm
+	    echo "module load virtualenvwrapper"              >> job.slurm
 	    echo "workon ohol"              >> job.slurm
 	    echo "python jobspace/validate_nmf.py -d $numDims -m $inputMatrix"           >> job.slurm
 	    sbatch job.slurm
