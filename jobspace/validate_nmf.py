@@ -11,7 +11,6 @@ import scipy.stats as stats
 from scipy.sparse import csr_matrix
 from bson.binary import Binary
 from os.path import join as opj
-from tqdm import notebook
 from sklearn.decomposition import NMF
 from sklearn.decomposition import PCA
 from sklearn import metrics
