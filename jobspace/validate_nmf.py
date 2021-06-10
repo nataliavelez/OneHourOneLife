@@ -21,6 +21,7 @@ import dbfind #db search tool
 import utils
 db = dbfind.db 
 
+
 #Arg parser 
 parser = argparse.ArgumentParser(description='Validation of Non-negative matrix factorization')
 parser.add_argument('-d','--dims', type=int, help='Number of latent dimensions', default=5)
