@@ -35,34 +35,34 @@ db = dbfind.db
 
 #Running it sequentially
 for jobMatrix in ('cleaned', 'tfidf'):
+    #Which job matrix to use?
+    if jobMatrix == 'cleaned':
+        #Load cleaned matrix. This takes about 30 seconds
+        mat_id = list(db.cleaned_job_matrix.files.find())[0]['_id'] #get id
+        fs = gridfs.GridFS(db, collection='cleaned_job_matrix') 
+        mat_bin = fs.get(mat_id) #extract binary
+        mat_dict = pickle.load(mat_bin, encoding='latin1')
+        jobMatrixCleaned = mat_dict['mat']
+        itemIds = mat_dict['items']
+        avatarIds = mat_dict['avatars']
+        print('Loaded Job matrix:')
+        print(jobMatrixCleaned.shape)
+        dat = jobMatrixCleaned
+    elif jobMatrix == 'tfidf':
+        #Load tfidf matrix. This takes about 30 seconds
+        mat_id = list(db.tfidf_matrix.files.find())[0]['_id'] #get id
+        fs = gridfs.GridFS(db, collection='tfidf_matrix') 
+        mat_bin = fs.get(mat_id) #extract binary
+        mat_dict = pickle.load(mat_bin, encoding='latin1')
+        tfidfJobMatrixNormalized = mat_dict['mat']
+        itemIds = mat_dict['items']
+        avatarIds = mat_dict['avatars']
+        print('Loaded Job matrix:')
+        print(tfidfJobMatrixNormalized.shape)
+        dat = tfidfJobMatrixNormalized
+    #Loop over different numbers of latent dimensions
     for dims in range(5,30+1):
         print("\n\n Starting analysis: %s %i \n\n" % (jobMatrix,dims))
-        #Which job matrix to use?
-        if jobMatrix == 'cleaned':
-            #Load cleaned matrix. This takes about 30 seconds
-            mat_id = list(db.cleaned_job_matrix.files.find())[0]['_id'] #get id
-            fs = gridfs.GridFS(db, collection='cleaned_job_matrix') 
-            mat_bin = fs.get(mat_id) #extract binary
-            mat_dict = pickle.load(mat_bin, encoding='latin1')
-            jobMatrixCleaned = mat_dict['mat']
-            itemIds = mat_dict['items']
-            avatarIds = mat_dict['avatars']
-            print('Loaded Job matrix:')
-            print(jobMatrixCleaned.shape)
-            dat = jobMatrixCleaned
-        elif jobMatrix == 'tfidf':
-            #Load tfidf matrix. This takes about 30 seconds
-            mat_id = list(db.tfidf_matrix.files.find())[0]['_id'] #get id
-            fs = gridfs.GridFS(db, collection='tfidf_matrix') 
-            mat_bin = fs.get(mat_id) #extract binary
-            mat_dict = pickle.load(mat_bin, encoding='latin1')
-            tfidfJobMatrixNormalized = mat_dict['mat']
-            itemIds = mat_dict['items']
-            avatarIds = mat_dict['avatars']
-            print('Loaded Job matrix:')
-            print(tfidfJobMatrixNormalized.shape)
-            dat = tfidfJobMatrixNormalized
-
         #Fit model
         #dat = dat[1:10000,:] #debug for testing on smaller data set=
         model = NMF(n_components=dims, init='random', random_state=0).fit(dat)
