@@ -1,20 +1,2 @@
-/mnt/beegfs/home/cwu/.virtualenvs/ohol/bin/python: Error while finding module specification for 'virtualenvwrapper.hook_loader' (ModuleNotFoundError: No module named 'virtualenvwrapper')
-virtualenvwrapper.sh: There was a problem running the initialization hooks. 
-
-If Python could not import the module virtualenvwrapper.hook_loader,
-check that virtualenvwrapper has been installed for
-VIRTUALENVWRAPPER_PYTHON=/mnt/beegfs/home/cwu/.virtualenvs/ohol/bin/python and that PATH is
-set properly.
-/mnt/beegfs/home/cwu/.virtualenvs/ohol/bin/python: Error while finding module specification for 'virtualenvwrapper.hook_loader' (ModuleNotFoundError: No module named 'virtualenvwrapper')
-virtualenvwrapper.sh: There was a problem running the initialization hooks. 
-
-If Python could not import the module virtualenvwrapper.hook_loader,
-check that virtualenvwrapper has been installed for
-VIRTUALENVWRAPPER_PYTHON=/mnt/beegfs/home/cwu/.virtualenvs/ohol/bin/python and that PATH is
-set properly.
-/mnt/beegfs/home/cwu/.virtualenvs/ohol/bin/python: Error while finding module specification for 'virtualenvwrapper.hook_loader' (ModuleNotFoundError: No module named 'virtualenvwrapper')
-/mnt/beegfs/home/cwu/.virtualenvs/ohol/bin/python: Error while finding module specification for 'virtualenvwrapper.hook_loader' (ModuleNotFoundError: No module named 'virtualenvwrapper')
-/mnt/beegfs/home/cwu/.virtualenvs/ohol/bin/python: Error while finding module specification for 'virtualenvwrapper.hook_loader' (ModuleNotFoundError: No module named 'virtualenvwrapper')
-/mnt/beegfs/home/cwu/.virtualenvs/ohol/bin/python: Error while finding module specification for 'virtualenvwrapper.hook_loader' (ModuleNotFoundError: No module named 'virtualenvwrapper')
-slurmstepd-ood-16: error: *** JOB 798281 ON ood-16 CANCELLED AT 2021-06-09T15:44:23 ***
-slurmstepd-ood-34: error: *** JOB 798307 ON ood-34 CANCELLED AT 2021-06-09T15:44:23 ***
+slurmstepd-ood-15: error: *** JOB 798896 ON ood-15 CANCELLED AT 2021-06-10T18:04:57 ***
+slurmstepd-ood-34: error: *** JOB 798922 ON ood-34 CANCELLED AT 2021-06-10T18:04:57 ***
