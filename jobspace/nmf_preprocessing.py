@@ -90,23 +90,15 @@ cleanedDict = {'mat' : jobMatrixCleaned,
 
 #Save on database
 print('Saving cleaned matrix to database')
-db.cleaned_job_matrix.drop() #drop previous collection
+db.cleaned_job_matrix.files.drop() #drop previous collection
+db.cleaned_job_matrix.chunks.drop()
 fs = gridfs.GridFS(db, collection='cleaned_job_matrix')
 fs.put(Binary(pickle.dumps(cleanedDict, protocol=2), subtype=128))
 
 
 #### Construct Randomized Matrix ########
 print('Saving building random matrix')
-shuffledMat = jobMatrixCleaned #copy over
-index = np.arange(np.shape(jobMatrixCleaned)[1]) #column indices
-counter = 0
-for row in np.arange(np.shape(jobMatrixCleaned)[0]):
-   np.random.shuffle(index) #shuffle column indices
-   shuffledMat[row,:] = jobMatrixCleaned[row,index]
-   counter+=1
-   print(counter, end='')
-
-print('')
+shuffledMat = utils.shuffle_csr(jobMatrixCleaned)
 
 randomDict = {'mat' : shuffledMat, 
             'items' : itemIds,
@@ -114,7 +106,8 @@ randomDict = {'mat' : shuffledMat,
 
 #Save on database
 print('Saving random matrix to database')
-db.randomized_job_matrix.drop() #drop previous collection
+db.randomized_job_matrix.files.drop() #drop previous collection
+db.randomized_job_matrix.chunks.drop()
 fs = gridfs.GridFS(db, collection='randomized_job_matrix')
 fs.put(Binary(pickle.dumps(randomDict, protocol=2), subtype=128))
 
@@ -151,7 +144,8 @@ tfidfDict = {'mat' : tfidfJobMatrixNormalized,
 
 #Save on database
 print('saving TFIDF matrix')
-db.tfidf_matrix.drop() #drop previous collection
+db.tfidf_matrix.files.drop() #drop previous collection
+db.randomized_job_matrix.chunks.drop()
 fs = gridfs.GridFS(db, collection='tfidf_matrix')
 fs.put(Binary(pickle.dumps(tfidfDict, protocol=2), subtype=128))
 
