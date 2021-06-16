@@ -98,6 +98,7 @@ fs.put(Binary(pickle.dumps(cleanedDict, protocol=2), subtype=128))
 
 #### Construct Randomized Matrix ########
 print('Saving building random matrix')
+
 shuffledMat = utils.shuffle_csr(jobMatrixCleaned)
 
 randomDict = {'mat' : shuffledMat, 
