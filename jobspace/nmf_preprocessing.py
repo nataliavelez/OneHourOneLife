@@ -89,30 +89,36 @@ cleanedDict = {'mat' : jobMatrixCleaned,
             'avatars': avatarIds}
 
 #Save on database
+print('Saving cleaned matrix to database')
 db.cleaned_job_matrix.drop() #drop previous collection
 fs = gridfs.GridFS(db, collection='cleaned_job_matrix')
 fs.put(Binary(pickle.dumps(cleanedDict, protocol=2), subtype=128))
 
 
 #### Construct Randomized Matrix ########
+print('Saving building random matrix')
 shuffledMat = jobMatrixCleaned #copy over
 index = np.arange(np.shape(jobMatrixCleaned)[1]) #column indices
+counter = 0
 for row in np.arange(np.shape(jobMatrixCleaned)[0]):
    np.random.shuffle(index) #shuffle column indices
    shuffledMat[row,:] = jobMatrixCleaned[row,index]
+   print(counter, end='')
 
+print('')
 
 randomDict = {'mat' : shuffledMat, 
             'items' : itemIds,
             'avatars': avatarIds}
 
 #Save on database
+print('Saving random matrix to database')
 db.randomized_job_matrix.drop() #drop previous collection
 fs = gridfs.GridFS(db, collection='randomized_job_matrix')
 fs.put(Binary(pickle.dumps(randomDict, protocol=2), subtype=128))
 
 #### TF-IDF normalization ########
-
+print('Starting TFIDF normalization')
 #Term frequency: let's use augmented frequency, which prevents a bias towards longer documents (i.e., players who have many item interactions)
 #Each row vector v undergoes the following transformation:  tf(v) = 0.5 + (0.5*v)/(max(v))
 TF = jobMatrixCleaned.toarray() #convert to array
@@ -143,6 +149,7 @@ tfidfDict = {'mat' : tfidfJobMatrixNormalized,
             'avatars': avatarIds}
 
 #Save on database
+print('saving TFIDF matrix')
 db.tfidf_matrix.drop() #drop previous collection
 fs = gridfs.GridFS(db, collection='tfidf_matrix')
 fs.put(Binary(pickle.dumps(tfidfDict, protocol=2), subtype=128))
