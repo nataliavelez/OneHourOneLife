@@ -97,7 +97,7 @@ fs.put(Binary(pickle.dumps(cleanedDict, protocol=2), subtype=128))
 #### Construct Randomized Matrix ########
 shuffledMat = jobMatrixCleaned #copy over
 index = np.arange(np.shape(jobMatrixCleaned)[1]) #column indices
-for row in np.arrange(np.shape(jobMatrixCleaned)[0]):
+for row in np.arange(np.shape(jobMatrixCleaned)[0]):
    np.random.shuffle(index) #shuffle column indices
    shuffledMat[row,:] = jobMatrixCleaned[row,index]
 
