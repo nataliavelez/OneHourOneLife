@@ -59,6 +59,17 @@ print('Concatenating matrices...')
 all_mtx = np.concatenate(all_mtx, axis=0)
 print(all_mtx.shape)
 
+# <<< Start debug
+print('===DEBUG====')
+print('unique_labels')
+print(len(unique_labels))
+
+print('all_mtx')
+print(all_mtx.shape)
+
+print(all_labels)
+print(len(all_labels))
+# >>> End debug
 
 # Sum over repeated labels:
 unique_mtx = []

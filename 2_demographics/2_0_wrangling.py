@@ -227,16 +227,19 @@ lifelog_data = lifelog_data.reset_index(drop=True)
 print('Lifelog data:')
 print(lifelog_data.head())
 
-# Split by eras and save:
+# Save to file
+lifelog_data.to_csv('outputs/lifelogs_bigserver2_data.csv', index=False)
 
-eras = ['arc', 'rift', 'boundless']
-all_servers = [str_extract('(?<=lifeLog_)[a-zA-Z0-9]+', f) for f in data_files]
-servers = np.unique(all_servers)
+# # Split by eras and save:
 
-for e in tqdm.tqdm(eras):
-    era_data = lifelog_data[(lifelog_data['era'] == e) & (lifelog_data['server'] == 'bigserver2')]
-    if not era_data.empty:
-        era_data = era_data.reset_index(drop=True)
-        era_fname = 'outputs/lifelogs_bigserver2_%s_data.tsv' % e
-        era_data.to_csv(era_fname, sep='\t', index=True)
+# eras = ['arc', 'rift', 'boundless']
+# all_servers = [str_extract('(?<=lifeLog_)[a-zA-Z0-9]+', f) for f in data_files]
+# servers = np.unique(all_servers)
+
+# for e in tqdm.tqdm(eras):
+#     era_data = lifelog_data[(lifelog_data['era'] == e) & (lifelog_data['server'] == 'bigserver2')]
+#     if not era_data.empty:
+#         era_data = era_data.reset_index(drop=True)
+#         era_fname = 'outputs/lifelogs_bigserver2_%s_data.tsv' % e
+#         era_data.to_csv(era_fname, sep='\t', index=True)
 

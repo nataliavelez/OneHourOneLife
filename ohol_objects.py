@@ -97,6 +97,8 @@ def read_obj(obj_id):
 def obj_name(obj_id):
     if obj_id < 1:
         name = 'Empty'
+    elif obj_id > 5000:
+        name = 'Written Object'
     else:
         obj_dict = read_obj(obj_id)
         name = obj_dict['name']
