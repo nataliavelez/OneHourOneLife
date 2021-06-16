@@ -47,6 +47,24 @@ def delete_from_csr(mat, row_indices=[], col_indices=[]):
     else:
         return mat
 
+# Shuffle sparse matrices (CSR format)
+def shuffle_csr(m):
+    # Get original mtx dimensions
+    m_shuffled = m.copy()
+    n_row, n_col = m_shuffled.shape
+    all_indices = np.arange(n_col)
+    
+    # Shuffle each row independently
+    for row in range(n_row):
+        # Get row indices
+        row_idx = m_shuffled.indices[m_shuffled.indptr[row]:m_shuffled.indptr[row+1]]
+
+        # Replace with shuffled indices
+        shuffled_idx = np.random.choice(all_indices, size=len(row_idx), replace=True)
+        m_shuffled.indices[m_shuffled.indptr[row]:m_shuffled.indptr[row+1]] = shuffled_idx
+
+    return m_shuffled
+
 #Human readable formating of memory size
 def sizeof_fmt(num, suffix='B'):
     for unit in ['','Ki','Mi','Gi','Ti','Pi','Ei','Zi']:
@@ -54,4 +72,4 @@ def sizeof_fmt(num, suffix='B'):
             return "%3.1f%s%s" % (num, unit, suffix)
         num /= 1024.0
     return "%.1f%s%s" % (num, 'Yi', suffix)
->>>>>>> 02127fa91f37c2c2c075282bd060bac1a227ab06
+
