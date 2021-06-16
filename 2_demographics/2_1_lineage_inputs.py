@@ -27,14 +27,14 @@ from ast import literal_eval as make_tuple
 # sns.set_context('talk')
 # sns.set_style('white')
 
-# Connect to database
-keyfile = '../6_database/credentials.key'
-creds = open(keyfile, "r").read().splitlines()
-myclient = pymongo.MongoClient('134.76.24.75', username=creds[0], password=creds[1], authSource='ohol') 
-print(myclient)
-ohol = myclient.ohol
-life_col = ohol.lifelogs
-print(ohol.list_collection_names)
+# # Connect to database
+# keyfile = '../6_database/credentials.key'
+# creds = open(keyfile, "r").read().splitlines()
+# myclient = pymongo.MongoClient('134.76.24.75', username=creds[0], password=creds[1], authSource='ohol') 
+# print(myclient)
+# ohol = myclient.ohol
+# life_col = ohol.lifelogs
+# print(ohol.list_collection_names)
 
 # Helper function
 def gsearch(*args): return glob.glob(opj(*args)) # Search for fukes
@@ -46,31 +46,27 @@ def clean_tuple(s):
     return t
 
 
-# Get data from all eras:
+# Get data:
+# era_files = glob.glob('outputs/lifelogs*_data.tsv')
+# era_list = []
 
-# In[2]:
-
-
-era_files = glob.glob('outputs/lifelogs*_data.tsv')
-era_list = []
-
-for f in era_files:
-    era_data = pd.read_csv(f, sep='\t', index_col=0)
-    era_list.append(era_data)
+# for f in era_files:
+#     era_data = pd.read_csv(f, sep='\t', index_col=0)
+#     era_list.append(era_data)
     
-era_df = pd.concat(era_list)
+# era_df = pd.concat(era_list)
+# era_df = era_df.drop(columns=['server', 'release', 'era'])
+era_df = pd.read_csv('outputs/lifelogs_bigserver2_data.csv')
 era_df = era_df.drop(columns=['server', 'release', 'era'])
+
 # era_df.head()
 
 
 # Find players' parents and time/location of birth:
 
-# In[3]:
-
-
 idx_vars = ['player', 'avatar']
 births = era_df[era_df['event'] == 'B'].copy()
-births = births[idx_vars + ['timestamp', 'parent', 'location']]
+births = births[idx_vars + ['timestamp', 'parent', 'location', 'sex']]
 births = births.rename({'location': 'birth', 'timestamp': 'tBirth'}, axis='columns')
 # births.head()
 
@@ -247,8 +243,12 @@ name_df['avatar'] = name_df['avatar'].astype(np.int)
 
 # In[12]:
 
-
-life_df = pd.merge(life_df, name_df, on='avatar')
+print('<<< DEBUG: Before merge:')
+print(life_df.shape)
+life_df = pd.merge(life_df, name_df, on='avatar', how='left')
+print('After merge:')
+print(life_df.shape)
+print('>>>')
 # life_df.head()
 
 
@@ -258,13 +258,13 @@ life_df = pd.merge(life_df, name_df, on='avatar')
 
 
 print('Saving merged lifelogs...')
-life_df.to_csv('outputs/all_lifelogs_compact.tsv', sep='\t', index=False)
+life_df.to_csv('outputs/all_lifelogs_compact.csv', index=False)
 
-print('Uploading lifelogs to database...')
-life_list = life_df.copy()
-life_list = life_list.drop(columns=['birth','death'])
-life_list = life_df.to_dict('records')
-life_col.insert_many(life_list)
+# print('Uploading lifelogs to database...')
+# life_list = life_df.copy()
+# life_list = life_list.drop(columns=['birth','death'])
+# life_list = life_df.to_dict('records')
+# life_col.insert_many(life_list)
 
 # ## Sanity check: How many lineages can we expect?
 
@@ -279,10 +279,6 @@ print(eves['avatar'][:10])
 
 
 # How many eves?
-
-# In[15]:
-
-
 n_eves = eves.shape[0]
 n_births = len(life_df)
 eve_rate = n_eves/n_births
@@ -368,9 +364,12 @@ for _, family in tqdm.tqdm(eves.iterrows(), total=n_eves):
     fam.add_node(str(eve))
 
     all_members = fam_nodes + [eve]
-
-    if not len(fam_name):
-        fam_name = 'nameless'
+    
+    print(fam_name) # DEBUG
+    if isinstance(fam_name, float):
+        fam_name = '(missing)'
+    elif len(fam_name) == 0:
+        fam_name = '(blank)'
 
     fam_id = 'time-%i_eve-%i_name-%s' % (fam_start, eve, fam_name)
 
@@ -390,5 +389,5 @@ for _, family in tqdm.tqdm(eves.iterrows(), total=n_eves):
 
 
 families_df = pd.DataFrame(families_list, columns=['avatar', 'family'])
-families_df.to_csv('outputs/family_playerID.tsv', sep='\t')
+families_df.to_csv('outputs/family_playerID.csv', index=False)
 

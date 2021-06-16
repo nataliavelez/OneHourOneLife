@@ -99,7 +99,7 @@ def map_crosstab(f):
 
     map_occ = pd.crosstab(map_df.avatar, map_df.object_id, dropna=False)
     mtx_map = map_occ.values
-    mtx_labels = list(map_occ.index)
+    mtx_labels = list(map_df['avatar'].values) # debug
 
     return mtx_map, mtx_labels
 

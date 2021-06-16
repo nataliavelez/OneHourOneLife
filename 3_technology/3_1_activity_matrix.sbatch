@@ -2,7 +2,7 @@
 #
 #SBATCH -p shared
 #SBATCH --mem 32000
-#SBATCH -t 02:00:00
+#SBATCH -t 04:00:00
 #SBATCH -o reports/mtx.%j.out
 #SBATCH -e reports/mtx.%j.err
 #SBATCH --mail-type=END,FAIL
