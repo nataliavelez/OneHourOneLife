@@ -1,0 +1,103 @@
+Database(MongoClient(host=['134.76.24.75:27017'], document_class=dict, tz_aware=False, connect=True, authsource='ohol'), 'ohol')
+['tfidf_matrix.files', 'maplogs', 'item_embeddings', 'tech_tree', 'lifelogs', 'item_links_demo', 'objects', 'expanded_transitions', 'avatar_embeddings', 'tfidf_matrix.chunks', 'transitions', 'activity_matrix.files', 'activity_matrix.chunks', 'cleaned_job_matrix.chunks', 'cleaned_job_matrix.files', 'item_interactions', 'nmf_validation', 'activity_labels', 'categories']
+File metadata:
+[{'_id': ObjectId('6085c6c1affb2a7f0bf57a44'), 'uploadDate': datetime.datetime(2021, 4, 25, 19, 48, 18, 502000), 'length': 412799872, 'chunkSize': 261120, 'md5': 'bdcad93c8ef343607e2019d4f188b200'}]
+Loaded activity matrix:
+  (0, 268)	1.0
+  (1, 1350)	1.0
+  (2, 0)	3.0
+  (2, 1)	1.0
+  (2, 3)	4.0
+  (2, 4)	3.0
+  (2, 8)	4.0
+  (2, 9)	1.0
+  (2, 15)	1.0
+  (2, 16)	3.0
+  (2, 20)	2.0
+  (2, 22)	7.0
+  (2, 23)	8.0
+  (2, 28)	8.0
+  (2, 40)	1.0
+  (2, 50)	4.0
+  (2, 51)	1.0
+  (2, 68)	2.0
+  (2, 70)	3.0
+  (2, 71)	3.0
+  (2, 103)	2.0
+  (2, 106)	2.0
+  (2, 113)	1.0
+  (2, 118)	7.0
+  (2, 120)	1.0
+  :	:
+  (763669, 254)	5.0
+  (763669, 885)	2.0
+  (763669, 1822)	4.0
+  (763670, 2051)	1.0
+  (763671, 2051)	1.0
+  (763672, 2051)	1.0
+  (763673, 40)	1.0
+  (763674, 40)	1.0
+  (763675, 23)	1.0
+  (763675, 40)	1.0
+  (763675, 567)	1.0
+  (763675, 568)	1.0
+  (763676, 2051)	1.0
+  (763677, 40)	1.0
+  (763678, 0)	1.0
+  (763678, 2)	1.0
+  (763678, 3)	2.0
+  (763678, 4)	4.0
+  (763678, 6)	3.0
+  (763678, 7)	1.0
+  (763678, 257)	1.0
+  (763678, 263)	1.0
+  (763679, 1929)	1.0
+  (763680, 567)	1.0
+  (763681, 2051)	1.0
+(558651, 3044)
+558651
+(558651, 3043)
+3043
+Traceback (most recent call last):
+  File "jobspace/nmf_preprocessing.py", line 100, in <module>
+    for row in np.arrange(np.shape(jobMatrixCleaned)[0]):
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/numpy/__init__.py", line 304, in __getattr__
+    "{!r}".format(__name__, attr))
+AttributeError: module 'numpy' has no attribute 'arrange'
+jobspace/validate_nmf.py:50: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  mat_id = list(db.cleaned_job_matrix.files.find())[db.cleaned_job_matrix.files.find().count()-1]['_id'] #get id
+jobspace/validate_nmf.py:100: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+Loaded Job matrix:
+(558651, 3043)
+
+
+ Starting analysis: cleaned 1 
+
+
+Traceback (most recent call last):
+  File "jobspace/validate_nmf.py", line 100, in <module>
+    db.nmf_validation.insert(output)
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/pymongo/collection.py", line 3294, in insert
+    check_keys, manipulate, write_concern)
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/pymongo/collection.py", line 615, in _insert
+    bypass_doc_val, session)
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/pymongo/collection.py", line 603, in _insert_one
+    acknowledged, _insert_command, session)
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1498, in _retryable_write
+    return self._retry_with_session(retryable, func, s, None)
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1384, in _retry_with_session
+    return self._retry_internal(retryable, func, session, bulk)
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/pymongo/mongo_client.py", line 1416, in _retry_internal
+    return func(session, sock_info, retryable)
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/pymongo/collection.py", line 598, in _insert_command
+    retryable_write=retryable_write)
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/pymongo/pool.py", line 699, in command
+    self._raise_connection_failure(error)
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/pymongo/pool.py", line 694, in command
+    exhaust_allowed=exhaust_allowed)
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/pymongo/network.py", line 122, in command
+    codec_options, ctx=compression_ctx)
+  File "/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/pymongo/message.py", line 715, in _op_msg
+    flags, command, identifier, docs, check_keys, opts)
+bson.errors.InvalidDocument: cannot encode object: 1, of type: <class 'numpy.uint64'>

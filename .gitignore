@@ -18,3 +18,5 @@ sandbox/
 packrat/lib*/
 .Rprofile
 *.key
+*.code-workspace
+
