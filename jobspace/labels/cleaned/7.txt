@@ -1,0 +1,84 @@
+0
+Clay Bowl - empty : 18.281580743461078
+Clay Plate : 10.544222110380405
+Stack of Clay Bowls : 8.928465248213781
+Stack of Clay Plates : 8.419815898110754
+Basket : 5.769824467231267
+Raw Pie Crust : 5.21221554566906
+Hot Adobe Oven - +tool : 5.130775369413676
+Bowl of Dough : 3.582026623471352
+Stack of Firewood : 2.8465089082679524
+Bowl of Flour : 2.1866254949657287
+
+1
+Escaped Horse-Drawn Tire Cart - just released : 17.43022794463948
+Flat Rock - empty : 1.0932707132378887
+Backpack : 0.8981913723111231
+Partial Bucket of Water : 0.8100188815035863
+Basket : 0.7351678774821749
+Wild Gooseberry Bush : 0.6509925903276076
+Hitched Horse-Drawn Tire Cart - +causeAutoOrientH : 0.5735815560502846
+Stack of Firewood : 0.5443125605789407
+Empty Bucket : 0.48147731379990205
+Fence - +wall +horizontalFence : 0.47489534007396583
+
+2
+Basket : 38.89175585796574
+Wild Gooseberry Bush : 10.77410253799308
+Sharp Stone : 9.65930157198101
+Hand Cart : 5.718699958746523
+Kindling : 3.4696512349191027
+Milkweed Stalk : 3.3009501531444085
+Straight Branch : 3.275897966530964
+Long Straight Shaft : 3.2276113103181205
+Flint Chip : 3.164692547584504
+Fertile Soil Pile : 3.108291776152021
+
+3
+Bowl of Gooseberries - +yum31 : 81.14592277022761
+Domestic Gooseberry Bush : 73.05417742264396
+Clay Bowl - empty : 17.751774783384082
+Empty Domestic Gooseberry Bush : 12.252086659466162
+Bowl of Gooseberries and Carrot : 11.233059292369797
+Carrot Pile : 5.718317115235286
+Fleece : 5.095790953744118
+Ball of Thread : 4.750832953130878
+Dry Domestic Gooseberry Bush : 4.564024571090184
+Shorn Domestic Sheep : 4.330967744393166
+
+4
+Partial Bucket of Water : 28.791437076505552
+Fertile Soil Pile : 11.545211647462184
+Deep Tilled Row - groundOnly : 9.657187406616176
+Clay Bowl - empty : 9.348429541388054
+Fertile Soil : 8.57246123311455
+Shallow Tilled Row - groundOnly +biomeBlock4 : 8.218828545595299
+Carrot Row : 5.993464681518194
+Canada Goose Pond with Egg : 5.739104133975138
+Carrot Pile : 5.460724717021831
+Vigorous Domestic Gooseberry Bush : 5.122296543150126
+
+5
+Stakes - +tool : 72.03714238028354
+Floor Stakes : 54.90768343450058
+Stone : 51.02722210677896
+Hand Cart : 23.94699840180555
+Stone Road - groundOnly : 18.424340553636952
+Pine Floor - groundOnly : 16.19149834625266
+White Pine Tree : 16.158079439385205
+Hand Cart with Tires : 12.929063117459602
+Flat Rock - empty : 12.686444598696161
+Stack of Firewood : 12.496523271323877
+
+6
+Firing Forge : 22.659489851343423
+Iron Ore Pile : 19.52019898692791
+Flat Rock - empty : 17.448442569127696
+Firebrand : 13.956515202818776
+Wooden Tongs - empty : 13.764570133130091
+Kindling : 12.704657469460171
+Stack of Wrought Iron : 12.3766850033989
+Firing Adobe Kiln - +tool : 11.421435056560307
+Clay Bowl - empty : 11.314453269157328
+Stack of Steel Ingots : 10.817959143093544
+

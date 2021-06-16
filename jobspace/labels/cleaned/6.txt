@@ -1,0 +1,72 @@
+0
+Clay Bowl - empty : 16.39755428692627
+Stack of Clay Plates : 9.69453823139809
+Clay Plate : 9.164427986774756
+Stack of Clay Bowls : 8.226135137822066
+Firing Forge : 6.770666382729535
+Basket : 5.658229230637048
+Kindling : 5.418141154121334
+Firebrand : 5.349955005602605
+Flat Rock - empty : 5.34350694718007
+Iron Ore Pile : 5.001864779639842
+
+1
+Escaped Horse-Drawn Tire Cart - just released : 18.48353133792906
+Flat Rock - empty : 1.2134376777813203
+Backpack : 0.9499769506840979
+Partial Bucket of Water : 0.875501797750231
+Basket : 0.7699023606141483
+Wild Gooseberry Bush : 0.7009400537720709
+Hitched Horse-Drawn Tire Cart - +causeAutoOrientH : 0.6080405164599767
+Stack of Firewood : 0.5774563578207096
+Empty Bucket : 0.5225840028154989
+Fence - +wall +horizontalFence : 0.503993526249177
+
+2
+Basket : 41.015099021857225
+Wild Gooseberry Bush : 11.34490015962355
+Sharp Stone : 10.220000970961578
+Hand Cart : 5.893574756812913
+Kindling : 3.5855248646441904
+Milkweed Stalk : 3.520500250810045
+Straight Branch : 3.448358696288317
+Long Straight Shaft : 3.400702537230228
+Flint Chip : 3.3508682146213635
+Thread : 3.2691685721651416
+
+3
+Bowl of Gooseberries - +yum31 : 81.12158288920564
+Domestic Gooseberry Bush : 72.97937857315551
+Clay Bowl - empty : 22.988583480348087
+Empty Domestic Gooseberry Bush : 12.235507688525077
+Bowl of Gooseberries and Carrot : 11.249293613651153
+Carrot Pile : 6.102494055150955
+Fleece : 5.076348399134916
+Ball of Thread : 4.731092254300905
+Stack of Clay Bowls : 4.609600726192481
+Dry Domestic Gooseberry Bush : 4.452501043935011
+
+4
+Partial Bucket of Water : 28.015764620330028
+Clay Bowl - empty : 11.940065810726042
+Fertile Soil Pile : 11.433560681124858
+Deep Tilled Row - groundOnly : 9.657243229245088
+Fertile Soil : 8.551111780003904
+Shallow Tilled Row - groundOnly +biomeBlock4 : 8.301984037020539
+Carrot Row : 6.248901678352806
+Carrot Pile : 5.7956482619958125
+Canada Goose Pond with Egg : 5.360830023860454
+Vigorous Domestic Gooseberry Bush : 4.99934640138201
+
+5
+Stakes - +tool : 67.20258680896174
+Floor Stakes : 51.214922669034976
+Stone : 47.73322983989755
+Hand Cart : 22.415208939741234
+Stone Road - groundOnly : 17.225155082016745
+Pine Floor - groundOnly : 15.065411791656272
+White Pine Tree : 15.04399359970204
+Flat Rock - empty : 12.310491023464989
+Hand Cart with Tires : 11.884591682896575
+Stack of Firewood : 11.635888349661982
+
