@@ -54,7 +54,7 @@ for jobMatrix in ('cleaned', 'tfidf', 'random'):
         jobMatrixCleaned = mat_dict['mat']
         itemIds = mat_dict['items']
         avatarIds = mat_dict['avatars']
-        print('Loaded Job matrix:')
+        print('Loaded cleaned job matrix:')
         print(jobMatrixCleaned.shape)
         dat = jobMatrixCleaned
     elif jobMatrix == 'tfidf':
@@ -66,7 +66,7 @@ for jobMatrix in ('cleaned', 'tfidf', 'random'):
         tfidfJobMatrixNormalized = mat_dict['mat']
         itemIds = mat_dict['items']
         avatarIds = mat_dict['avatars']
-        print('Loaded Job matrix:')
+        print('Loaded tfidf matrix:')
         print(tfidfJobMatrixNormalized.shape)
         dat = tfidfJobMatrixNormalized
     elif jobMatrix == 'random':
@@ -78,7 +78,7 @@ for jobMatrix in ('cleaned', 'tfidf', 'random'):
         randomMat = mat_dict['mat']
         itemIds = mat_dict['items']
         avatarIds = mat_dict['avatars']
-        print('Loaded Job matrix:')
+        print('Loaded random matrix:')
         print(randomMat.shape)
         dat = randomMat
     #Loop over different numbers of latent dimensions
