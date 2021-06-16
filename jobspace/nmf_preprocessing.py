@@ -103,6 +103,7 @@ counter = 0
 for row in np.arange(np.shape(jobMatrixCleaned)[0]):
    np.random.shuffle(index) #shuffle column indices
    shuffledMat[row,:] = jobMatrixCleaned[row,index]
+   counter+=1
    print(counter, end='')
 
 print('')
