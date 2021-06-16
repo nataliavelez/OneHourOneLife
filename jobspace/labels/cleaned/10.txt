@@ -1,0 +1,120 @@
+0
+Fertile Soil Pile : 11.214962024785692
+Deep Tilled Row - groundOnly : 9.202620409691107
+Fertile Soil : 8.601218452427393
+Shallow Tilled Row - groundOnly +biomeBlock4 : 7.71724296932737
+Clay Bowl - empty : 6.655417510197959
+Partial Bucket of Water : 4.828108182887817
+Milkweed Debris -Fruit : 2.9624889464531368
+Composted Soil : 2.867057618201422
+Dry Domestic Gooseberry Bush : 2.603568665266336
+Steel Hoe - +toolHoe : 2.542540296806596
+
+1
+Escaped Horse-Drawn Tire Cart - just released : 15.282172862277758
+Flat Rock - empty : 0.9433585610893901
+Backpack : 0.7726554096453085
+Basket : 0.5444358836557496
+Hitched Horse-Drawn Tire Cart - +causeAutoOrientH : 0.5010272078844141
+Stack of Firewood : 0.4730686872396218
+Fence - +wall +horizontalFence : 0.4067811333325855
+Stone Road - groundOnly : 0.32310512057544105
+Wild Gooseberry Bush : 0.3074842831727859
+Cistern - +famUse100 : 0.3007252834107282
+
+2
+Basket : 36.72124853399126
+Hand Cart : 6.404185255795976
+Dead Rabbit : 2.3630744833984103
+Skinned Rabbit : 2.1638929178287
+Hand Cart with Tires : 2.0011546566968597
+Domestic Gooseberry Bush : 1.7739334664096438
+Snared Rabbit Family Hole -hiding : 1.7569682872208419
+Rabbit Hole -growing : 1.7537281505223703
+Baited Snared Rabbit Family Hole -hiding : 1.7524611650858157
+Rabbit Hole with Used Snare -family : 1.7360135164414672
+
+3
+Bowl of Gooseberries - +yum31 : 76.60941841164056
+Domestic Gooseberry Bush : 68.78550131620595
+Clay Bowl - empty : 15.796402417907455
+Empty Domestic Gooseberry Bush : 11.55443951579833
+Bowl of Gooseberries and Carrot : 10.508415828943152
+Fleece : 4.840437324487517
+Ball of Thread : 4.514582093602239
+Dry Domestic Gooseberry Bush : 4.3158861752160025
+Shorn Domestic Sheep : 4.114972671450883
+Vigorous Domestic Gooseberry Bush : 4.0812921330934016
+
+4
+Partial Bucket of Water : 28.923203844210782
+Canada Goose Pond with Egg : 9.779419405481784
+Canada Goose Pond : 4.302383513785201
+Full Bucket of Water : 4.08199474515095
+Empty Bucket : 3.94282027262927
+Vigorous Domestic Gooseberry Bush : 3.3564276793399563
+Cistern - +famUse100 : 3.10717988732701
+Hand Cart : 3.021632213018881
+Clay Bowl - empty : 2.581822186470167
+Dry Domestic Gooseberry Bush : 2.5393651655731304
+
+5
+Firing Forge : 48.15576596573396
+Iron Ore Pile : 41.96632081080357
+Flat Rock - empty : 36.41121950510353
+Firebrand : 28.887374966341145
+Wooden Tongs - empty : 28.54038084093366
+Stack of Wrought Iron : 26.63890332890996
+Kindling : 24.287079676957642
+Clay Bowl - empty : 23.788967868027832
+Firing Adobe Kiln - +tool : 23.665408212900186
+Stack of Steel Ingots : 23.158962981598066
+
+6
+Wild Gooseberry Bush : 40.5959757774093
+Sharp Stone : 29.63000707930971
+Long Straight Shaft : 14.815777101390623
+Straight Branch : 12.709108676680469
+Kindling : 10.100608769828886
+Milkweed Stalk : 10.088203617093882
+Maple Tree : 9.779233884920782
+Thread : 8.625456653311643
+Milkweed Debris -Fruit : 8.337859432724697
+Stone Hatchet - +toolChopping : 7.20582868971189
+
+7
+Clay Bowl - empty : 36.940750414899206
+Clay Plate : 21.770579362293542
+Stack of Clay Bowls : 18.20675617687003
+Stack of Clay Plates : 17.18636130367111
+Raw Pie Crust : 11.141811488709564
+Hot Adobe Oven - +tool : 10.929957573753255
+Bowl of Dough : 7.681617262872348
+Stack of Firewood : 5.465689728336808
+Sharp Stone : 5.40458321755147
+Bowl of Flour : 4.6723415651680185
+
+8
+Stakes - +tool : 20.23251216843705
+Floor Stakes : 15.477311475298997
+Stone : 14.340861875598174
+Hand Cart : 6.188075874774304
+Stone Road - groundOnly : 5.206319133255551
+White Pine Tree : 4.533389479473537
+Pine Floor - groundOnly : 4.52968637119185
+Flat Rock - empty : 3.6222094278857093
+Hand Cart with Tires : 3.466239366794901
+Stack of Firewood : 3.405530817388092
+
+9
+Carrot Pile : 45.23003341448164
+Carrot Row : 43.07441052753389
+Carrot : 12.879470726659052
+Hardened Row : 11.321936046013846
+Dry Planted Carrots : 8.690582929099573
+Wet Planted Carrots : 8.312596568408091
+Clay Bowl - empty : 7.899279659881551
+Bowl of Carrot Seeds : 7.821520775206837
+Seeding Carrots : 7.752151767807276
+Deep Tilled Row - groundOnly : 4.385414746199374
+
