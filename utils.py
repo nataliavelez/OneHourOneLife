@@ -60,7 +60,7 @@ def shuffle_csr(m):
         row_idx = m_shuffled.indices[m_shuffled.indptr[row]:m_shuffled.indptr[row+1]]
 
         # Replace with shuffled indices
-        shuffled_idx = np.random.choice(all_indices, size=len(row_idx), replace=True)
+        shuffled_idx = np.random.choice(all_indices, size=len(row_idx), replace=False)
         m_shuffled.indices[m_shuffled.indptr[row]:m_shuffled.indptr[row+1]] = shuffled_idx
 
     return m_shuffled
