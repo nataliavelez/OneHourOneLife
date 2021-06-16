@@ -93,19 +93,25 @@ db.cleaned_job_matrix.drop() #drop previous collection
 fs = gridfs.GridFS(db, collection='cleaned_job_matrix')
 fs.put(Binary(pickle.dumps(cleanedDict, protocol=2), subtype=128))
 
-#### TF-IDF normalization ########
-#Load cleaned matrix. This takes about 30 seconds
-# n =  db.cleaned_job_matrix.files.find().count() #DEBUG: update saving of cleaned job matrix to over ride
-# mat_id = list(db.cleaned_job_matrix.files.find())[n-1]['_id'] #get id
-# fs = gridfs.GridFS(db, collection='cleaned_job_matrix') 
-# mat_bin = fs.get(mat_id) #extract binary
-# mat_dict = pickle.load(mat_bin, encoding='latin1')
-# jobMatrixCleaned = mat_dict['mat']
-# itemIds = mat_dict['items']
-# avatarIds = mat_dict['avatars']
-# print('Loaded Job matrix:')
-# jobMatrixCleaned.shape
 
+#### Construct Randomized Matrix ########
+shuffledMat = jobMatrixCleaned #copy over
+index = np.arange(np.shape(jobMatrixCleaned)[1]) #column indices
+for row in np.arrange(np.shape(jobMatrixCleaned)[0]):
+   np.random.shuffle(index) #shuffle column indices
+   shuffledMat[row,:] = jobMatrixCleaned[row,index]
+
+
+randomDict = {'mat' : shuffledMat, 
+            'items' : itemIds,
+            'avatars': avatarIds}
+
+#Save on database
+db.randomized_job_matrix.drop() #drop previous collection
+fs = gridfs.GridFS(db, collection='randomized_job_matrix')
+fs.put(Binary(pickle.dumps(randomDict, protocol=2), subtype=128))
+
+#### TF-IDF normalization ########
 
 #Term frequency: let's use augmented frequency, which prevents a bias towards longer documents (i.e., players who have many item interactions)
 #Each row vector v undergoes the following transformation:  tf(v) = 0.5 + (0.5*v)/(max(v))
