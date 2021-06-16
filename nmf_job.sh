@@ -6,4 +6,6 @@
 #SBATCH -o /home/mpib/cwu/OneHourOneLife/logs/nmf.out
 #SBATCH --workdir .
 
+python jobspace/nmf_preprocessing.py
+
 python jobspace/validate_nmf.py
