@@ -93,7 +93,7 @@ for jobMatrix in ('cleaned', 'tfidf', 'random'):
 
         #Save to database: Too large to save the full matrices, so I will only export the var explained for now
         #output = {'W': pickle.dumps(csr_matrix(W), protocol=2), 'H':pickle.dumps(csr_matrix(H), protocol=2), 'varExplained':VarExplained, 'n_components':dims, 'jobMatrix': jobMatrix}
-        output = {'varExplained':VarExplained, 'n_components':dims, 'jobMatrix': jobMatrix}
+        output = {'varExplained':VarExplained, 'n_components':int(dims), 'jobMatrix': jobMatrix}
 
         #SAVE to DATABASE
         #db.nmf_validation.drop() #DELETES ALL DATA
