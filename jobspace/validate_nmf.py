@@ -39,7 +39,7 @@ def gen_log_space(limit, n):
     # round, re-adjust to 0 indexing (i.e. minus 1) and return np.uint64 array
     return np.array(list(map(lambda x: round(x)-1, result)), dtype=np.uint64)
 
-dimArray = gen_log_space(3043,21)[1:] #remove the first value because it will be 0
+dimArray = gen_log_space(3043,22)[2:] #remove the first two value, so we start on 2
 
 
 #Loop through different inputs
