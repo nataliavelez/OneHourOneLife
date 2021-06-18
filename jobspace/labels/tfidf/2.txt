@@ -1,0 +1,24 @@
+0
+Basket : 9.221118987647312
+Wild Gooseberry Bush : 1.892596425876925
+Sharp Stone : 1.2338192324330515
+Clay Bowl - empty : 0.9751809086138703
+Escaped Horse-Drawn Tire Cart - just released : 0.4390311886479316
+Hand Cart : 0.4128903800063304
+Partial Bucket of Water : 0.32873634769194393
+Bowl of Gooseberries - +yum31 : 0.3243196931635844
+Fertile Soil Pile : 0.23492774329865015
+Kindling : 0.20988902603157153
+
+1
+Domestic Gooseberry Bush : 9.090406250758646
+Bowl of Gooseberries - +yum31 : 2.3642033127079625
+Clay Bowl - empty : 1.0832104772262554
+Partial Bucket of Water : 0.45061564807666993
+Wild Gooseberry Bush : 0.23920508109144134
+Empty Domestic Gooseberry Bush : 0.22229408485867447
+Springy Open Wooden Door - installed +autoDefaultTrans +horizontalOpenSpringyDoor +cornerOpenSpringyDoor : 0.17323288300098047
+Carrot Pile : 0.17080019777753416
+Fertile Soil Pile : 0.15741244588040892
+Gooseberry : 0.14971206981835744
+
