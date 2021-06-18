@@ -1,0 +1,312 @@
+0
+Clay Bowl - empty : 8.23772169174718
+Stack of Clay Bowls : 2.154103785146056
+Bowl of Dry Beans : 1.518517637348474
+Flint Chip : 1.0067490328438824
+Dry Bean Plants : 0.9144909340878341
+Bowl of Water - +contFoodDish : 0.8649314864833773
+Clay Plate : 0.7560634633246472
+Ear of Corn : 0.6615934454906685
+Shucked Ear of Corn : 0.6489908954925131
+Stone : 0.5257009104996149
+
+1
+Bowl of Gooseberries - +yum31 : 11.739793434260905
+Clay Bowl - empty : 1.9460528737759375
+Bowl of Gooseberries and Carrot : 1.5687343447790267
+Domestic Gooseberry Bush : 0.7648534945604742
+Fleece : 0.6853853527875641
+Ball of Thread : 0.6695249797879749
+Shorn Domestic Sheep : 0.6169580061537755
+Shorn Domestic Sheep : 0.6088056018658083
+Fed Shorn Domestic Sheep : 0.5862789506611218
+Empty Domestic Gooseberry Bush : 0.4854265869680742
+
+2
+Stakes - +tool : 25.109888286912696
+Floor Stakes : 19.19071251594044
+Stone : 17.477780175253912
+Pine Floor - groundOnly : 6.422160791195587
+White Pine Tree : 6.260097505598202
+Stone Road - groundOnly : 4.110736523251233
+Auto-Orienting Wall Stakes : 3.857143785940505
+Snow Bank : 3.177773124944302
+Pine Needles : 2.9506060331938744
+Free-standing North-South Wall Stakes : 1.8844955287167962
+
+3
+Proposed Property Fence - groundOnly +horizontalA : 26.84860237550948
+Shaky Property Fence - +horizontalC : 5.080890420333156
+Shaky Property Fence - +verticalC : 4.150640094834512
+Property Fence Twigs - just set down : 3.282065153131398
+Shaky Property Fence - +cornerC : 2.0401283258615543
+Property Fence Twigs : 1.9058812582595932
+Property Gate - +owned +causeAutoOrientH : 1.5907922331115056
+Property Gate - +owned +causeAutoOrientH : 1.5779945922025909
+Stone : 1.1059029289261184
+Flint Chip : 1.055915250002764
+
+4
+Deep Tilled Row - groundOnly : 7.823191153908598
+Fertile Soil Pile : 6.612169509284629
+Shallow Tilled Row - groundOnly +biomeBlock4 : 6.535349711312918
+Fertile Soil : 6.285916882497067
+Milkweed Debris -Fruit : 3.1669304635414295
+Dry Planted Milkweed Seed : 2.425461340197282
+Bowl of Milkweed Seeds : 2.201691059336044
+Wet Planted Milkweed Seed : 2.124550552808721
+Clay Bowl - empty : 2.0221780817604924
+Steel Hoe - +toolHoe : 1.8716800996157397
+
+5
+Dead Rabbit : 14.874008020131761
+Skinned Rabbit : 12.285462731858498
+Snared Rabbit Family Hole -hiding : 11.121636591618138
+Baited Snared Rabbit Family Hole -hiding : 11.078151745243618
+Rabbit Hole with Used Snare -family : 10.84931664352742
+Rabbit Hole -growing : 10.780398143433974
+Flat Rock with Rabbit Bait : 9.94449624256776
+Skinned Rabbit : 9.309386067549813
+Flint Chip : 8.17555978056931
+Sharp Stone : 7.455226094696815
+
+6
+Stack of Firewood : 27.106141940643884
+Firewood : 12.173688600527177
+Butt Log : 7.9632290415938645
+Stump : 7.115749273448985
+Chopped Tree -big &log : 6.7659260981467435
+Chopped Tree with Firewood -big &log &wood1 : 6.699135283729302
+Steel Axe - +toolChopping : 6.388365789034709
+Stack of Logs : 6.337289929265834
+Boards : 5.9374419667095175
+Mallet - +toolMallet : 3.9832812095267407
+
+7
+Springy Open Wooden Door - installed +autoDefaultTrans +horizontalOpenSpringyDoor +cornerOpenSpringyDoor : 78.66458947047344
+Bone Pile - origGrave : 22.15858353320805
+Springy Open Wooden Door - installed vert +autoDefaultTrans +verticalOpenSpringyDoor : 21.465550686017412
+Backpack : 18.873270048162325
+Rubber Ball - bouncing : 15.980796758503645
+3042 : 13.189303294457805
+Buried Grave - origGrave groundOnly : 10.102039039538576
+Stack of Clay Bowls : 6.5859597620415835
+Domestic Goose - Dropped : 6.57135377995368
+Wine Bottle - +contFoodDish : 6.307668852433004
+
+8
+Long Straight Shaft : 27.393795705607683
+Straight Branch : 22.72606984055289
+Maple Tree : 19.515915766507618
+Two Shafts : 15.091409337659874
+Sharp Stone : 11.171431402455344
+Fence Kit : 7.021157327253181
+Shovel - +tool : 4.6138300052199055
+Auto-Orienting Wall Stakes : 4.277253874856729
+Short Shaft : 3.5563538283164475
+Small Curved Branch : 2.7300719735412713
+
+9
+Escaped Horse-Drawn Tire Cart - just released : 75.88948109451609
+Backpack : 3.545160710655069
+Hitched Horse-Drawn Tire Cart - +causeAutoOrientH : 2.390176661582586
+Fence - +wall +horizontalFence : 1.8349079666651746
+Wild Gooseberry Bush : 1.4384798348916756
+Cut Stones : 1.1053370101475417
+Stack of Clay Bowls : 1.0992267731458423
+3042 : 0.9291579965825196
+Iron Ore Pile : 0.872180020008955
+Steel Mining Pick - +tool : 0.8714998542837509
+
+10
+Carrot Row : 28.91877459848153
+Hardened Row : 8.752530958332976
+Dry Planted Carrots : 7.225691256669173
+Wet Planted Carrots : 6.701548937876385
+Seeding Carrots : 6.588558643199687
+Bowl of Carrot Seeds : 6.464653572669426
+Deep Tilled Row - groundOnly : 5.372621899597761
+Shallow Tilled Row - groundOnly +biomeBlock4 : 4.736528637732499
+Steel Hoe - +toolHoe : 2.3197737298228973
+Fertile Soil Pile : 1.842400536952143
+
+11
+Escaped Horse-Drawn Cart - just released : 28.986704304173188
+Backpack : 1.5672920484123989
+Hitched Horse-Drawn Cart - +causeAutoOrientH : 1.2959329761354372
+Fence - +wall +horizontalFence : 1.1814872904228573
+3042 : 0.830037876525369
+Wild Gooseberry Bush : 0.6815461510338074
+Iron Ore Pile : 0.6285597697741269
+Yew Bow : 0.5624187520890073
+Empty Bucket : 0.39054033226108886
+Steel Mining Pick - +tool : 0.3677292296399337
+
+12
+Cistern - +famUse100 : 38.291806004946245
+Stone Pile : 34.10292914289652
+Empty Bucket : 13.676156795510325
+Wet Diesel Water Pump : 9.724679383577909
+Full Bucket of Water : 9.109033772306345
+Tank of Water - less full : 5.800557474563728
+Stone : 4.8580874889894075
+Firebrand : 4.090277310961754
+Full Cistern - +famUse100 : 3.8070010213974546
+Empty Tank : 3.6634437323687696
+
+13
+Fertile Soil Pile : 27.011760800553606
+Dry Domestic Gooseberry Bush : 26.335377925029555
+Vigorous Domestic Gooseberry Bush : 24.921257935067995
+Fertile Soil : 11.003377536645694
+Partial Bucket of Water : 10.344520640757864
+Clay Bowl - empty : 9.612791073522018
+Composted Soil : 7.133527858758421
+Fertile Soil Pit -partial : 3.487305055678954
+Empty Bucket - just emptied : 1.9697808648857387
+Basket : 1.9061384636219039
+
+14
+Canada Goose Pond with Egg : 37.822266641878585
+Partial Bucket of Water : 27.168477669062398
+Empty Bucket : 4.337812822398445
+Full Bucket of Water : 3.606946570054488
+Clay Bowl - empty : 2.065459107630086
+Cistern - +famUse100 : 1.603316365530604
+Bowl of Water - +contFoodDish : 1.1545329010871566
+Dry Pond : 0.7984244147573999
+Wild Gooseberry Bush : 0.6600458946377238
+Stack of Empty Buckets : 0.5161788070854232
+
+15
+Flat Rock - empty : 26.069561470088786
+Stone Road - groundOnly : 10.496733257746298
+Stack of Flat Rocks : 6.484975198263303
+Stone : 4.157102260173272
+Floor Stakes : 3.7270006342388693
+Stakes - +tool : 3.494246409970406
+Buried Grave - origGrave groundOnly : 1.8681615100166813
+Hot Flat Rock : 1.214080900081506
+Long Straight Shaft : 1.1660288119952542
+Bone Pile - origGrave : 1.057086753106532
+
+16
+Basket : 74.05133722902505
+Bone Pile - origGrave : 2.599561675259905
+Clay : 2.4156217221401914
+Clay Pit -partial : 2.3023928117049985
+Stack of Baskets : 2.133564198106533
+White Pine Tree : 2.043840527624605
+Dug Wild Carrot : 1.3504157181657996
+Adobe : 1.1863305973435458
+Fertile Soil Pile : 1.1527953102309625
+Pine Floor - groundOnly : 1.07498805558577
+
+17
+Wild Gooseberry Bush : 47.13034323979373
+Sharp Stone : 23.085009176139632
+Milkweed Stalk : 8.335746461509714
+Gooseberry : 7.6688823609181425
+Thread : 6.915180040525462
+Milkweed Debris -Fruit : 6.337523789950401
+Empty Wild Gooseberry Bush : 5.791491299447488
+Dug Wild Carrot : 4.7105155829513485
+Stone Hatchet - +toolChopping : 4.580746526315263
+Harvested Tule : 4.099695607346361
+
+18
+Hand Cart : 70.87547317599211
+Backpack : 2.0639962803445115
+Stack of Clay Bowls : 1.7486395679271975
+Mallet - +toolMallet : 1.4090020615101244
+Yew Bow : 1.3945959873587714
+Stack of Baskets : 1.2354638306187307
+Wild Gooseberry Bush : 1.0569354430090547
+Cut Stones : 1.0195366988813312
+Dug Big Rock : 0.9568720728330338
+Wooden Wheel : 0.953255295089328
+
+19
+Carrot Pile : 113.44343269207292
+Carrot : 29.29991791186047
+Clay Bowl - empty : 13.26688471578413
+Carrot Row : 12.082625289000553
+Shallow Well - +famUse100 +tapoutTrigger &40 &40 &160 &160 : 5.367839277850463
+Sharp Stone : 3.5770268469047304
+Fertile Soil : 2.2427009897412775
+Shovel - +tool : 1.6976593037217418
+Backpack : 1.600039141787399
+Renewed Property Fence - +tapoutTrigger &1 &1 &1 &1 +horizontalH : 1.5788276460960666
+
+20
+Clay Plate : 43.42391281276318
+Stack of Clay Plates : 40.699722127819435
+Clay Bowl - empty : 28.69200258199678
+Raw Pie Crust : 27.20068487174867
+Hot Adobe Oven - +tool : 24.145100276168886
+Stack of Clay Bowls : 23.471066070975258
+Bowl of Dough : 17.931574739972614
+Bowl of Flour : 10.653015181178208
+Raw Mutton Pie : 9.862244585398914
+Bowl of Wheat : 8.568575400334772
+
+21
+Iron Ore Pile : 39.442154389572124
+Firing Forge : 36.94088716173062
+Stack of Wrought Iron : 24.02793004920506
+Stack of Steel Ingots : 18.950535285899303
+Wooden Tongs - empty : 18.6585388612631
+Flat Rock - empty : 16.821013998052294
+Firebrand : 16.713009260735173
+Stack of Clay Plates : 14.996510375180616
+Unforged Sealed Steel Crucible : 14.31279113107548
+Hot Iron Bloom on Flat Rock : 13.182296368860582
+
+22
+Partial Bucket of Water : 51.1858361548805
+Canada Goose Pond : 9.292317007531276
+Full Bucket of Water : 6.590246677029494
+Empty Bucket : 4.881954091760879
+Shallow Well - +famUse100 +tapoutTrigger &40 &40 &160 &160 : 4.175524240462596
+Pond : 4.15765207054715
+Cistern - +famUse100 : 2.817286840908975
+Vigorous Domestic Gooseberry Bush : 2.2424031404943165
+Bowl of Water - +contFoodDish : 1.9445906500374117
+Empty Bucket - just emptied : 1.7474902615599137
+
+23
+Hand Cart with Tires : 61.24945507293019
+Stack of Clay Bowls : 4.030579644906384
+Stack of Baskets : 2.5365997789792813
+Backpack : 2.527189068870392
+Stack of Clay Plates : 1.4606612596799937
+Wild Gooseberry Bush : 1.3501624550015046
+Basket : 1.2775010894986767
+Kindling Pile : 1.1780292782701967
+Cut Stones : 1.1231213932949156
+Dug Big Rock : 0.9348237521566942
+
+24
+Domestic Gooseberry Bush : 88.11289948291933
+Empty Domestic Gooseberry Bush : 11.200098012801757
+Gooseberry : 5.42503013095148
+Clay Bowl - empty : 2.3646807788296167
+Shovel - +tool : 1.115497397478026
+Fresh Grave - origGrave fromDeath : 0.9397692062419954
+Knife - +tool : 0.9009495096177148
+Backpack : 0.7542753122331033
+Sharp Stone : 0.7267213303627227
+Steel Axe - +toolChopping : 0.6937768780169438
+
+25
+Kindling : 56.16587057015178
+Kindling Pile : 34.553729896003716
+Firing Adobe Kiln - +tool : 17.94022579366503
+Clay : 17.61087031889937
+Wet Clay Bowl : 14.021798728992442
+Adobe : 13.827046722056384
+Firebrand : 13.480471927553182
+Steel Axe - +toolChopping : 12.586671161289916
+Small Curved Branch : 12.536791532521978
+Stone Hatchet - +toolChopping : 10.592477505875474
+
