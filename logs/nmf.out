@@ -4,3 +4,5 @@ jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use inse
   db.nmf_validation.insert(output)
 jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
   db.nmf_validation.insert(output)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
