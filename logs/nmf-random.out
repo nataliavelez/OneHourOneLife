@@ -1,0 +1,2 @@
+jobspace/validate_nmf.py:84: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  mat_id = list(db.randomized_job_matrix.files.find())[db.randomized_job_matrix.files.find().count()-1]['_id'] #get id

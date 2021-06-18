@@ -1,0 +1,60 @@
+0
+Wild Gooseberry Bush : 6.010737650083283
+Sharp Stone : 1.516411950632191
+Open Wooden Door - installed +horizontalDoorOpenWood +cornerDoorOpenWood : 0.39864538220095797
+Gooseberry : 0.2712412523219737
+Straight Branch : 0.22156276199697397
+Open Wooden Door - installed vert +verticalDoorOpenWood : 0.1964245454578405
+Long Straight Shaft : 0.1959631208467019
+Milkweed Stalk : 0.12558790125775326
+Kindling : 0.10933185318709629
+Stone : 0.09354919854527803
+
+1
+Domestic Gooseberry Bush : 8.552969699358881
+Empty Domestic Gooseberry Bush : 0.20156455269966214
+Springy Open Wooden Door - installed +autoDefaultTrans +horizontalOpenSpringyDoor +cornerOpenSpringyDoor : 0.13494229131559468
+Gooseberry : 0.1300556956681949
+Partial Bucket of Water : 0.10514191026203255
+Carrot Pile : 0.09770394474107141
+Backpack : 0.07608994003209514
+Clay Bowl - empty : 0.06996260821785263
+Stack of Firewood : 0.06582868866003802
+Dry Domestic Gooseberry Bush : 0.056138970395503314
+
+2
+Escaped Horse-Drawn Tire Cart - just released : 7.623962240108537
+Clay Bowl - empty : 0.6318014006317099
+Partial Bucket of Water : 0.43414356842951624
+Stakes - +tool : 0.14540425874737903
+Stack of Firewood : 0.13013929417688794
+Springy Open Wooden Door - installed +autoDefaultTrans +horizontalOpenSpringyDoor +cornerOpenSpringyDoor : 0.10444960142413587
+Floor Stakes : 0.09989141215155407
+Stack of Clay Bowls : 0.09916546927559741
+Escaped Horse-Drawn Cart - just released : 0.09500137075434145
+Backpack : 0.09311578010070459
+
+3
+Basket : 11.130878393340103
+Sharp Stone : 0.8752837968898274
+Clay Bowl - empty : 0.7900734546792194
+Hand Cart : 0.47425493770029875
+Partial Bucket of Water : 0.2531266681135402
+Fertile Soil Pile : 0.24316600266691438
+Clay Plate : 0.21170076731188534
+Stack of Clay Plates : 0.2079064403933351
+Kindling : 0.19800243060378434
+Hand Cart with Tires : 0.19539698342525758
+
+4
+Bowl of Gooseberries - +yum31 : 4.1196169921176935
+Clay Bowl - empty : 1.7561162208726833
+Partial Bucket of Water : 0.5805760585441383
+Fertile Soil Pile : 0.1760279314148714
+Clay Plate : 0.1667069556200778
+Stack of Clay Bowls : 0.1512433806885011
+Carrot Row : 0.145927539592752
+Stack of Clay Plates : 0.1260866533193642
+Carrot Pile : 0.11639789543848929
+Deep Tilled Row - groundOnly : 0.11072182210366903
+
