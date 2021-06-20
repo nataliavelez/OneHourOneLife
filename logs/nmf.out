@@ -6,3 +6,72 @@ jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use inse
   db.nmf_validation.insert(output)
 jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
   db.nmf_validation.insert(output)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+jobspace/validate_nmf.py:110: DeprecationWarning: insert is deprecated. Use insert_one or insert_many instead.
+  db.nmf_validation.insert(output)
+/mnt/beegfs/home/cwu/.virtualenvs/ohol/lib/python3.7/site-packages/sklearn/decomposition/_nmf.py:1091: ConvergenceWarning: Maximum number of iterations 200 reached. Increase it to improve convergence.
+  " improve convergence." % max_iter, ConvergenceWarning)
+slurmstepd-ood-13: error: *** JOB 803933 ON ood-13 CANCELLED AT 2021-06-20T10:17:00 DUE TO TIME LIMIT ***

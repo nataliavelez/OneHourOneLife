@@ -1,0 +1,24 @@
+0
+Proposed Property Fence - groundOnly +horizontalA : 0.3206520235665642
+Chihuahua Puppy : 0.31023145535886215
+Pork Taco : 0.30689338966266316
+Chip with Salsa : 0.3051650776793943
+Raw Rubber Mask Blank : 0.30483025108845996
+North East Track : 0.2849405816719467
+Red Bowler Hat with Red Rose : 0.2847399586118987
+Flat Rock - empty : 0.28026306781872934
+Plaster Wall with Thread - +causeAutoOrient : 0.27758503016159236
+Palm Olein Bottle with Funnel : 0.2774625737640965
+
+1
+Free-Standing Corner Fence Holes - groundOnly : 13.697627269899893
+Crucible with Malachite and Charcoal : 1.2138028934546552
+Bowl of Soaking Beans - +contFoodDish : 0.19364346552366726
+Yellow Wool Sweater : 0.08768074818875356
+Bowl of Soaking Tomato Seed Pulp - +contFoodDish : 0.04936000449614006
+Red Rose : 0.04281659363354785
+Pile of Dug Stumps : 0.039711879674337355
+Scrap Bowl : 0.03792260113154057
+Snow Door - +tapoutTrigger &1 &1 &1 &2 +verticalDoorSnow : 0.032692269192613976
+Feast Plate - +contFoodDish : 0.03234267698490709
+

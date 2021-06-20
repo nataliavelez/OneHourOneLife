@@ -1,0 +1,1368 @@
+0
+Five of Spades : 0.0675789200412361
+Six of Hearts : 0.04452362602309433
+Burning Tutorial Torch - tutorial 21 done : 0.02809897944912376
+Burning Tinder : 0.02407370092280094
+Bowl of Minced Rabbit : 0.014702884098394639
+Wheat Tortilla Table : 0.013749451531713308
+Loose Fence - +wall : 0.005741377071273612
+Stone Wall - +horizontalStone : 0.005631658755264348
+Crown Blank : 0.00559862910481105
+Hidden Card - 4 of Hearts : 0.0050778972358085355
+
+1
+Seatless White Sports Car : 0.30928887044868386
+Unforged Copper Crucible in Wooden Tongs : 0.12333956210595491
+Cross Track with Cart -movingEast reversed : 0.034004140571693965
+Turkey Carcass on Plate : 0.028204533100285163
+Empty Cistern : 0.02538826113535193
+Cold Bowl with Rose Seed - red : 0.024955967465116795
+Hot Cylinder -flat rock : 0.01725671116923056
+Undyed Bowler Hat with White Rose : 0.015432364090032104
+Dug Wild Carrot : 0.014811472266284162
+Undyed Top Hat with Yellow Rose : 0.012156426328800103
+
+2
+Four of Clubs : 0.6531224920816393
+Red Top Hat with Blue Rose : 0.5675232653940803
+Lock and Key $10 : 0.3008720334711048
+Clay Nozzle : 0.11961081430481421
+Cinnabar : 0.09052323741425919
+Dry Planted Gooseberry Seed -fertile : 0.07546697567856905
+Tattoo Needle : 0.05390527646055297
+Live Shrimp : 0.04493609278219763
+Loose Fence - +wall : 0.04394540574325744
+Cut Stones - Hungry Work -just removed +hungryWork10 : 0.0424035216974715
+
+3
+Vulcanized Rubber Belt : 0.9365271751848584
+Thick Partial Dipped Candle : 0.8841979573527857
+Bendable North West Track : 0.6219286326462455
+Sapling : 0.6115482271501302
+Pile of Straw : 0.4926431794433522
+Newcomen Engine Tower : 0.42197912458109177
+Dry Rub Bowl with Sugar : 0.04609861568867375
+Covered Fresh Sauerkraut : 0.02349836161810622
+Sheep Skin : 0.023209061891279435
+Dry Newcomen Pump with Torn Seal : 0.022998831021613198
+
+4
+Seven of Diamonds : 1.9041951190483144
+Unforged Sealed Steel Crucible : 0.7598069841546302
+Empty Wild Tomato Plant : 0.4054985086473789
+Cooked Pumpkin Pie - +contFoodDish : 0.343100853210456
+Bowl of Indian Yellow Pigment : 0.2267363067110541
+Wet Compost Pile : 0.18163098066389857
+Table with Wheat Dough : 0.16070540167533337
+Vigorous Domestic Gooseberry Bush : 0.14668303079091058
+Green Wool Hat : 0.10104973511502935
+North South Track : 0.09008741671504227
+
+5
+Raw Rubber Mask Blank : 2.860455599361464
+Dug Sapling Stump : 1.3078042694256005
+Springy Wooden Door - Installed +horizontalSpringyDoor +cornerSpringyDoor +autoDefaultTrans +blocksMoving : 0.9737946211276853
+Black Wool Sweater : 0.7541776173316279
+Snow Wall - Arctic Only - +biomeReq4 +horizontalSnow : 0.6766193907192389
+Shaky Property Fence - +verticalC : 0.6228812606193304
+Pit Bull - just fed : 0.32829927505465645
+Cut Pumpkin : 0.27319067658975255
+Bowl of Cinnabar : 0.19674050322071376
+Snow Wall - Arctic Only - +biomeReq4 +cornerSnow : 0.18450380064081523
+
+6
+Empty Feast Table - 1 : 2.646938899495696
+Domestic Goose - Dropped : 2.038540488702401
+Poodle with Puppy -1 : 0.3527941150124432
+Hidden Card - K of Spades : 0.2488457556581955
+Duplicate Keys $10 : 0.1924681782115919
+Empty Domestic Gooseberry Bush : 0.10712337591889531
+Marked Pine Wall - +causeAutoOrient : 0.10247075660972751
+Arrow Quiver : 0.09299954094896473
+Hidden Card - 9 of Hearts : 0.0915366736372683
+Sugarcane Bundle : 0.09140120626888693
+
+7
+Proposed Property Fence - groundOnly +horizontalA : 4.36790583444698
+Flat Rock - empty : 2.3960828426548995
+Wolf Puppy -1 just fed : 0.8779324662744856
+Yule Tree : 0.6669692881527947
+Exhausted Oil Pump Tower - 7 : 0.6531131045226053
+Bolt of Wool Cloth : 0.5569246366115348
+Stuck Bell Tower : 0.42229509900059453
+Cross Track with Cart - moving North reversed : 0.41288161750734437
+Jack O' Lantern with Candle : 0.40867066444292366
+Small Pulley : 0.37369275925453854
+
+8
+Hot Steel Blade Blank : 3.2672808706447136
+North West Track : 3.122882719538183
+Auto-Orienting Fence Holes - groundOnly : 0.8276585052210698
+Bowl of Saltpeter Solution - +contLabDish : 0.40301686132592246
+Ten of Clubs : 0.3844055432321516
+Glass Bottle - just emptied of paste : 0.3462076332099863
+Shallow Well - +famUse100 +tapoutTrigger &40 &40 &160 &160 : 0.15242690697517663
+Seeding Cabbage Plant : 0.09527266960786979
+Split Big Rock with Chisel : 0.08632922916218255
+Fed Domestic Lamb with Rope -post hungry : 0.08502634958034373
+
+9
+Scrap Bowl : 2.5482373890333747
+Green Wool Booty : 1.7983679663143406
+Pile of Cactus Fruit : 0.7272936796841074
+Simmering Green Dye : 0.3196160382841899
+Capacitor : 0.1660561997713713
+Crucible with Charcoal : 0.149563942763868
+Shot Turkey - no arrow : 0.0983255298152071
+Sealed Salt Bottle : 0.0845607311981702
+Hot Steel Chisel -flat rock : 0.08237505472124931
+Wild Rose Hip : 0.07758535720420798
+
+10
+High Frequency AM Transmitter - speechIn_2 : 2.3133627179162173
+Hidden Card - 8 of Hearts : 1.8483416401212758
+Empty Wild Bean Plant : 1.4580024802694895
+Blue Plaster Wall - +causeAutoOrient shelfRemoved : 1.2935270227904572
+Bowl of Sweetened Vinegar - +contFoodDish : 1.2832360477192224
+Yew Bow : 0.9781796302825919
+Shaft with Pine Needles : 0.9708623583521118
+Skinless Wolf : 0.7764721111954832
+Sapling Cutting : 0.5414174019055642
+Domestic Calf with Rope : 0.34778018707635
+
+11
+Yellow Bowler Hat with Feather : 6.008701822541797
+Big Ball of Yarn : 0.5400051044692951
+Endtower Base : 0.43598677872237696
+Bone Pile - origGrave : 0.2237757809922975
+Diesel Piston Head : 0.22139239526962357
+German Shepherd - just fed : 0.1984730142703983
+Paving Direction South : 0.1958945088827497
+Snake Skin Boot : 0.1704232910080516
+Wet Planted Corn Seed : 0.1073978865976141
+Plaster Wall - +causeAutoOrient : 0.08216182155152547
+
+12
+Butchered Sheep : 3.605108632167471
+Pile of Bananas : 3.424908662035497
+Lasso - +tool : 0.734757852555116
+Skewered Rabbit : 0.4583124828750477
+Glass Funnel : 0.3253497268850231
+Empty Cistern : 0.3204047695517016
+Wet Old Yew Bonsai : 0.2474449349321258
+Bowl of Glasswort Ashes with Filter Paper - +contLabDish : 0.18148499451519126
+Dry Natural Spring : 0.15466363920388312
+Steel Pipe - straightened : 0.14900236644780399
+
+13
+Ground Pepper Bottle with Funnel : 4.76151755868716
+2717 : 1.5252299693229407
+Property Fence Box - +horizontalE : 1.1741414566312092
+Hot Steel Shovel Head -flat rock : 0.9000965174674342
+Blowpipe With Hot Wine Glass : 0.8877556609091121
+Arrow : 0.8812679688539024
+Pig Bones -dumped : 0.5463127442513735
+Stack of Baskets : 0.43268142574388585
+Letter P : 0.3985302229148305
+Open Wooden Door - installed vert +verticalDoorOpenWood : 0.39666530259597776
+
+14
+Lapis Lazuli : 4.241639790731708
+Black Short Trousers : 2.5878147975553514
+Stack of Hot Piston Blanks : 2.3567368473819155
+Dachshund - just fed : 1.4116720202314523
+Cream Bottle - +contFoodDish : 0.8404320652834554
+King of Diamonds : 0.3553991547808787
+Cooked Wheat Tortilla - just cooked : 0.29553017741343407
+Wet Yew Sapling : 0.2943078971635243
+Nine of Hearts : 0.2693268694016524
+Yellow Pigment Bottle with Funnel : 0.24562436001926358
+
+15
+Burnt Rabbit : 5.531739896301552
+Wool Hat : 1.8584903606280172
+Shredded Cabbage : 0.7692868580946909
+Clay Pit -partial : 0.4390831469131449
+Bowl of Goose Eggs : 0.4117486254531164
+Dug Gooseberry Bush - with Stakes : 0.3185971900885739
+Dye-Ready Bowler Hat with Feather : 0.2984089149247489
+Unstable Bell Tower Base -5.1 monumentStep : 0.2595470573288612
+Tank of Kerosene - just filled : 0.220406494600703
+513 : 0.1745093612132655
+
+16
+Kindling Pile : 5.07550988534658
+Adobe Oven : 3.80991317721452
+Slashed Rubber Tree with Bucket : 1.3265523759792117
+Boiler with Cylinder : 0.6593721138255805
+Pickle : 0.5628389565249898
+Wheat Tortilla Table : 0.5626201460378794
+Firing Oil Drilling Rig - extended : 0.44497033368820155
+Clay Nozzle : 0.4367310120946797
+Track Kit with Separated Blade : 0.43594359764000584
+Partial Marconi Receiver - 2 : 0.4132553916489439
+
+17
+Stack of Pumpkin : 5.163393844090994
+485 : 3.291809080620239
+German Shepherd with Puppies -2 : 2.247526708930719
+Boards with Disk : 1.6674433345388653
+Paving Direction North : 0.7806076745582105
+Burnt Goose : 0.5666245588484446
+Crock of Salted Snow : 0.5030793689159276
+Corn Kernel : 0.46960946450764274
+Rubber Tree : 0.46848196088452565
+Bowl of Crushed Palm Kernels : 0.4412099927537203
+
+18
+Green Wool Sweater : 3.7911770627840955
+Wrought Iron with Filings : 3.5520364086164027
+Big Snowball - melted : 2.4992264853022834
+Wet Planted Potatoes : 2.4647381163292046
+Yellow Sports Car Body : 1.2791698581000381
+Bowl of Corn Seeds : 0.6764904198792568
+Dye-Ready Short Trousers : 0.6052767021061247
+Rabbit Hole -growing : 0.4407879171600612
+Black Top Hat with Black Rose : 0.41873793992361596
+Dye-Ready Wool Sweater : 0.41588261045181574
+
+19
+Hot Steel Spring in Wooden Tongs : 4.7464626766860665
+Wild Carrot : 3.6046317411298765
+Ace of Spades : 1.592893181798368
+Wet Drilling Oil Rig - 6 : 0.9328185614623886
+Wet Planted Dill Seeds : 0.886396237323231
+West Track End with Cart -built : 0.7301433446421874
+Property Fence with Partial Notice - +cornerN : 0.618485176461768
+Bowl of Plaster : 0.534527231586812
+East Track End with Cart -built : 0.5073126482977395
+Cooked Rabbit Pie : 0.46877673098326483
+
+20
+Milkweed Debris -Flowering : 6.235820353303105
+Fractional Distiller : 1.1875000165461158
+Partial Spark Gap Transmitter - 2 : 0.4436276323018484
+Freestanding Newcomen Foundation - 3 : 0.4227776018917129
+Blue Wall Shelf with Slot Notches - +causeAutoOrient +noBackAccess : 0.33781377439385474
+Partially Dug East West Track : 0.32603365697677095
+Carbon Microphone : 0.3123933082458675
+West Track End with Cart -built : 0.29680907867341993
+Skinned Sheep : 0.29620047941347516
+Tank of Water - less full : 0.2921222290651807
+
+21
+Bell Tower - monumentDone : 6.088563066382751
+Dye-Ready Long Dress : 4.404717192615813
+Iron Mine : 0.38523004195364824
+Simmering Cane Juice : 0.30490043389547283
+Pump Valve : 0.23683623064061907
+Rubber Tree with Sealed Slash : 0.23386757302759378
+Blue Plaster Wall - +causeAutoOrient : 0.18261301156771742
+Hot Rod in Wooden Tongs - grabbed : 0.1697854803368956
+Wild Pepper Plant : 0.16803171090606397
+Marked Grave - origGrave son : 0.1269859559740567
+
+22
+Wild Squash : 4.634153390131139
+Diesel Mining Pick without Bit : 2.987760901948728
+Bowl of Cooked Wood Shavings : 2.3535699593926105
+Old Airedale : 2.315086855908716
+Abandoned Rabbit Hole : 1.7549125130989858
+Hitched Horse-Drawn Cart - +causeAutoOrientH : 1.3846811743306735
+Unforged Sealed Electrum Crucible : 1.380740707767431
+Backpack : 1.3493205335507419
+Sapling Cutting : 1.0807663210325824
+Holey Net : 0.7934409489985595
+
+23
+Fence - +wall +horizontalFence : 7.459600775951678
+Skinned Wolf : 1.7555310186861643
+Dug Teosinte : 1.2835055070914854
+Hidden Card - 4 of Diamonds : 0.8645082351762423
+Red Cross Apron with Sterile Pads : 0.534800739610008
+Partially Dug West Track End : 0.3831794323484793
+Bucket of Red Paint : 0.3299550881561211
+Wolf Skin : 0.31713755201744126
+Three of Diamonds : 0.3031628203845373
+Deck of Cards with No Red : 0.2885500143487795
+
+24
+Hot Partial Dipped Candle - 2 : 4.410053247314511
+Marked Grave - origGrave uncle : 3.4053715177845785
+Broken Stone Tool : 2.4726055477216122
+Silver Nitrate Bottle with Funnel - insterted : 2.3244119508685346
+Full Bucket of Milk : 2.3001967091482425
+Stack of Hubbard Squash : 2.229933704677223
+Marked Grave - origGrave just placed : 1.3087734756459466
+Wooden Tongs - empty : 1.0077426323518222
+Red Wall Shelf with Slot Notches - +causeAutoOrient +noBackAccess : 0.8337591822888356
+War Sword - otherFamilyOnly maxPickupAge_55 +tool : 0.5610210287208128
+
+25
+Eight of Diamonds : 5.152449980553605
+Garlic Clove on Plate - +contFoodDish : 4.70170392636042
+Wooden Door - installed vert +verticalDoorWood : 3.8759033603112347
+Diesel Sports Car Chassis : 3.6899463287515117
+Hot Steel Crucible in Wooden Tongs : 3.057380217435813
+Wet Fertile Domestic Mango Tree : 1.0003099163899614
+Three of Diamonds : 0.4571785160003271
+Domestic Pig on Rope : 0.3482107859401248
+Sliced Bread - +contFoodDish : 0.26513651178788716
+Wet Clay Nozzle - just made : 0.25448860664261624
+
+26
+Plaster Wall with Thread - +causeAutoOrient : 4.919179974784884
+Steel Pipe - straightened : 3.2641319854803674
+Sister Template Grave - origGrave : 2.937995801208764
+Carved Turkey on Plate - +contFoodDish : 2.77902011551338
+Jack O' Lantern : 0.5007449739002229
+Sealed Salt Bottle : 0.44916109677486604
+Sulfur Bottle with Funnel : 0.3503230893964356
+Featherless Arrow : 0.342258621702556
+Sealed Black Dye Bottle : 0.2887062368885103
+Cooked Goose : 0.28346842768909464
+
+27
+Fed Shorn Domestic Sheep : 7.990122911230462
+Crude Car with Removed Engine : 0.8074191891211009
+Pile of Threshed Wheat : 0.6057680301146298
+Die : 0.5997087999068059
+Flat Rock with Wood Pulp : 0.4240745382670608
+Bowl of Butter : 0.2938110722299619
+Simmering Dye Mordant : 0.2721151919567997
+Forged Electrum Crucible : 0.2211443566625092
+Small Sign on Stone Wall - +causeAutoOrient +frontWall : 0.20928633294171145
+Sealskin Coat : 0.16560003827182906
+
+28
+Hungry Wolf Puppy -1 : 6.65824673027068
+Cam Timing Assembly : 4.449193464820867
+Newcomen Engine without Rope : 1.684463086203954
+Hidden Card - 6 of Clubs : 0.7275641340801897
+Bowl of Sauerkraut : 0.6050649904070201
+Tower Bell : 0.6028881550440996
+Black Pleated Skirt : 0.4299258517155972
+Three of Diamonds : 0.4206480327006265
+Tire Pile : 0.384264959790895
+Dog Treat - just used : 0.3593737788390573
+
+29
+Pork Taco : 10.322881231868926
+Undyed Bowler Hat with Feather : 2.319574083642042
+Sulfur Bottle with Funnel - insterted : 0.24043684798124973
+Hungry German Shepherd Puppy : 0.22161994779525498
+Stump : 0.16860305690174077
+Niter Solution Bottle with Funnel - insterted : 0.15667975879306847
+Sealed Saltpeter Bottle : 0.136057064293714
+East West Track with Cart -movingEast reversed : 0.10499379580274075
+Turkey Drumstick : 0.08926803549788997
+Exhausted Oil Pump Tower - 4 : 0.08560862723679467
+
+30
+Pneumonia - sick emot_18_60 : 5.473387676877464
+Quicklime Bowl in Wooden Tongs : 4.8146627269851185
+Ice Hole - water dumped 2 : 2.126577292533282
+Yellow Bowler Hat with Yellow Rose : 0.9775765579151611
+Bowl of Butter : 0.9186329294070927
+Oil Drilling Foundation - 3 : 0.8102686936354195
+2323 : 0.8063331302205977
+Deck of Blank Cards : 0.7347941624989596
+Indigo Bowler Hat with Yellow Rose : 0.6652721255428908
+Teosinte : 0.5380265142638139
+
+31
+Oil Drilling Foundation - 2 : 8.60982068206981
+Skinned Seal -no fur : 0.6389273601184218
+Blank Snowman with Arms : 0.6076994403585062
+Indigo Long Dress : 0.5097819882636971
+Tower Bell with Rope : 0.2938069582869062
+Pulley Drive Mechanism : 0.29286456229223323
+War Sword on Flat Rock : 0.25171330389609986
+Sister Template Grave - origGrave : 0.2439007718497785
+Wet Crock in Wooden Tongs : 0.22309806346774702
+Copper Wire : 0.19773077077265774
+
+32
+Flour Bottle with Funnel : 7.060193047461324
+Hidden Card - Q of Spades : 4.035518784557608
+Dung with Hatched Egg : 0.8594064785151782
+Partially Dug North East Track : 0.8165691863388903
+Crude Piston on Flat Rock - just placed : 0.7931177307084296
+Raw Bread Loaf - +contFoodDish : 0.7232872543388832
+Whole Milk Bottle with Funnel - insterted : 0.6020108670250024
+Wet Rubber Sapling : 0.5088934288375832
+Red Cross Apron with Sterile Pads : 0.47049299588924853
+Straight Branch : 0.46301656588839407
+
+33
+Buried Grave - origGrave groundOnly : 7.0377267470587075
+Dill Seed Head : 5.68955475184923
+Arrow Quiver with Bow : 1.2529109351379988
+Bowl of Copper Sulfate - +contLabDish : 0.6350996335847147
+Two Wire Trellis with Kindling : 0.6262954138010703
+Sealskin Coat : 0.5882908129053394
+Dry Planted Cabbage Seed : 0.2526570183595008
+Skim Milk Bottle with Funnel - insterted : 0.20218269815715592
+Fleece : 0.1627330786664959
+Four Rabbit Furs : 0.10699820755895625
+
+34
+Loose Locked Big Sign - $10 : 7.217729337706114
+Southward Pipe : 4.917413712344967
+Stone Hoe - +toolHoe : 1.3470335551619825
+Raw Sugar Bottle - just poured : 1.1575663049209965
+Monolith : 0.5532999113186211
+Pink Rose Bush : 0.4553815883564376
+Schnauser Puppy : 0.3170953778832841
+Newcomen Bore with Full Boiler - justAdded : 0.3147402472477124
+Potato in Water : 0.24950995429110542
+Red Sports Car Body : 0.23701979534551795
+
+35
+Crude Airplane with Empty Tank - +toolThe_Airplane : 8.658804202906751
+Partial AM Transmitter - 3 : 1.3076182568918246
+Partial AM Receiver - 2 : 0.525416269117764
+Partial Marconi Receiver - 3 : 0.4895450643122853
+Carrot Pile : 0.4253446231308875
+Blowpipe with Detached Bottle : 0.32624539472616537
+Property Fence with Pipe - +causeAutoOrientV -wall : 0.3259286191357652
+Dry Rub Bowl with Ground Pepper : 0.3231669389391301
+Pine Wall - +horizontalPine : 0.2649113141978228
+Cooked Berry Carrot Rabbit Pie : 0.26067910566076996
+
+36
+Wet Drilling Oil Rig - 2 : 8.559747646969672
+Hidden Card - A of Spades : 0.9919825789238202
+The Apocalypse - monumentCall : 0.6016302544927992
+Salt Bottle with Funnel - insterted : 0.4760070892265424
+Cool Steel Blade in Wooden Tongs : 0.4238515053430203
+Bucket of Red Paint : 0.3425077239122984
+Cream Bottle - +contFoodDish : 0.22479551987235982
+Bowl of Turkey Broth - +contFoodDish +drink : 0.19709539585808786
+Lab Table - +contLabDish +useOnContained : 0.17800092080689653
+Stripped Iron Vein : 0.15221709838419334
+
+37
+Psilocybe Mushroom - remapStart : 8.649480828914776
+Dachshund Puppy : 0.595919269565955
+East Track End : 0.4179581879470389
+Bore Mechanism : 0.39559091615184555
+Dead Grizzly Bear -0 : 0.3831956568247735
+Stone Hoe - +toolHoe : 0.31883601605940665
+Corn Tortilla Table : 0.31872510972418
+Carbon Microphone : 0.2965978634424588
+Yellow Rose : 0.2947131010113987
+Wet Planted Corn Seed : 0.2650666496489887
+
+38
+Newcomen Lathe with Full Boiler : 6.59835513567651
+Unfueled White Sports Car $30 - +varNumeral +varSerialNumber1 justBuilt : 4.948500254929373
+Adobe Wall - +horizontalAdobe : 2.3219644319100574
+Empty Arrow Quiver with Bow : 1.7403249223816566
+Stone Floor - groundOnly : 1.3885913366888167
+Yellow Pigment Bottle - just poured : 0.9353627723563888
+Skewered Shrimp : 0.9187923804681792
+Stone Wall - +verticalStone : 0.8367868674643031
+Slashed Rubber Tree with Full Bucket : 0.6370015188976778
+2570 : 0.6042216314938756
+
+39
+Bucket of Rubber Dough : 6.565693710623899
+Staked Wild Gooseberry Bush : 6.5203525597647225
+Undyed Top Hat with Feather : 1.231140310799559
+Palm Oil Bottle - just poured : 0.8510115154769413
+German Shepherd with Puppies -2 : 0.6333212734043018
+Red Bowler Hat with Feather - justDyed : 0.5918565754492077
+Bowl of Vermilion Pigment - justMade : 0.4503065572779885
+Stone Hatchet - +toolChopping : 0.3280568528663187
+Arctic Char - alive : 0.2902517666540648
+Hot Pepper - +emotEat_29_10 : 0.21382867966698552
+
+40
+Red Bowler Hat with Red Rose : 9.8281841002928
+Steel File - +tool : 2.336080399897001
+Turkey Feather : 2.0892932086766822
+Cooked Rabbit Pie : 0.9271115417187749
+Bowl of Roasted Palm Kernels : 0.8336500251412817
+Wild Grape Plant : 0.737112280871144
+Roller Mechanism : 0.2482504322549685
+Skim Milk Pouch - +drink +yum1481 : 0.17525619225186662
+Dry Poplar Sapling Cutting : 0.15767040124474999
+Ultramarine Pigment Bottle with Funnel : 0.1050226953054721
+
+41
+Pickle Crock with Salt : 7.359082943397874
+Old Collie : 5.724923996363727
+Dry Stew Pot : 1.6257752204142046
+Yellow Top Hat with Feather : 1.2870903733150278
+Bowl of Soil : 1.2516051474203884
+Undyed Top Hat with Yellow Rose : 1.1984416599545078
+Bowl of Mashed Carrot : 0.782065422611085
+Ace of Spades : 0.7688445268324318
+Empty Scrap Box : 0.6097735005894364
+Empty Plow - just built : 0.5561454681909206
+
+42
+South to Westward Pipe Elbow : 6.567131683998804
+Seven of Clubs : 3.791188453280472
+Complete Oil Drilling Rig : 3.610947031321021
+Bucket of Liquid Latex : 1.8317287627987655
+Filled Small Trash Pit : 1.3371765184823927
+Yellow Top Hat : 0.9368997408638426
+Vinegar Bottle with Funnel - inserted : 0.9125675863649441
+Fertile Soil : 0.7518573708730357
+Fence Kit : 0.7196050800252783
+Pit Bull Puppy : 0.6293204116380682
+
+43
+Stack of Wrought Iron : 7.980962802943582
+Milkweed Debris -Fruit : 3.3050473084927723
+Cabbage Seed : 0.6977376014930787
+Carbon Filament : 0.662828738985244
+Crushed Palm Kernel Bottle with Funnel : 0.6584786463295516
+Bowl of Goose Eggs : 0.6264388022051456
+King of Clubs : 0.6094918346988637
+War Sword - otherFamilyOnly maxPickupAge_55 +tool : 0.42145798008975727
+2717 : 0.3162741154253958
+Broken Hand Cart : 0.2853492748846924
+
+44
+Pile of Live Shrimp : 9.117478826557006
+Bowl of Mango-Infused Cow Urine - +contLabDish : 2.1689872633474234
+1803 : 0.5909276769393847
+Property Fence - +cornerD : 0.5555217329430894
+Bowl of Salt Water - +contLabDish : 0.5366303361660745
+North Track End with Wound Cart : 0.4814710875296626
+Indigo Top Hat : 0.3904690192483825
+Pile of Fleece : 0.36674166895811156
+Dry Bean Pod : 0.31902368893952493
+Broken Wheelbarrow : 0.3021810394598533
+
+45
+Blowpipe With Cool Glass Bulb : 9.060840447193375
+Proposed Property Gate - +causeAutoOrientH +wall : 1.1143663828048926
+Feast Table : 0.723927022947885
+Fruiting Pepper Plant : 0.6736047413272088
+Backpack with Bow : 0.5970562243115145
+Shot Grizzly Bear -3 : 0.5523475770954263
+Bowl of Ultramarine Pigment - justMade : 0.5200215156775441
+Adobe Wall - just deplastered : 0.4800260170075792
+Ten of Clubs : 0.45113930391259804
+Indigo Wool Booty : 0.3763913838362381
+
+46
+Ten of Hearts : 5.3728778552545915
+Knitting Needles - +tool : 4.386476206468501
+Marked Grave - origGrave aunt : 3.512410114116467
+Open Fermented Pickle Crock : 1.9665773218596008
+Letter N : 1.6072698874231357
+Marked Grave - origGrave : 1.0525282578448305
+Carrot Crown with Carrot : 0.8123477288541435
+Rag Shoe : 0.8064105068261297
+Full Bucket of Salt Water : 0.6447784177524899
+South West Track with Cart - moving West reversed : 0.5819224342125986
+
+47
+Pile of Raw Potatoes : 9.849725912695149
+Shaky Property Fence - +verticalC : 0.6696917063484077
+Copper Coil : 0.5206984565049076
+Black Rose - just dropped : 0.24509480549938212
+Natural Spring - gridPlacement40 evePrimaryLoc : 0.2250712152776925
+Dead Sheep : 0.2136658513801215
+Dog Stick : 0.20969743372739763
+Forge with Charcoal : 0.20480693113061024
+Yellow Bowler Hat : 0.20425958660076127
+Hitched Riding Horse - +causeAutoOrientH : 0.19902107060292937
+
+48
+Boards with Rope : 4.727549184797625
+Ultramarine Pigment Bottle - just poured : 4.62874152857207
+Bowl of Iron Filings - just made : 3.743542731176994
+Bowl of Rabbit and Carrot : 2.828115904767648
+Basket of Sheep Bones : 1.9605839005425036
+South East Track with Cart - moving South reversed : 1.6950926824185684
+Glass Funnel - just removed : 1.600220712019715
+Indigo Button-down Shirt : 1.4209983551338752
+Pickle Crock with Dill : 1.3253267626646168
+Bowl of Soda Ash Solution - +contLabDish : 1.317014093044046
+
+49
+Green Top Hat with Pink Rose : 7.691725599789506
+Dead Young Yew Bonsai : 5.089166518885937
+Dry Rub Bottle - +contFoodDish : 2.596481906523932
+White Rose : 0.8795419194747347
+Kindling : 0.8645348206455007
+Dry Planted Corn Seed : 0.7422785432884631
+Dry Pruned Yew Bonsai : 0.6847893597976643
+French Fry with Ketchup : 0.6043242137374469
+Red Wall with Thread - +causeAutoOrient : 0.49742026234875
+Bowl of Roasted Palm Kernels : 0.4965210983410579
+
+50
+Rubber Stopper : 9.422958430693
+Newcomen Roller with Charcoal - +toolThe_Newcomen_Roller : 0.9687749927179775
+Empty Arrow Quiver : 0.7978479707742538
+Clay Crock : 0.652172373347754
+Ground Pepper Bottle - just poured : 0.5064483225020072
+Newcomen Lathe with Charcoal - +toolThe_Newcomen_Lathe : 0.46571790187747486
+Bowl of Soil : 0.4490412869469094
+Mango Leaf : 0.43416985705412914
+Scrap Steel Pile : 0.31051564909577156
+Lit Jack O' Lantern : 0.28571709477100715
+
+51
+Raw Tortilla Chips - +contFoodDish : 10.13498166858523
+Milk Cow -justDrank : 0.3869445814298535
+Pit Bull with Puppy -1 : 0.3663286398130246
+Snow Bank : 0.3252758239206264
+Partial AM Transmitter - 3 : 0.11371150490377403
+Sheep Dung : 0.11306004488856998
+Flint-tipped Bow Drill - +toolBow_Drill : 0.09578069911331953
+Partial Garland - 4 : 0.08575379620214141
+Hitching Post - +wall +causeAutoOrientH : 0.08061655636133312
+Sugarcane Chunks : 0.07919264754657403
+
+52
+Sealed Dry Rub Bottle : 7.405810810360467
+Black Top Hat : 3.436820630654406
+French Fry with Ketchup : 3.2150407695078282
+Wrought Iron : 2.4376345884301283
+Shot Wild Boar with Piglet - arrow : 1.9840609187454596
+Wolf Hat : 1.3232554200302111
+Pile of Wild Carrots : 1.3028128351529618
+Hot Steel Spring in Wooden Tongs -justBent : 0.8728104026656354
+Pile of Wild Garlic : 0.6137770164415562
+Freestanding Newcomen Tower : 0.34723135533611355
+
+53
+Dumped Crushed Palm Kernels : 8.7797525665329
+Fed Domestic Calf - just fed : 2.4427819829606636
+Letter E : 0.8703261278590407
+Double Cylinder : 0.7251229233803458
+Rabbit Fur Loincloth : 0.6864340579212801
+Two Curved Branches : 0.678020175299788
+Straight Branch : 0.643388947595023
+Cut Stones - Hungry Work -just removed +hungryWork10 : 0.6320271163474738
+Three Rabbit Furs : 0.6017337108757115
+Raw Sugar Bottle - just poured : 0.576003148467521
+
+54
+Bowl of Lapis Lazuli : 9.375492179076922
+Raw French Fries on Plate - +contFoodDish : 2.1479529199076928
+Full Bucket of Skim Milk : 2.0017949043593033
+Locked Small Sign on Stone Wall - $10 +causeAutoOrient +frontWall : 1.966915957702826
+Bellows Without Nozzle : 1.092878703314313
+Squash Seeds : 0.782450606451255
+Pile of Hot Peppers : 0.420324790262012
+Property Fence with Loose Pipe - +causeAutoOrientH : 0.34774043601551125
+Dug Wild Bean Plant : 0.32688803339263045
+Sealed Sand Bottle : 0.24448156813204924
+
+55
+Headless Arrow - just pulled : 0.5177264434065317
+Shovel of Dung : 0.5072569573910084
+Hardened Row with Stake : 0.506204330028457
+Pile of Seal Skins : 0.498824689405778
+Fueled Plow - justFilled : 0.4981185736891376
+Dry Yew Cutting in Bowl : 0.49732628388695294
+South Track End Stakes : 0.49622747556456953
+Sand Bottle with Funnel : 0.49215131689113795
+Pine Wall - +cornerPine : 0.4918901665363712
+Bowl of Dry Rub : 0.49165954867723666
+
+56
+Sulfuric Acid Bottle with Funnel : 5.832354381207909
+Stakes - with Skewer : 5.50832745226081
+Dead Bonsai out of Bowl : 3.895714814264071
+Bowl of Rabbit : 3.6340197662277536
+Weighted Fresh Sauerkraut : 2.1648766948474822
+Bowl with Raw Rubber Balls : 1.5797131730251246
+Tule Stumps : 1.2773484154136514
+Bowl of Sulfuric Acid - +contLabDish : 1.127738564986874
+Flat Rock - dough removed : 0.9580632535931197
+Pile of Wild Carrots : 0.9059603585265141
+
+57
+Ready Well Site - +famUse100 +tapoutTrigger &40 &40 &160 &0 : 10.465419880297393
+Scrap Iron - just dropped : 0.3082160530633661
+Letter D : 0.27352270263107786
+Juniper Tree : 0.18029298089904114
+Ice Hole -penguin in : 0.16897980360375803
+Silver Nitrate Bottle - just poured : 0.14799383862716606
+Property Fence Twigs : 0.1455384468002122
+Newcomen Bore : 0.14226318517916972
+Old Beagle : 0.13708688642094505
+Sapling with Cutting : 0.13513732329016429
+
+58
+Running Crude Airplane - +fly : 8.184073204593581
+Wet Plate in Wooden Tongs : 2.8805151545440286
+Seal Skin : 2.8139772740636637
+Yellow Button-down Shirt : 1.3323152781572993
+Pile of Dried Corn : 1.146250543186286
+Scrap Cylinder Head - +becomeUse5 : 1.0650710293939607
+Cooked Fish : 0.9800285928155342
+Fed Mouflon Lamb : 0.5783489339443016
+Unnumbered Red Sports Car : 0.5419446541310665
+Wet Planted Sugarcane : 0.48597800176366024
+
+59
+Dead Domestic Calf : 9.828623372424255
+Full Bowl of Dry Rub : 1.764800308014971
+Ground Pepper Bottle - just poured : 0.925027445026306
+Steel Hoe Blade : 0.6631318888760163
+Partial Marconi Receiver - 4 : 0.5597244017290981
+Dead Beagle Puppy : 0.5256992674023461
+Wet Planted Onion : 0.3434592320621084
+Hitched Riding Horse - +causeAutoOrientH : 0.30791812217926173
+Adobe Wall - just deplastered : 0.2942373232172032
+Broken Wood Tool : 0.2364805235065143
+
+60
+Dead Bison Calf : 7.719396075060206
+Schnauser Puppy - just fed : 4.995614481625185
+Undyed Top Hat : 1.6780847511643278
+Ripe Cucumber Plant : 1.3824590383744035
+Snow Door - +tapoutTrigger &1 &1 &1 &2 +verticalDoorSnow : 0.9192109660764344
+Cut Fresh Dill : 0.5366008928545126
+Ripe Onions : 0.5073018203025534
+Wild Garlic : 0.45054389002486284
+Basket of Soil : 0.380472594513915
+Goose Feather : 0.36568927268903084
+
+61
+Tule Stumps with Basket : 9.817494824391913
+Red Button-down Shirt : 0.960091854974225
+Buried Grave with Dug Stone - origGrave : 0.8559308061041204
+Pile of Wolf Skins : 0.49710985177637784
+Rubber Tree : 0.4527718141081877
+Silver Nitrate Bottle with Funnel : 0.36369043705956605
+Clubbed Seal : 0.319399782010924
+Dug Teosinte : 0.3181326287183804
+Yellow Cloak : 0.2938241651618784
+Wild Pepper Plant : 0.2864304583545968
+
+62
+Wild Rose Seed - pink : 9.080918586546044
+Blue Rose - just dropped : 1.5854901113163662
+Wet Bay Sapling : 0.9475445523279645
+Overgrown Old Yew Bonsai : 0.676122251681026
+Ace of Clubs : 0.512769220266533
+Stack of Steel Piston Blanks : 0.5083840772634021
+Composting Compost Pile : 0.49541847326690824
+Blue Wall Slot Shelf - +causeAutoOrient +noBackAccess : 0.4149047134764708
+Fed Domestic Calf with Rope : 0.4135887932370159
+Oil Pumpjack with Empty Tank : 0.3104519823709427
+
+63
+Marked Grave - origGrave sister : 10.471646317308721
+Exhausted Oil Pump Tower - 5 : 0.6669980988627568
+Newcomen Drill : 0.5585642163912188
+Dead Boar - no arrow : 0.20964785725069446
+Dead Chihuahua Puppy : 0.20713061163376487
+Flint Arrowhead - just removed : 0.1698625969789644
+Tortilla Chip : 0.16800182275409406
+The Apocalypse - monumentCall : 0.16356739470289142
+Sealed Glasswort Ash Bottle : 0.15642321985652646
+Empty Paver - B : 0.15160239754664784
+
+64
+North East Track : 11.043327721390547
+Pile of Straw : 1.2310640428113186
+Corn Kernel Pile : 1.0896648655353565
+Freestanding Newcomen Tower : 1.0603283075127565
+Arctic Char - unskewered : 1.0231237800187614
+Black Cloak : 0.32598003778928014
+Firing Newcomen Hammer - +toolThe_Newcomen_Hammer : 0.3226543715152023
+Dye-Ready Long Skirt : 0.3010267723204889
+Stone Block -justDug : 0.2924440022656667
+Bucket of Palm Kernels : 0.22449402669277316
+
+65
+Steel Spring : 9.380970423621367
+Newcomen Tower Foundation - 1 : 3.365877394067517
+South West Track with Cart - moving West reversed : 1.433406714148496
+Empty Paver - B : 1.2369408118580454
+Hidden Card - 6 of Hearts : 0.9878175120219471
+Pine Tree with Three Garlands : 0.9364676880929437
+Airedale with Puppies -2 : 0.8072311646570944
+Bow Drill Bow with Removed Shaft : 0.7924880493543655
+Empty Cistern : 0.7683840531358983
+Aunt Template Grave - origGrave : 0.7120385423852615
+
+66
+Dead Bison -arrow 1 : 8.761574512572997
+Seeding Carrots : 4.783139029385511
+Indigo Top Hat with Blue Rose : 0.9859498673315993
+Undyed Bowler Hat with White Rose : 0.9515255007108302
+Sheepskin Saddle : 0.8800259524096823
+Scrap Iron : 0.852874235822978
+Filled Small Trash Pit : 0.7499628423323272
+Crucible with Malachite and Charcoal : 0.6856149163318227
+Barrel Cactus : 0.6352998914221601
+Dead Airedale Puppy : 0.6293588406761901
+
+67
+Crock of Ice Cream : 9.473558010417648
+Blue Wall with Box and Thread - +causeAutoOrient : 2.8232365146828005
+Crushed Palm Kernel Bottle - +contLabDish : 1.285066438413913
+Warm Zinc Ingot in Wooden Tongs : 0.975298852419023
+Hot Adobe Oven - +tool : 0.7191975255191938
+Bowl of Roasted Palm Kernels : 0.6743222532310575
+Unstable Bell Tower Base -3.1 monumentStep : 0.525371198425223
+Renewed Property Fence Box - +cornerJ : 0.521218736394882
+Burnt Shrimp : 0.49528604678442684
+Oil Drilling Rig with Charcoal - extended : 0.4817851292036777
+
+68
+Chip with Salsa : 8.719435110306838
+Chihuahua Puppy : 8.60996125573297
+Plucked Turkey on Plate - +contFoodDish : 2.700775256597109
+Dry Planted Garlic : 2.3890991748040014
+Hidden Card - 9 of Clubs : 0.8785654870790438
+Bowl of Mashed Berries and Rabbit : 0.33605487669493356
+Dachshund with Puppies -2 : 0.3306885301390787
+Candle : 0.2797738698209989
+Bowl of Carrot Seeds : 0.20350520243140316
+Bowl of Salsa : 0.18147447023722735
+
+69
+Hidden Card - A of Diamonds : 7.312531596726993
+Green Top Hat : 4.348550159174425
+Dry Planted Beans : 2.9620365945921834
+Schnauser - just fed : 2.446587999679285
+Dead Sheep : 1.8508036904135219
+Camera taking Photograph - +photo : 1.1149515064094335
+Burnt Shrimp : 0.9572847456758027
+Wooden Disks : 0.946492794383002
+Fed Domestic Lamb : 0.758872661808663
+Steel Piston Blank in Wooden Tongs : 0.7347324976711664
+
+70
+Maple Tree Cutting : 8.085714740760968
+Dead Mouflon Lamb : 6.46509414218492
+Black Plaster Wall - +causeAutoOrient : 2.373986059665737
+Crowned Wild Horse : 2.1306539291235724
+Bolt of Wool Cloth : 0.7832976137034602
+Blowpipe With Cool Funnel : 0.6720289069970017
+Blue Sports Car $30 - justFueled +varNumeral : 0.6561094536278115
+Hitched Wild Horse - +causeAutoOrientH : 0.538019039305106
+Vinegar Bottle - +contFoodDish : 0.5359031881523272
+Live Shrimp : 0.5137889471153902
+
+71
+Bowl of Limestone : 7.950278201850022
+Spoon of Dry Rub : 5.655073991275288
+Stack of Yellow Sheet Metal : 0.8253777613343201
+Steel File with Chisel : 0.7249791460671454
+Crushed Palm Kernel Pile : 0.7115216421172412
+Bowl of Bagasse - just scooped : 0.6654791094466443
+Bowl of Squash Seeds : 0.6265524152704878
+Hot Forged Electrum Crucible : 0.6198664410415881
+Wilted Rose : 0.6158270752832187
+Skirt and Shirt : 0.5754001544286979
+
+72
+Stone Wall with Board Stack - +causeAutoOrient : 7.033781077832955
+Bowl of Silver Nitrate Solution - +contLabDish : 5.224207775442647
+Bowl of Copper Sulfate with Alum and Niter : 3.5951612629261507
+Raw Berry Carrot Pie : 2.6859427394199087
+Niter Solution Bottle with Funnel - insterted : 1.064379847614604
+Bowl of Mashed Carrot : 0.8251609881181391
+Bowl of Wood Pulp : 0.7532329256744418
+Fertile Soil : 0.6931351173131044
+Black Bowler Hat with Red Rose : 0.6378409135532076
+Skirt and Shirt : 0.5261084149152021
+
+73
+North West Track with Cart - moving North reversed : 9.398361059719772
+Bowl of Gold Flakes : 3.6385326649204375
+Pig Bones : 1.2918423984632779
+Pile of Alum : 1.0707440533919614
+Pickle Crock : 1.0067818019676764
+Raw Potato : 0.7371862312611518
+Crucible with Iron : 0.6660947034005127
+Pile of Sheep Skins : 0.5916485871714193
+Live Shrimp : 0.47140557750871687
+Hot Large Pulley in Wooden Tongs : 0.4622420838123789
+
+74
+Bucket of Milk Paint : 9.293496096362912
+Chopped Tree - Hungry Work -Small &wood2 +hungryWork10 : 1.8399696227449778
+Staked Gooseberry Bush : 1.6435229661486952
+Copper Foil : 1.009083761685906
+Flour Bottle - just poured : 0.48437140949648727
+771 : 0.45824847716408845
+Mature Garlic : 0.40298817374974033
+Wet Planted Peppercorn : 0.3944195878376865
+Dye-Ready Wool Hat : 0.38575041016831035
+Fleeing Rabbit : 0.38011730351329276
+
+75
+Wet Planted Garlic : 1.3018641842179601
+Pine Tree with Candles : 1.1224600209531228
+Malachite : 1.103887820764188
+Knife - +tool : 1.0389509462790194
+Turkey Bones on Plate : 1.0101331409958951
+North South Track with Open Springy Door - +autoDefaultTrans : 0.995649133832831
+East Track End with Wound Cart : 0.9674390746418428
+Rose Hip - pink : 0.9544873090526089
+Partial Spark Gap Transmitter - 1 : 0.9102471013322027
+Locked Big Sign on Stone Wall - $10 +causeAutoOrient +frontWall : 0.9083986186549321
+
+76
+Bowl of Gooseberries and Carrot : 8.58711657221428
+Partial Garland - 6 : 6.8134409964037586
+Overgrown Old Yew Bonsai : 1.1323997434472617
+Die in Bowl : 0.8634709551482556
+1803 : 0.38171728695224316
+Dung with Hatched Egg : 0.29257283620362334
+Seeding Wild Dill : 0.21567973499894108
+Unforged Steel Crucible in Wooden Tongs : 0.20346925084264922
+Partial AM Transmitter - 2 : 0.19920456929855518
+Cross Track with Cart - moving North reversed : 0.17943826194500329
+
+77
+Dead Poodle Puppy : 6.737014911386764
+Firing Adobe Kiln - +tool : 5.843675809743547
+Wooden Shoe : 3.3370195255591333
+Two of Hearts : 3.1037474575744
+Snowman Remnants - 2 : 1.9724797975351833
+Pine Floor - groundOnly : 1.810106815997431
+Letter T : 1.4371307201617953
+Sheep Dung : 1.2806134845920796
+Stack of Bean Burritos - just Made +contFoodDish : 0.8602254192304278
+Pile of Straw : 0.777301592872227
+
+78
+Stack of Blue Sheet Metal : 7.825164882107549
+Track Kit : 4.769444059726714
+Broken Steel Tool : 2.6969617195777165
+Blue Plaster Wall - +causeAutoOrient : 1.2016543749846835
+Crude Piston : 0.9298560215477374
+Small Ball of Yarn : 0.8212232044568345
+Table with Masa Dough : 0.5670638764767442
+Beagle with Puppy -1 : 0.5440588744919912
+Free-standing North-South Wall Stakes : 0.40026200736014217
+Indigo Cloak : 0.38030557485105937
+
+79
+Hot Partial Dipped Candle : 9.320736988850204
+Wild Onion : 1.3320634383432206
+Red Wool Sweater : 1.0611431374739073
+Exhausted Deep Well : 1.0310551288240608
+Black Bowler Hat with Feather - justDyed : 0.49977271911749355
+Black Top Hat with White Rose : 0.37633391040054504
+Bowl of Raw Sugar : 0.3457907209453016
+Wool Sweater : 0.31613266525086975
+Antivenom Blood Bottle with Funnel : 0.2795374651223287
+Stone Wall with Boards - +causeAutoOrient : 0.2594104208387075
+
+80
+Bowl of Gooseberry Seeds : 7.640205947493215
+Dye-Ready Bowler Hat : 6.371940341176117
+Blowpipe with Detached Wine Glass : 2.644998935160889
+Newcomen Roller with Charcoal - justAdded : 0.9357184555740672
+Slashed Rubber Tree with Bucket : 0.9098101497266224
+Wild Grape Plant : 0.8500997590074831
+Red Sports Car $30 - +varNumeral : 0.7410093710672326
+Smithing Hammer Head : 0.7223327802320585
+Diesel Sports Car Chassis : 0.694372385152524
+Plucked Turkey on Plate - +contFoodDish : 0.6068123045803414
+
+81
+Palm Olein Bottle with Funnel : 7.043624117105472
+Sulfuric Acid on Ashes : 5.399673271736146
+Queen of Diamonds : 5.095931549714453
+Unfueled Green Sports Car $30 - +varNumeral +varSerialNumber1 justBuilt : 1.156726283139813
+Black Bowler Hat with Feather : 0.7430869421832164
+Sealed Ketchup Bottle : 0.7074859624142724
+Follower Gate - +followerOwned +causeAutoOrientH +blocksNonFollower +blocksMoving +badgePos50 &39 +autoDefaultTrans +leaderInherit : 0.5465400401653105
+Indigo Wool Booty : 0.4143550010518134
+Copper Foil with Carbon Granules : 0.41064179389925143
+Pile of Burdock Roots : 0.3862151481271248
+
+82
+Wet Pine Sapling Cutting : 9.431406071598955
+Yellow Pigment Bottle with Funnel : 2.3218257906552267
+Yellow Pigment Bottle - +contLabDish : 0.912564664647367
+Cooking Three Sisters Stew : 0.542318924506812
+Mature Potato Plants : 0.4367441183842874
+Wet Kerosene Newcomen Pump - burner added low : 0.41723295615763734
+Bowl of Squash Seeds : 0.4040262919915104
+Hot Coals - +tool : 0.3769461151205041
+Crude Piston : 0.37622510446522694
+Dirty Raw Wheat Tortilla : 0.36776103469303534
+
+83
+Ready Diesel Mining Pick - +tool : 6.936918798835961
+Huge Ball of Yarn : 4.3164933125598735
+Unpowered Pump Head - from shallow : 4.128327906451398
+Bowl of Turkey Broth - +contFoodDish +drink : 3.6612672632559495
+Stack of Pork Tacos - just made +contFoodDish : 1.5490893529656384
+Dry Glasswort : 1.461430013722438
+Hungry German Shepherd Puppy : 1.2001289419299155
+Partially Dug East Track End : 0.9915999015006127
+Stack of Clay Bowls : 0.963741964861825
+Partial Bucket of Salt Water : 0.8761029485284297
+
+84
+Soda Ash Bottle - +contLabDish : 4.967730431067323
+Sealed Vinegar Bottle : 4.3835621708376316
+Letter H : 4.0300832333363985
+Dachshund Puppy - just fed : 3.656734480690323
+Devil Mask : 3.499228287112596
+Dye-Ready Wool Hat : 3.2909483275208147
+Wheat Seed Head : 3.1863229110949143
+Pile of Fleece : 2.284861490015061
+Unnumbered Black Sports Car : 2.1273067351325285
+Pit Bull with Puppies -2 : 1.7749111702446316
+
+85
+Adobe Oven Base : 9.774819541316555
+Partial Bucket of Salt Water : 0.7532189604778079
+Butt Log : 0.6420041832053314
+Hot Copper Crucible in Wooden Tongs : 0.4678801788881573
+Ten of Spades : 0.3897766023875674
+Stack of Copper Rods : 0.3498879668689327
+Dry Pruned Yew Bonsai : 0.34462693071161365
+Ember Leaf : 0.34148308865300064
+Bowl of Glasswort Ashes : 0.3153178174410841
+Indigo Top Hat with Green Rose : 0.3059451391675649
+
+86
+Sand Bottle with Funnel - insterted : 10.094286935127311
+Baked Potato : 0.9646751154288604
+South to Eastward Pipe Elbow : 0.5843745783178017
+Stack of Sheet Metal - paint scraped : 0.45364666479305843
+Red Cross Apron with Sterile Pads : 0.3677011385166536
+Domestic Lamb with Rope : 0.36753660087469847
+Full Water Pouch Pile : 0.3543422793751424
+Snowman Remnants - 2 : 0.340713979215126
+Two Copper Coils : 0.3328626504085608
+Stack of Glass Bottles : 0.3051283298557917
+
+87
+Roller Mechanism : 7.14746624946133
+Newcomen Drill with Charcoal - +toolMachined_Holes : 6.795652920372464
+Whole Milk Bottle with Funnel - insterted : 2.191066994884226
+Scrap Iron - just dropped : 1.3764782180604511
+Thin Steel Rod in Wooden Tongs : 1.1689107615613958
+Hot Piston Blank in Wooden Tongs : 0.711213806333659
+Wild Carrot : 0.44002693851207636
+Crude Airplane on Landing Strip - +toolThe_Airplane : 0.42170431557521104
+Heat Stroke - sick emot_21_60 : 0.40461868885057767
+Wood Shavings in Simmering Water : 0.2442402639853085
+
+88
+Stone with Endblock Marking : 9.347660232416096
+Sealed Ground Pepper Bottle : 2.7960911298666145
+Exhausted Oil Pumpjack - 1 : 2.0201492463345114
+Old Hand Cart : 1.8394552290604427
+Partial Bucket of Salt Water : 1.8298430394081715
+Wet Planted Beans : 0.9851151443521161
+Empty Wild Cucumber Plant : 0.8477704100633329
+Spoon : 0.75658594782438
+Two Curved Branches : 0.737119217932445
+Yellow Plaster Wall - +causeAutoOrient : 0.5265584788687302
+
+89
+Ace of Diamonds : 10.117670508736214
+Hidden Card - 4 of Hearts : 1.2802834289293372
+Thin Steel Rod in Wooden Tongs : 0.7674460811995115
+Weighted Fresh Pickle Crock : 0.6851433195016683
+East Track End with Cart -built : 0.6117134384221694
+Cut Pumpkin : 0.48139080138580764
+Yellow Sports Car $30 - justFueled +varNumeral : 0.4706447459477463
+Red Top Hat with Red Rose : 0.4546462972001851
+Shredded Cabbage with Board : 0.4423286140634362
+Letter W : 0.3646871904538133
+
+90
+Tipped Horse-Drawn Tire Cart - ground : 10.330864826901204
+Renewed Property Fence - +cornerH : 1.2901883744626774
+Yellow Pigment Bottle - +contLabDish : 0.3034155030882009
+Seven of Spades : 0.296485460094753
+Dead Sheep : 0.2873068262902972
+1803 : 0.207039183035325
+Diode Leads : 0.16868548526216137
+Jack O' Lantern with Candle : 0.16689981652252675
+Crock of Cabernet Grapes : 0.1661643002722142
+Short Shaft : 0.16575590011975946
+
+91
+Arrow - just removed : 8.146585656804737
+Dug Wild Squash Plant : 5.369096166535302
+Freestanding Newcomen Foundation - 2 : 1.0165009812755674
+Jack O' Lantern : 0.9662969428948721
+Electromagnet : 0.5842655851503278
+Hot Steel Blade Blank -flat rock : 0.5198144971806312
+Garlic Bulb Pile : 0.3881492650591885
+Sulfur Bottle with Funnel : 0.38010366154328684
+Hot Wrought Iron -flat rock : 0.3570178633538941
+Flat Rock with Masa Dough : 0.3479637910370573
+
+92
+Springy Open Wooden Door - installed vert +autoDefaultTrans +verticalOpenSpringyDoor : 5.7666304138692785
+Dead Collie Puppy : 4.203223443397744
+Fractional Distiller with Empty Tank : 3.2625792640436897
+Wet Diesel Water Pump : 2.599639407817794
+Copper Wire : 2.372842722198927
+Bowl of Cinnabar : 2.022664585690942
+Palm Oil Bottle - +contFoodDish : 1.5185511206338413
+Snake-Bit Horse with Blood Leak - ground : 1.449994522285104
+Adobe Wall - +cornerAdobe : 1.3425344848768708
+Ball of Thread : 1.1613531115022833
+
+93
+Bound Deck of Cards : 7.167384107655715
+Dehydrated Urushiol Poisoned Cow : 5.5077639344738705
+Canada Goose Pond -swimming : 1.5012135730364484
+Sugarcane Chunks : 1.496346236912619
+Steel Blade Blank with Key $10 : 1.45989473860096
+Escaped Riding Horse - just released : 1.4474159095946937
+Drum Sticks on Plate : 1.3519448931946159
+Tomato : 0.9742034965526325
+Cactus Fruit : 0.796659408939726
+Tank of Kerosene - just filled : 0.7614480881558504
+
+94
+Ice Hole -seal just in : 8.78097011253485
+Undyed Bowler Hat with Pink Rose : 3.4028348034500393
+Quenched Steel Spring : 1.9033312351798475
+Green Bowler Hat with Feather - justDyed : 0.9158598925171255
+Unnumbered White Sports Car : 0.7823478105812428
+Undyed Top Hat with Red Rose : 0.6953979340047958
+Partial Bucket of Salt Water : 0.5418117738859103
+Skewered Goose : 0.5271287007515334
+Red Rose : 0.4969332041532299
+Stone Block -justDug : 0.40008263407831823
+
+95
+Partial Adobe Wall - +cornerPartAdobe : 6.2114275867793545
+North Track End Stakes : 4.3228350594089795
+Pink Rose : 2.992922006437773
+Fresh Peppercorn Cluster : 2.9015985639580264
+Oil Drilling Foundation - 1 : 2.368760266903684
+Spark Terminal : 1.914997020985182
+Two Pieces of Wool Felt : 1.778108091636861
+Indigo Bowler Hat : 1.2610803368380796
+Bagasse : 0.7435974326382748
+Thread Crucible in Wooden Tongs : 0.6244959258007742
+
+96
+Carrot Crown : 6.852245630182085
+Pile of Pine Needles : 4.060112027979756
+Undyed Top Hat with Blue Rose : 3.714218390344818
+Flour Bottle with Funnel - insterted : 2.994651191523323
+Springy Wooden Door - Installed +horizontalSpringyDoor +cornerSpringyDoor +autoDefaultTrans +blocksMoving : 2.7935153701620763
+Low Frequency Marconi Receiver - >global3 : 1.429193618085499
+Tank of Kerosene - just filled : 1.3022973264746862
+Wet Pruned Yew Bonsai : 1.0543236002812488
+2079 : 0.9882314446603568
+Blank Card Stack : 0.7333063499242666
+
+97
+Drum Stick on Plate : 7.122857031622438
+Charcoal Pencil - +tool : 6.859024366753446
+Schnauser with Puppies -2 : 2.2225659194557013
+Dachshund with Puppies -2 : 1.5583581466171483
+Sealed Niter Solution Bottle : 1.1055028320803495
+Jack of Diamonds : 0.8384862100596322
+Precision Piston : 0.7285459247996228
+Newcomen Lathe with Full Boiler : 0.601156482044984
+Fed Domestic Lamb -post hungry : 0.5045402159410263
+Red Sports Car Body : 0.43865921134714975
+
+98
+Pile of Adobe : 4.380193871489295
+Simmering Salt Water : 4.113672581267273
+Trellis Kit : 3.4506803712992835
+Hidden Card - A of Clubs : 3.2742065101633226
+Undyed Top Hat with Black Rose : 2.702769735655582
+Fed Shorn Domestic Sheep - just unroped : 2.5410877112315857
+Snake-Bit Riding Horse - ground : 1.9070793039881055
+White Rose : 1.7026970605161178
+Cold Bowl with Rose Seed - red : 1.6429585847140207
+Marked Grave - origGrave brother : 1.5352639001438426
+
+99
+Tied Long Shaft : 11.417284419389597
+Milk Cow -justDrank : 0.7661046463536675
+Letter E : 0.43907604967619535
+Sealed Salt Bottle : 0.18263834094884687
+Yellow Bowler Hat with Red Rose : 0.16413694834724538
+Full Cistern - +famUse100 : 0.160578207278877
+Bowl of Soda Lime Mixture : 0.15311928557586357
+Big Ball of Yarn : 0.1498268079753082
+Partial Track Cart Kit -4 wheel : 0.13147510804245188
+Bowl of Masa Dough : 0.12201413869283083
+
+100
+Stack of Bean Burritos - +contFoodDish : 9.469726500701107
+Hot Flat Rock : 2.859477160907589
+Black Sports Car Body : 2.1724491432231257
+Newcomen Roller with Charcoal - justAdded : 1.7197809013927026
+Iron Mine : 1.0325602912455982
+Pile of Cactus Fruit : 0.9447073832705377
+Old Hand Cart : 0.6225503620666089
+Fruiting Tomato Plant : 0.6014214899643174
+Molten Glass : 0.5435377038356478
+Stack of Yellow Sheet Metal : 0.49491942329583916
+
+101
+Property Fence with Unsigned Notice - +horizontalM : 6.269077221048223
+Fresh Dill : 5.383088949050967
+Cooked Mutton Pie : 2.4094380738601027
+Sprouting Potato : 2.3060681124568068
+Stack of Green Sheet Metal : 1.7221004014946744
+Bowl of Plaster : 1.3362979582325343
+Cooked Mutton : 1.0612224699515715
+Kraut Board : 0.9960041814332448
+Red Rose : 0.5749792195199022
+Yellow Pigment Bottle - just poured : 0.5099382686058921
+
+102
+Indigo Wool Hat : 6.453223340455491
+Cooked Berry Carrot Pie : 4.721701882619309
+Schnauser Puppy : 3.5525868634837425
+Operating Medium Frequency Transmitter - *global2 : 3.064550911610772
+Jack of Spades : 0.8372188331866518
+Vinegar Bottle with Funnel - inserted : 0.48795548319984866
+Basket of Sheep Bones : 0.4848876756441879
+Canada Goose Pond -swimming : 0.36506895309576287
+Wet Planted Corn Seed : 0.32914497715678226
+Filled Empty Trash Pit : 0.30365112210811496
+
+103
+Pile of Yew Shafts : 7.015583328550986
+Sealed Glass Bottle : 6.234304345469247
+Newcomen Pump Tower : 2.415800009169756
+Newcomen Drill with Full Boiler : 2.2691596277184
+Hot Small Pulley in Wooden Tongs : 0.7068898478752196
+Property Fence with Partial Notice - +cornerN : 0.5644451343401451
+Harvested Wheat : 0.5063361985171412
+Adobe Rubble - Hungry Work - 3 +hungryWork10 : 0.3038756230292403
+Stratified Rose Seed - white : 0.27893644864860323
+Fired Plate in Wooden Tongs : 0.27533792138052
+
+104
+Tempered Steel Spring in Wooden Tongs : 8.931565093903558
+Chopped Tomato on Plate - +contFoodDish : 3.191318925211686
+Flint Arrowhead : 2.5077528895973655
+Bowl of Niter Solution - just made +contLabDish : 2.0478641749537356
+Bowl of Skim Milk - +contFoodDish +drink : 1.3978576722212586
+Empty Wild Tomato Plant : 0.7898414165916158
+Indigo Bowler Hat : 0.6810547180841681
+Dry White Rose Bush : 0.6781049096042697
+Stack of Bean Tacos - just made +contFoodDish : 0.609453175040095
+Leaf Crown : 0.601615371958324
+
+105
+Ropeless Exhausted Oil Pumpjack - 2 : 6.856373220106601
+Flat Rock -just removed : 4.825067047227632
+Stone Pile -rubble : 3.5915989717425796
+Steel Hoe - +toolHoe : 3.248237782405333
+Hungry Beagle Puppy : 2.0351819269772307
+Bowl of Whole Milk - +contFoodDish +drink : 1.3788258510366467
+Letter G : 1.1086217833973206
+Property Fence with Partial Notice - +cornerN : 1.0506383207859704
+Steel Froe : 0.8856463807014805
+Snake Skin Boot : 0.8509102438095606
+
+106
+Hot Electrum Crucible in Wooden Tongs : 5.813898315246431
+Plaster Wall - +causeAutoOrient shelfRemoved : 4.8765932721968905
+Wild Rose Hip : 3.178965871247707
+Empty Paver - B : 2.219052307883109
+Ten of Clubs : 1.6494403206572312
+Sheet Metal : 1.490654727581642
+Yellow Long Dress : 1.4188924026436345
+Plate of Whole Shrimp - +contFoodDish : 1.2965734151666457
+Hitched Tame Horse - +causeAutoOrientH : 1.1989175150359812
+Fleece : 1.081146326847646
+
+107
+Yellow Bowler Hat with Pink Rose : 8.390416196349783
+Two Loom Heddles with Reed : 5.1620270385839975
+Fueled Oil Pump : 2.0266259241137643
+486 : 1.2752967228360426
+Limestone : 1.0618726852810496
+Hidden Card - 7 of Hearts : 0.9514057714213006
+Wild Rose - picked : 0.6532503677577671
+Skewered Fish : 0.5435851080995554
+Fueled Sprinkler Pump : 0.5095734145530738
+Forged Electrum Crucible : 0.4651898906899141
+
+108
+Newcomen Hammer with Full Boiler : 7.698009134599588
+Old Wheelbarrow : 5.412192766463284
+Pot of Copper Sulfate : 2.5732517057230564
+Fruit Boot : 1.591272192455798
+Running Plow - shallow row : 1.3342756583860784
+Blade with Shaft : 0.9495146663569958
+Snow Wall - Arctic Only - +biomeReq4 +horizontalSnow : 0.6484829152319238
+Copper Rod : 0.5288206861481093
+Poodle with Puppies -2 : 0.45461611485790926
+Tripod : 0.3843484744318742
+
+109
+Stack of Firewood : 7.321571782044501
+Marked Grave with Chisel - origGrave sister : 6.674580862925722
+Dry Deep Well : 0.5553880365503292
+Split Big Rock -left : 0.3682004723301234
+Bowl of Cinnabar : 0.2654501767776052
+Simmering Dye Mordant : 0.24659399784993555
+Stack of Steel Pipes : 0.24058585724285084
+Scrap Steel Pile : 0.21197663327504052
+Home Marker - eveHomeMarker : 0.1819168381508681
+Pulley Timing Mechanism : 0.1763728942088922
+
+110
+Wet Glasswort Cutting : 8.807083748746978
+Dead Dachshund Puppy : 3.1167008231627924
+Cross Track with Cart -movingEast reversed : 1.4145535540548457
+Ripe Cabernet Sauvignon Plant : 1.1109418965438944
+Stomper : 1.107591838195827
+Three of Hearts : 0.843665424025274
+Undyed Bowler Hat with Blue Rose : 0.7814862453882332
+Yellow Short Trousers : 0.7700555780475029
+Three of Diamonds : 0.7151385060265898
+Brother Template Grave with Chisel - origGrave : 0.6792302561699955
+
+111
+Free-Standing Corner Fence Holes - groundOnly : 26.54933870985191
+Crucible with Malachite and Charcoal : 2.349613827049727
+Bowl of Soaking Beans - +contFoodDish : 0.3739797450367484
+Yellow Wool Sweater : 0.16868122726799578
+Bowl of Soaking Tomato Seed Pulp - +contFoodDish : 0.0959727686579918
+Red Rose : 0.08352622510978815
+Pile of Dug Stumps : 0.07653107645494767
+Snow Door - +tapoutTrigger &1 &1 &1 &2 +verticalDoorSnow : 0.061837071939634634
+Feast Plate - +contFoodDish : 0.0611797950550804
+Partially Dug North Track End : 0.05209036054555467
+
+112
+Soda Lime Glass Batch : 9.025224086979842
+Small Sign : 1.383737072328561
+Stuck Bell Tower : 1.0616328808939268
+Table with Masa Dough : 1.027793051847722
+Bellows : 1.0108809193260162
+Rubber Ball - held : 0.9316633660405046
+Buried Grave - origGrave groundOnly : 0.7509139584114756
+Blowpipe With Cool Glass Bottle : 0.5640765127397068
+Domestic Lamb : 0.4018710694459033
+Fed Mouflon Lamb -post hungry : 0.32325645222716765
+
+113
+Queen of Hearts : 6.955588110341547
+Cut Sapling Skewer : 6.77312536090722
+Loose Fence - +wall : 2.504502626809713
+Thread in Sealed Crucible : 2.481412544608825
+Three of Hearts : 2.0786023196638177
+Clay Deposit : 1.7249406060583268
+Glasswort Cutting : 0.26470068827642246
+Vermilion Pigment Bottle - +contLabDish : 0.11835591097913983
+Dry Yew Sapling Cutting : 0.10831580271725286
+Ace of Hearts : 0.1054133650112235
+

@@ -1,0 +1,60 @@
+0
+Free-Standing Corner Fence Holes - groundOnly : 0.20067521485527015
+Raw Rubber Mask Blank : 0.16080803718334558
+North East Track : 0.15839926158107426
+Red Bowler Hat with Red Rose : 0.15793462341135708
+Palm Olein Bottle with Funnel : 0.15421206953495872
+Plaster Wall with Thread - +causeAutoOrient : 0.15375473820202798
+Buried Grave - origGrave groundOnly : 0.15287902985234483
+Low Frequency Marconi Receiver - >global3 : 0.1513403936911531
+Steel Chisel : 0.15073284736020656
+Pile of Fleece : 0.1506904217823558
+
+1
+Chip with Salsa : 5.514210699992197
+Chihuahua Puppy : 5.4458790282694345
+Plucked Turkey on Plate - +contFoodDish : 1.7122958464492166
+Dry Planted Garlic : 1.5131691297312262
+Hidden Card - 9 of Clubs : 0.5564462087416437
+Rubber Stopper : 0.37861767986644446
+Bowl of Mashed Berries and Rabbit : 0.21531026614232865
+Dachshund with Puppies -2 : 0.21171162174562969
+Candle : 0.17695556223796347
+Bowl of Carrot Seeds : 0.1288943343726288
+
+2
+Pork Taco : 10.378867139086827
+Undyed Bowler Hat with Feather : 2.32969362546098
+Raw Rubber Mask Blank : 0.38451439781567515
+Sulfur Bottle with Funnel - insterted : 0.24045761071339428
+Hungry German Shepherd Puppy : 0.2233713777283292
+Dug Sapling Stump : 0.17729702894415977
+Stump : 0.16954235568654208
+Niter Solution Bottle with Funnel - insterted : 0.15574245180824026
+Springy Wooden Door - Installed +horizontalSpringyDoor +cornerSpringyDoor +autoDefaultTrans +blocksMoving : 0.1369921570557407
+Sealed Saltpeter Bottle : 0.134999766678236
+
+3
+Proposed Property Fence - groundOnly +horizontalA : 10.253687497762249
+Flat Rock - empty : 5.63554125764616
+Wolf Puppy -1 just fed : 2.06354465521753
+Yule Tree : 1.567818970222251
+Exhausted Oil Pump Tower - 7 : 1.5345750094065242
+Bolt of Wool Cloth : 1.3140953663073136
+Stuck Bell Tower : 1.002436611366983
+Cross Track with Cart - moving North reversed : 0.9713998967878912
+Jack O' Lantern with Candle : 0.9606531973901098
+Small Pulley : 0.8792456670379426
+
+4
+Yellow Bowler Hat with Feather : 11.366801783650313
+Big Ball of Yarn : 1.0213224865887884
+Endtower Base : 0.8231829044985899
+Bowl of Gooseberries and Carrot : 0.532686634148645
+Partial Garland - 6 : 0.4440477672563904
+Bone Pile - origGrave : 0.4224812257233261
+Diesel Piston Head : 0.41687437875008787
+German Shepherd - just fed : 0.3730489612099562
+Paving Direction South : 0.3693530799677693
+Snake Skin Boot : 0.3422257388522271
+

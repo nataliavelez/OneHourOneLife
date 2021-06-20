@@ -1,0 +1,36 @@
+0
+Free-Standing Corner Fence Holes - groundOnly : 0.28332247357064144
+Proposed Property Fence - groundOnly +horizontalA : 0.25223430438694117
+Raw Rubber Mask Blank : 0.22922322095651332
+North East Track : 0.2241887468775155
+Red Bowler Hat with Red Rose : 0.2235243596645091
+Flat Rock - empty : 0.22058021729147528
+Palm Olein Bottle with Funnel : 0.2183833907454313
+Plaster Wall with Thread - +causeAutoOrient : 0.21770605689149644
+Buried Grave - origGrave groundOnly : 0.21646462451967172
+Bowl of Gooseberries and Carrot : 0.21620684579463206
+
+1
+Chip with Salsa : 6.784877335213711
+Chihuahua Puppy : 6.700783846971673
+Plucked Turkey on Plate - +contFoodDish : 2.1068809480050157
+Dry Planted Garlic : 1.861848024499354
+Hidden Card - 9 of Clubs : 0.6846886707861602
+Rubber Stopper : 0.4658728523961285
+Bowl of Mashed Berries and Rabbit : 0.264921747792197
+Dachshund with Puppies -2 : 0.2605016658120129
+Candle : 0.2177909074914214
+Bowl of Carrot Seeds : 0.1586063653760143
+
+2
+Pork Taco : 12.051357565788164
+Undyed Bowler Hat with Feather : 2.705696622343752
+Raw Rubber Mask Blank : 0.40102373082709564
+Sulfur Bottle with Funnel - insterted : 0.2793525176626175
+Hungry German Shepherd Puppy : 0.2596710390029029
+Stump : 0.19713870468820952
+Dug Sapling Stump : 0.18528277965423653
+Niter Solution Bottle with Funnel - insterted : 0.18112279432244957
+Sealed Saltpeter Bottle : 0.1570898452630523
+Springy Wooden Door - Installed +horizontalSpringyDoor +cornerSpringyDoor +autoDefaultTrans +blocksMoving : 0.14255653603787669
+
