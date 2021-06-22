@@ -49,8 +49,9 @@ def gen_log_space(limit, n):
     # round, re-adjust to 0 indexing (i.e. minus 1) and return np.uint64 array
     return np.array(list(map(lambda x: round(x)-1, result)), dtype=np.uint64)
 
-#dimArray = gen_log_space(3043,22)[2:] #remove the first two value, so we start on 2
-dimArray = gen_log_space(3043,22)[15:] #for remaining dims in cleaned matrix
+dimArray = np.arange(2,52,2)
+#dimArray = gen_log_space(100,22)[2:] #remove the first two value, so we start on 2
+#dimArray = gen_log_space(3043,22)[15:] #for remaining dims in cleaned matrix
 
 #Loop through different inputs
 
@@ -101,9 +102,11 @@ for dims in dimArray:
     W = model.transform(dat) #Avatar embeddings
     H = model.components_ #item embeddings
 
+    #sparsity = dims/dat.shape[0] + dims/dat.shape[1]
+    #interpretability = 0.5 * ((1/dat.shape[0] + 1/dat.shape[1])/sparsity + err/error_star)
     #Save to database: Too large to save the full matrices, so I will only export the var explained for now
     #output = {'W': pickle.dumps(csr_matrix(W), protocol=2), 'H':pickle.dumps(csr_matrix(H), protocol=2), 'varExplained':VarExplained, 'n_components':dims, 'jobMatrix': jobMatrix}
-    output = {'varExplained':VarExplained, 'n_components':int(dims), 'jobMatrix': jobMatrix}
+    output = {'VarExplained' : VarExplained, 'n_components':int(dims), 'jobMatrix': jobMatrix}
 
     #SAVE to DATABASE
     #db.nmf_validation.drop() #DELETES ALL DATA
