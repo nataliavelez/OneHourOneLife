@@ -132,3 +132,37 @@ def avatarVec(query):
 		for q in query:
 			output.append(q['vec']) 
 	return(output)
+
+
+
+def itemRand(query):
+	"""Look up randomized item embeddings for a specific item id or list of items ids
+	"""
+	output = []
+	if isinstance(query, list):
+		#If id is a list
+		query = db.random_item_embeddings.find({'item':{"$in":query}})
+		for q in query:
+				output.append(q['vec']) 
+	else:
+		#Single id case
+		query = db.random_item_embeddings.find({'item':query})
+		for q in query:
+			output.append(q['vec']) 
+	return(output)
+
+def avatarRand(query):
+	"""Look up randomized avatar embeddings for a specific avatar id or list of avatar ids
+	"""
+	output = []
+	if isinstance(query, list):
+		#If id is a list
+		query = db.random_avatar_embeddings.find({'avatar':{"$in":query}})
+		for q in query:
+				output.append(q['vec']) 
+	else:
+		#Single id case
+		query = db.random_avatar_embeddings.find({'avatar':query})
+		for q in query:
+			output.append(q['vec']) 
+	return(output)
