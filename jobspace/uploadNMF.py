@@ -21,7 +21,7 @@ import dbfind #db search tool
 import utils
 db = dbfind.db 
 
-dims = 30
+dims = 10
 
 ############################################################
 #Cleaned matrix
