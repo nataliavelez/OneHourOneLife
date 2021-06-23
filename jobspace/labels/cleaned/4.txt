@@ -1,0 +1,48 @@
+0
+Partial Bucket of Water : 29.719432780081146
+Clay Bowl - empty : 16.645639975111433
+Fertile Soil Pile : 12.23268286302125
+Deep Tilled Row - groundOnly : 10.428905612378534
+Fertile Soil : 9.213570073012983
+Shallow Tilled Row - groundOnly +biomeBlock4 : 8.998072088608147
+Carrot Row : 6.783199475509795
+Carrot Pile : 6.295600705852144
+Canada Goose Pond with Egg : 5.432340711719396
+Vigorous Domestic Gooseberry Bush : 5.292359240287371
+
+1
+Bowl of Gooseberries - +yum31 : 25.106592786026287
+Domestic Gooseberry Bush : 22.682979143039088
+Clay Bowl - empty : 7.332918470522969
+Empty Domestic Gooseberry Bush : 3.798463364483957
+Bowl of Gooseberries and Carrot : 3.4789967615066764
+Carrot Pile : 1.8800024305642824
+Stack of Clay Bowls : 1.5870503699380754
+Fleece : 1.5681489048557438
+Ball of Thread : 1.4612732022877357
+Dry Domestic Gooseberry Bush : 1.335650750411194
+
+2
+Escaped Horse-Drawn Tire Cart - just released : 61.348574304044995
+Stakes - +tool : 14.822362928848051
+Floor Stakes : 11.764351403666547
+Stone : 10.48363157196643
+Flat Rock - empty : 6.879679351375439
+Stone Road - groundOnly : 5.799893873767092
+Stack of Firewood : 3.9262911247376957
+Backpack : 3.3953497980798435
+White Pine Tree : 2.5222183750386566
+Auto-Orienting Wall Stakes : 2.4198094472162524
+
+3
+Basket : 63.661564574552436
+Clay Bowl - empty : 18.902607028958705
+Sharp Stone : 16.339599990983128
+Hand Cart : 14.336693373726446
+Wild Gooseberry Bush : 14.18550673140232
+Stone : 12.351975650365189
+Kindling : 12.30350083320164
+Stack of Clay Plates : 11.890554166872711
+Clay Plate : 11.474293464910232
+Long Straight Shaft : 9.810197652777385
+

@@ -1,0 +1,120 @@
+0
+Partial Bucket of Water : 21.976831842226797
+Canada Goose Pond with Egg : 7.156081231823166
+Canada Goose Pond : 3.162884774547105
+Full Bucket of Water : 3.0772425631058686
+Empty Bucket : 2.91831457508599
+Vigorous Domestic Gooseberry Bush : 2.741672213444044
+Cistern - +famUse100 : 2.325848248857401
+Clay Bowl - empty : 2.2108102569310466
+Hand Cart : 2.1909728683097334
+Dry Domestic Gooseberry Bush : 2.1518259741465924
+
+1
+Domestic Gooseberry Bush : 18.497990332643454
+Empty Domestic Gooseberry Bush : 2.430853049719732
+Dry Domestic Gooseberry Bush : 1.3928124771704236
+Vigorous Domestic Gooseberry Bush : 1.3464222851968564
+Gooseberry : 1.2356931323402698
+Clay Bowl - empty : 1.160812552011325
+Fertile Soil Pile : 0.6847416962991184
+Springy Open Wooden Door - installed +autoDefaultTrans +horizontalOpenSpringyDoor +cornerOpenSpringyDoor : 0.46793580828587716
+Backpack : 0.4105134861953397
+Bone Pile - origGrave : 0.3964652716206425
+
+2
+Stakes - +tool : 34.58411269228694
+Floor Stakes : 26.460081959369877
+Stone : 24.510505673445746
+Hand Cart : 10.639749991990165
+Stone Road - groundOnly : 8.901737388944273
+White Pine Tree : 7.751009728833068
+Pine Floor - groundOnly : 7.745342901095126
+Flat Rock - empty : 6.186639557626513
+Hand Cart with Tires : 5.933173429515495
+Stack of Firewood : 5.792043995313225
+
+3
+Basket : 73.59166888721357
+Hand Cart : 12.577113192804534
+Dead Rabbit : 4.687332290091661
+Skinned Rabbit : 4.3284451973923375
+Hand Cart with Tires : 3.974145225387649
+Snared Rabbit Family Hole -hiding : 3.4887100109770803
+Rabbit Hole -growing : 3.4726652578997452
+Baited Snared Rabbit Family Hole -hiding : 3.469903134523539
+Rabbit Hole with Used Snare -family : 3.4387304253513142
+Clay : 3.3346876760567183
+
+4
+Fertile Soil Pile : 10.925177719824601
+Deep Tilled Row - groundOnly : 10.169140288104662
+Shallow Tilled Row - groundOnly +biomeBlock4 : 8.601225858485469
+Fertile Soil : 8.409055159453047
+Clay Bowl - empty : 7.837912145789517
+Carrot Pile : 7.495601882791859
+Carrot Row : 7.459941994557648
+Partial Bucket of Water : 4.740745445769213
+Hardened Row : 3.326090447890851
+Steel Hoe - +toolHoe : 2.9917688437759766
+
+5
+Wild Gooseberry Bush : 50.75246320534066
+Sharp Stone : 37.01320628432751
+Long Straight Shaft : 18.48279874684117
+Straight Branch : 15.89549862903121
+Milkweed Stalk : 12.704187651724725
+Kindling : 12.586105816601739
+Maple Tree : 12.245864173049798
+Milkweed Debris -Fruit : 10.980076860339624
+Thread : 10.845741138135201
+Stone Hatchet - +toolChopping : 8.9763145961113
+
+6
+Clay Bowl - empty : 40.50046089772922
+Clay Plate : 23.9724728098864
+Stack of Clay Bowls : 19.812031291101984
+Stack of Clay Plates : 18.98987073227525
+Raw Pie Crust : 12.305376151383259
+Hot Adobe Oven - +tool : 12.055923929301196
+Bowl of Dough : 8.487049289071583
+Sharp Stone : 5.977768928878889
+Stack of Firewood : 5.972032190411367
+Bowl of Flour : 5.1603136449631135
+
+7
+Bowl of Gooseberries - +yum31 : 172.74028790836942
+Clay Bowl - empty : 28.797867573655978
+Bowl of Gooseberries and Carrot : 23.48721504909726
+Domestic Gooseberry Bush : 18.78263619658398
+Carrot Pile : 10.206935048816153
+Fleece : 10.165869054773458
+Ball of Thread : 10.0194133022402
+Shorn Domestic Sheep : 9.159734099947816
+Shorn Domestic Sheep : 9.04463557888899
+Fed Shorn Domestic Sheep : 8.599988914290936
+
+8
+Firing Forge : 25.390603055301437
+Iron Ore Pile : 22.136438932046172
+Flat Rock - empty : 19.212694746056588
+Firebrand : 15.23800137735924
+Wooden Tongs - empty : 15.050281519196254
+Stack of Wrought Iron : 14.047788428147634
+Kindling : 12.842318567462986
+Clay Bowl - empty : 12.534450778589388
+Firing Adobe Kiln - +tool : 12.492101711083336
+Stack of Steel Ingots : 12.2109571002168
+
+9
+Escaped Horse-Drawn Tire Cart - just released : 51.78840190034344
+Flat Rock - empty : 3.193240187832787
+Backpack : 2.6410903695665446
+Basket : 1.8043949733749014
+Hitched Horse-Drawn Tire Cart - +causeAutoOrientH : 1.6995756160469928
+Stack of Firewood : 1.641521361622885
+Fence - +wall +horizontalFence : 1.3822099937644006
+Stone Road - groundOnly : 1.0929392685178705
+Cistern - +famUse100 : 1.0283238324267903
+Wild Gooseberry Bush : 1.012994780811821
+
