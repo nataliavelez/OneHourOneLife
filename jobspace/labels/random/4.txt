@@ -1,0 +1,48 @@
+0
+Free-Standing Corner Fence Holes - groundOnly : 0.23614094156261864
+Raw Rubber Mask Blank : 0.19080231399780076
+North East Track : 0.186639369191436
+Red Bowler Hat with Red Rose : 0.18622815283555186
+Palm Olein Bottle with Funnel : 0.1816668213799655
+Plaster Wall with Thread - +causeAutoOrient : 0.18114948028100053
+Buried Grave - origGrave groundOnly : 0.18018915158800258
+Bowl of Gooseberries and Carrot : 0.17992041289128913
+Low Frequency Marconi Receiver - >global3 : 0.1786271192658482
+Yellow Bowler Hat with Feather : 0.1785463072817256
+
+1
+Chip with Salsa : 6.0229810018804155
+Chihuahua Puppy : 5.948337361094473
+Plucked Turkey on Plate - +contFoodDish : 1.8702712156846535
+Dry Planted Garlic : 1.652778401958221
+Hidden Card - 9 of Clubs : 0.6077721725405165
+Rubber Stopper : 0.41355092653761777
+Bowl of Mashed Berries and Rabbit : 0.23517156195614786
+Dachshund with Puppies -2 : 0.23124188837552057
+Candle : 0.19328113890183604
+Bowl of Carrot Seeds : 0.14079695008322732
+
+2
+Pork Taco : 10.989720889907517
+Undyed Bowler Hat with Feather : 2.467314026725481
+Raw Rubber Mask Blank : 0.3666334155773427
+Sulfur Bottle with Funnel - insterted : 0.2547185128294638
+Hungry German Shepherd Puppy : 0.23676537431098468
+Stump : 0.1797611701328696
+Dug Sapling Stump : 0.16934154092313522
+Niter Solution Bottle with Funnel - insterted : 0.16512256944859485
+Sealed Saltpeter Bottle : 0.14320151888857294
+Springy Wooden Door - Installed +horizontalSpringyDoor +cornerSpringyDoor +autoDefaultTrans +blocksMoving : 0.1303228280828542
+
+3
+Proposed Property Fence - groundOnly +horizontalA : 10.726459001786255
+Flat Rock - empty : 5.895401661095662
+Wolf Puppy -1 just fed : 2.158725721723275
+Yule Tree : 1.6401648646830598
+Exhausted Oil Pump Tower - 7 : 1.605374607014154
+Bolt of Wool Cloth : 1.3746568821202432
+Stuck Bell Tower : 1.0486803996312304
+Cross Track with Cart - moving North reversed : 1.0161868157075842
+Jack O' Lantern with Candle : 1.0050049714376044
+Small Pulley : 0.9198296432225894
+
