@@ -55,9 +55,19 @@ avatarIds = db.activity_labels.find_one()['avatars'] #avatar ids for each row of
 exclusionIds = [q['avatar'] for q in db.lifelogs.find({"$or":[ {"age":{"$lt":4}}, {"cause_of_death":'disconnected'}]}, {'avatar'})]
 len(exclusionIds) #note, not all overlapping with the ids in the activity matrix, since many of these never generated any map change data
 
+#also exclude players who don't have life log data
+life_query = db.lifelogs.find({}, {'avatar': 1})
+life_avatars = [q['avatar'] for q in life_query]
+notInLifeLogs = np.setdiff1d(avatarIds,life_avatars) #in set 1 but not in set 2
+
+#combine both criteria into a unique list
+exclusionIds = np.concatenate((exclusionIds, notInLifeLogs), axis=None)
+exclusionIds = np.unique(exclusionIds)
+
 #Find the ids (rows in sparse activity_mtx) to delete
 deleteIds = np.nonzero(np.in1d(avatarIds,exclusionIds))[0]
 len(deleteIds)
+
 
 #Delete excluded avatars
 activity_mtx = utils.delete_from_csr(activity_mtx, row_indices = deleteIds.tolist())
