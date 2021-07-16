@@ -36,14 +36,14 @@ print(db.list_collection_names())
 activity_file = list(db.activity_matrix.files.find())
 activity_id = activity_file[0]['_id']
 print('File metadata:')
-print(activity_file)
+#print(activity_file)
 
 #Load sparse matrix
 fs = gridfs.GridFS(db, collection='activity_matrix')
 activity_bin = fs.get(activity_id)
 activity_mtx = pickle.load(activity_bin, encoding='latin1')
 print('Loaded activity matrix:')
-print(activity_mtx)
+print(activity_mtx.shape)
 
 #Get item and avatar ids
 itemIds = db.activity_labels.find_one()['items'] #item ids for each column of the sparse activity matrix
@@ -59,10 +59,12 @@ len(exclusionIds) #note, not all overlapping with the ids in the activity matrix
 life_query = db.lifelogs.find({}, {'avatar': 1})
 life_avatars = [q['avatar'] for q in life_query]
 notInLifeLogs = np.setdiff1d(avatarIds,life_avatars) #in set 1 but not in set 2
+len(exclusionIds)
 
 #combine both criteria into a unique list
 exclusionIds = np.concatenate((exclusionIds, notInLifeLogs), axis=None)
 exclusionIds = np.unique(exclusionIds)
+len(exclusionIds)
 
 #Find the ids (rows in sparse activity_mtx) to delete
 deleteIds = np.nonzero(np.in1d(avatarIds,exclusionIds))[0]
@@ -115,8 +117,9 @@ randomDict = {'mat' : shuffledMat,
             'items' : itemIds,
             'avatars': avatarIds}
 
-#Save on database
+#Save to database
 print('Saving random matrix to database')
+print(len(shuffledMat.shape))
 db.randomized_job_matrix.files.drop() #drop previous collection
 db.randomized_job_matrix.chunks.drop()
 fs = gridfs.GridFS(db, collection='randomized_job_matrix')
@@ -155,6 +158,7 @@ tfidfDict = {'mat' : tfidfJobMatrixNormalized,
 
 #Save on database
 print('saving TFIDF matrix')
+print(len(tfidfJobMatrixNormalized.shape))
 db.tfidf_matrix.files.drop() #drop previous collection
 db.randomized_job_matrix.chunks.drop()
 fs = gridfs.GridFS(db, collection='tfidf_matrix')
