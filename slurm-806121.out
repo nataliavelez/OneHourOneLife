@@ -1,0 +1,4 @@
+jobspace/uploadNMF.py:32: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  mat_id = list(db.cleaned_job_matrix.files.find())[db.cleaned_job_matrix.files.find().count()-1]['_id'] #get id
+jobspace/uploadNMF.py:86: DeprecationWarning: count is deprecated. Use Collection.count_documents instead.
+  mat_id = list(db.randomized_job_matrix.files.find())[db.randomized_job_matrix.files.find().count()-1]['_id'] #get id
