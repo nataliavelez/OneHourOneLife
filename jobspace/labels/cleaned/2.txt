@@ -1,24 +1,24 @@
 0
-Basket : 42.21339772355016
-Clay Bowl - empty : 21.01660620147388
-Escaped Horse-Drawn Tire Cart - just released : 16.5726068672065
-Partial Bucket of Water : 14.922331134401775
-Stone : 11.1950941885702
-Sharp Stone : 10.527948564643705
-Hand Cart : 10.13014148391778
-Stakes - +tool : 9.61643407794368
-Wild Gooseberry Bush : 9.379441251727004
-Clay Plate : 9.042750914354714
+Basket : 43.596560718770405
+Clay Bowl - empty : 23.3969147209766
+Escaped Horse-Drawn Tire Cart - just released : 17.727234366911237
+Partial Bucket of Water : 17.56122153942086
+Stone : 11.6591410637249
+Hand Cart : 10.920827049460751
+Stakes - +tool : 10.016753823298062
+Clay Plate : 9.804410471968833
+Fertile Soil Pile : 9.715540325437262
+Sharp Stone : 9.653704128068611
 
 1
-Bowl of Gooseberries - +yum31 : 30.886126553444534
-Domestic Gooseberry Bush : 29.21384498675598
-Clay Bowl - empty : 13.584044040418899
-Partial Bucket of Water : 8.168448324476163
-Empty Domestic Gooseberry Bush : 4.9205069228351626
-Fertile Soil Pile : 4.550870622057802
-Bowl of Gooseberries and Carrot : 4.3503612816584125
-Carrot Pile : 4.12845424722871
-Dry Domestic Gooseberry Bush : 3.281492634630254
-Vigorous Domestic Gooseberry Bush : 3.246708719954489
+Bowl of Gooseberries - +yum31 : 33.025996288022334
+Domestic Gooseberry Bush : 30.999275222919753
+Clay Bowl - empty : 13.766237641400544
+Partial Bucket of Water : 7.6578841093702215
+Empty Domestic Gooseberry Bush : 5.2194700805289855
+Bowl of Gooseberries and Carrot : 4.646364769844276
+Fertile Soil Pile : 4.430222552662683
+Carrot Pile : 4.16437783591852
+Dry Domestic Gooseberry Bush : 3.322537301396277
+Vigorous Domestic Gooseberry Bush : 3.2753434274562423
 
