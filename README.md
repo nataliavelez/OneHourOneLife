@@ -20,6 +20,7 @@ Folders 5+: Main analyses. (Note: The analyses in these folders assume that you 
 * `4_demographics`: Tracing basic demographic information in the life logs (e.g., ages and causes of death).
 * `5_mapchange`: Tracing changes to the map and object interactions over time. 
 * `6_techtree`: Reconstructing the Tech tree from object transitions.
+* `jobspace`: Non-negative matrix factorization (NMF) of avatar-item interactions. `nmf_preprocessing.py` cleans the data, removing avatars who disconnected, died during childhood, or are missing data, outputing several different variants of the activity matrix (cleaned/tfidf). `validate_nmf.py` runs the NMF over different activity matrices and for different numbers of dimensions. `uploadNMF.py` uploads the final variant to the database.
 
 ## Dependencies
 

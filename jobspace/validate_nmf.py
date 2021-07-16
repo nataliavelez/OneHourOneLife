@@ -1,5 +1,5 @@
 #Run NMF validation
-#Charley Wu, Mau 2021
+#Charley Wu, July 2021
 import pymongo, os, bson, json, glob, pickle, gridfs, sys, argparse, pickle
 from collections import Counter
 from sklearn.preprocessing import normalize
