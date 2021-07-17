@@ -1,24 +1,24 @@
 0
-Proposed Property Fence - groundOnly +horizontalA : 0.3206520235665642
-Chihuahua Puppy : 0.31023145535886215
-Pork Taco : 0.30689338966266316
-Chip with Salsa : 0.3051650776793943
-Raw Rubber Mask Blank : 0.30483025108845996
-North East Track : 0.2849405816719467
-Red Bowler Hat with Red Rose : 0.2847399586118987
-Flat Rock - empty : 0.28026306781872934
-Plaster Wall with Thread - +causeAutoOrient : 0.27758503016159236
-Palm Olein Bottle with Funnel : 0.2774625737640965
+Leavened Dough on Clay Plate - +contFoodDish : 0.3853462964848523
+Dry Mango Sapling Cutting - Jungle Only - +biomeReq6 : 0.3606799530465698
+Forged Steel Crucible : 0.3287140109585592
+Glasswort : 0.32392531478539144
+Abused Pit Bull : 0.3228323196805041
+Cooked Rabbit : 0.3058658250653229
+Wild Bean Plant : 0.3000458208665257
+Dry Planted Beans : 0.29562279028722155
+Renewed Property Fence - +tapoutTrigger &1 &1 &1 &1 +horizontalH : 0.29129866320470593
+Empty Wild Gooseberry Bush : 0.2909125548363193
 
 1
-Free-Standing Corner Fence Holes - groundOnly : 13.697627269899893
-Crucible with Malachite and Charcoal : 1.2138028934546552
-Bowl of Soaking Beans - +contFoodDish : 0.19364346552366726
-Yellow Wool Sweater : 0.08768074818875356
-Bowl of Soaking Tomato Seed Pulp - +contFoodDish : 0.04936000449614006
-Red Rose : 0.04281659363354785
-Pile of Dug Stumps : 0.039711879674337355
-Scrap Bowl : 0.03792260113154057
-Snow Door - +tapoutTrigger &1 &1 &1 &2 +verticalDoorSnow : 0.032692269192613976
-Feast Plate - +contFoodDish : 0.03234267698490709
+Shaft with Pine Needles : 11.72828142265467
+Dry Planted Tomato Seed : 2.278309943386272
+Sealed Vinegar Bottle : 0.7345396757545589
+Fire Bow Drill - +toolBow_Drill : 0.26536800414109396
+Hidden Card - 2 of Spades : 0.2434987096303897
+Empty Camera - +tool : 0.1651154733722334
+Bare Teosinte : 0.15869322561763588
+Bowl of Soaking Palm Kernels - +contFoodDish : 0.14471320866377851
+Small Sand Pile : 0.11206389933697522
+Filled Small Trash Pit : 0.10509012314602967
 
