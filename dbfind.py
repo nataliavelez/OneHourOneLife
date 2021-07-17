@@ -50,7 +50,7 @@ def avatar(query, target='avatar', fields=[]):
 	output = []
 	if isinstance(query, list):
 		#If id is a list
-		query = db.lifelogs.find({target:{"$in":query}})
+		query = db.lifelogsSubset.find({target:{"$in":query}})
 		for q in query:
 			if len(fields)==0:
 				output.append(q) #Return everything if fields is empty
@@ -58,7 +58,7 @@ def avatar(query, target='avatar', fields=[]):
 				output.append([q[f] for f in fields])
 	else:
 		#Single id case
-		query = db.lifelogs.find({target:query})
+		query = db.lifelogsSubset.find({target:query})
 		for q in query:
 			if len(fields)==0:
 				output.append(q) #Return everything if fields is empty
@@ -166,3 +166,19 @@ def avatarRand(query):
 		for q in query:
 			output.append(q['vec']) 
 	return(output)
+
+def storage():
+	"""How much storage is being used?
+	"""
+	call = db.command("dbstats")
+	database = call['db']
+	datasize = call['dataSize'] / (2**30)
+	objects = call['objects']
+	collections = call['collections']
+
+	print('\n')
+	print('Database:', str(database))
+	print('Objects:', str(objects))
+	print('Collections:', str(collections))
+	print('Size:', str(datasize) + 'Gb')
+	print('\n')
